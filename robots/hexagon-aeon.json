@@ -102,6 +102,7 @@
     ]
   },
   "notes": [
+    "Capabilities research (2026-09-20): secondary coverage (A3/automate.org, Mike Kalil) describes AEON generalizing from roughly 20 teleoperated demonstrations to autonomous operation via imitation learning, and lists pick-and-place, machine tending and inspection as target tasks. Both automate.org and robotics.hexagon.com returned HTTP 403 when fetched directly during this build, so no literal quote could be verified against the primary text within this session's timebox. The capabilities block is left empty rather than sourced to an unverified paraphrase; this should be revisited once those pages (or an accessible mirror) can be fetched.",
     "AEON is not sold publicly; Hexagon states it is deployed only through enterprise pilot partnerships (named: Schaeffler, Pilatus; BMW is cited by several secondary aggregator sites but was not confirmed on Hexagon's own pages during this build). No price has been published, so price_history is left empty rather than using the speculative ~$20,000 figure some aggregators cite.",
     "A November 2025 Hexagon press item (via Microsoft Ignite 2025 coverage) states AEON 'completed more than 1,600 missions without interruption' during pilot testing — evidence of extended demonstrated operation at partner sites, but not tied to a single uncut video or named unit delivery, so delivery.status is kept at 'claimed' rather than 'demonstrated' or 'shipped'.",
     "walking_speed_kmh is converted from the manufacturer's stated 2.4 m/s (→ 8.64 km/h, rounded to 8.6 km/h)."

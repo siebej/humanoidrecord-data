@@ -97,6 +97,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "pick-and-place",
+        "status": "demonstrated",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://newatlas.com/robotics/neura-4ne1-humanoid-robot/",
+          "quote": "performing a raft of mediocre or tiresome domestic chores – from doing the ironing to food prep",
+          "accessed": "2026-09-20"
+        },
+        "note": "NEURA's own demo reel, alternating simulation and real-world footage. New Atlas: \"It's not clear whether teleoperation was involved here, but the video does mention training the system in a simulated environment.\" No explicit no-teleop statement, so autonomy is recorded as unknown rather than autonomous."
+      }
+    ],
     "notes": [
       "Degrees of freedom is reported inconsistently across secondary sources (35, 42+, 55 DoF) and could not be traced to one dated primary-source figure during this build, so the dof spec field is omitted rather than guessed.",
       "Battery runtime is widely reported as 6-8 hours across secondary/aggregator sites, but the primary product page and reservation page fetched during this build did not state a runtime figure, so battery_runtime_min is omitted.",
@@ -193,7 +206,8 @@
       "AgiBot (the brand) is run by Shanghai Zhiyuan New Innovation Technology Co., Ltd. ('Zhiyuan Robotics'); the two names refer to the same company in coverage.",
       "Walking speed (3.3 m/s) and payload (15 kg) are widely repeated by secondary outlets (e.g. RoboZaps, Aparobot) citing the August 2024 launch event, but were not found on a page directly attributable to the manufacturer during this build, so they are omitted here rather than sourced to a non-manufacturer repeat of the claim.",
       "No manufacturer or press source with a named customer and delivery evidence (invoice, serial number, unboxing, customs record) was found during this build; AgiBot separately claims a '5,000th mass-produced humanoid robot' milestone across its whole product line (PR Newswire, 2026), but that figure is not broken out by model, so delivery status here stays 'claimed' rather than 'shipped'.",
-      "AgiBot's own product page (agibot.com/products/A2) does not list a price; no primary price source was found during this build, so price_history is left empty rather than using third-party reseller prices (e.g. Top3DShop, RoboZaps)."
+      "AgiBot's own product page (agibot.com/products/A2) does not list a price; no primary price source was found during this build, so price_history is left empty rather than using third-party reseller prices (e.g. Top3DShop, RoboZaps).",
+      "Capabilities research (2026-09-20): AgiBot's own product page (agibot.com/products/A2, accessed 2026-09-20) lists a 'Dexterous Hand', 'Force/Torque Sensors' and 'L4-level autonomous mobility' among the A2's features, and separately advertises 'ActionGPT' for 'natural movement generation ... for task execution'. These are manufacturer capability claims, but the page gives no hand DOF number, no video/demo link, and no description of a specific demonstrated task (e.g. a bimanual grasp or a stair climb) that would satisfy this schema's 'demonstrated' bar or match a fixed capability id with confidence. Reseller/aggregator pages (Top3DShop, Americansatellite) repeat a 19-DOF dexterous hand figure and stair/curb navigation claims, but do not trace these to a primary AgiBot source. No capabilities entry was added for this build rather than recording an under-sourced claim; this should be revisited if a primary AgiBot demo video or spec page with DOF figures surfaces."
     ],
     "updated": "2026-09-20"
   },
@@ -284,6 +298,7 @@
       ]
     },
     "notes": [
+      "Capabilities research (2026-09-20): press coverage (Gasgoo/WAIC 2026, YouTube) describes Adam demonstrating stair climbing and a Charleston-style dance, and a separate stationary rig 'Adam-U' used for motion-capture/teleoperation-based AI training. The stair-climbing source page (autonews.gasgoo.com) returned HTTP 403 and could not be quoted directly, and the dance-focused Interesting Engineering article (2025-08-04) confirms Adam-U is a motion-capture platform but contains no explicit sentence on Adam's own stair-climbing or its autonomy. No accessible source yielded a literal, checkable quote plus explicit autonomy statement for any capability id in this build's timebox, so the capabilities block is left empty rather than guessed.",
       "PNDbotics' own site (pndbotics.com) returned no readable specification content when fetched during this build (JavaScript-rendered page); this record relies on New Atlas's article, which reports PNDbotics' own stated specs but is independent press coverage rather than a manufacturer page or press release. Treat height/weight/dof/payload as claimed-by-manufacturer-via-press-coverage pending a direct manufacturer source.",
       "DOF figures conflict across sources: this file uses 41 (Adam SP, from the actuator-count description in the New Atlas article); other secondary listings cite 'up to 44 degrees of full-body freedom' for the wider Adam platform and 25 actuators for the separate Adam Lite variant. Not resolved; flagged here rather than picking silently.",
       "The $100,000 figure is described as an online prototype listing, not a stable product price; the separate wheeled 'Adam U' variant is reported at $45,000 launching around September 2025 at WAIC, but that is a different SKU and not included in this file's price_history.",
@@ -396,6 +411,7 @@
       ]
     },
     "notes": [
+      "Capabilities research (2026-09-20): secondary coverage (A3/automate.org, Mike Kalil) describes AEON generalizing from roughly 20 teleoperated demonstrations to autonomous operation via imitation learning, and lists pick-and-place, machine tending and inspection as target tasks. Both automate.org and robotics.hexagon.com returned HTTP 403 when fetched directly during this build, so no literal quote could be verified against the primary text within this session's timebox. The capabilities block is left empty rather than sourced to an unverified paraphrase; this should be revisited once those pages (or an accessible mirror) can be fetched.",
       "AEON is not sold publicly; Hexagon states it is deployed only through enterprise pilot partnerships (named: Schaeffler, Pilatus; BMW is cited by several secondary aggregator sites but was not confirmed on Hexagon's own pages during this build). No price has been published, so price_history is left empty rather than using the speculative ~$20,000 figure some aggregators cite.",
       "A November 2025 Hexagon press item (via Microsoft Ignite 2025 coverage) states AEON 'completed more than 1,600 missions without interruption' during pilot testing — evidence of extended demonstrated operation at partner sites, but not tied to a single uncut video or named unit delivery, so delivery.status is kept at 'claimed' rather than 'demonstrated' or 'shipped'.",
       "walking_speed_kmh is converted from the manufacturer's stated 2.4 m/s (→ 8.64 km/h, rounded to 8.6 km/h)."
@@ -421,6 +437,30 @@
     },
     "specs": {},
     "price_history": [],
+    "capabilities": [
+      {
+        "id": "teleoperation-shown",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://interestingengineering.com/ai-robotics/clone-demos-creepy-humanoid-hand",
+          "quote": "a human wearing a sensor glove",
+          "accessed": "2026-09-20"
+        },
+        "note": "Demo of the Clone hand only (mounted on a desk), not the full Alpha body; operator wears a sensor glove and a neural-network 'V2 Controller' translates finger/wrist motion into the artificial-muscle hand in real time. This dataset only records what is shown on camera, so this entry covers the hand demo, not a claim about Alpha's full-body teleoperation."
+      },
+      {
+        "id": "tactile-sensing",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://interestingengineering.com/ai-robotics/clone-demos-creepy-humanoid-hand",
+          "quote": "pressure pads in the palm",
+          "accessed": "2026-09-20"
+        },
+        "note": "Palm pressure pads reported to detect grip force during the same glove-teleoperated hand demo; shown affecting grip behavior on camera, not just listed as a spec."
+      }
+    ],
     "delivery": {
       "status": "claimed",
       "timeline": [
@@ -543,6 +583,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "teleoperation-shown",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://www.manus-meta.com/use-cases/mercedes-benz-deploys-apptroniks-apollo-at-factory-floor-using-manus-gloves",
+          "quote": "human operators wearing MANUS gloves directly teleoperating Apollo demonstrated target movements while the system logged synchronized data in real time.",
+          "accessed": "2026-09-20"
+        },
+        "note": "Describes the Mercedes-Benz Digital Factory Campus Berlin-Marienfelde pilot; published by MANUS (the glove vendor involved in the deployment), an independent third party to Apptronik and Mercedes-Benz, not a manufacturer highlight reel."
+      }
+    ],
     "notes": [
       "Apptronik's own site (apptronik.com/apollo) returned no fetchable content during this research session; all specs here are sourced from The Robot Report's launch and Mercedes-Benz pilot coverage instead.",
       "Shipped bar applied (2026-09-20): Mercedes-Benz's own press release (media.mbusa.com, 2025-03-18) names Mercedes-Benz Digital Factory Campus Berlin-Marienfelde as the site, confirms Apollo units are physically present and collecting production data, and is published with a photo gallery on Mercedes-Benz's own media channel. Per this site's shipped rule (named customer + image via customer's or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped with 'pilot' noted in the detail, since Mercedes-Benz itself frames it as testing. Upgraded from demonstrated to shipped; an earlier note here required an invoice/serial/unboxing/customs record in addition to the photo, which was too strict, and is removed.",
@@ -644,6 +697,30 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "pick-and-place",
+        "status": "demonstrated",
+        "autonomy": "autonomous",
+        "source": {
+          "url": "https://spectrum.ieee.org/boston-dynamics-new-atlas",
+          "quote": "There are no prescribed or teleoperated movements; all motions are generated autonomously online.",
+          "accessed": "2026-09-20"
+        },
+        "note": "Boston Dynamics' Scott Kuindersma describing an engine-cover handling clip; the only place this dataset found an explicit no-teleop statement rather than an unspecified highlight reel."
+      },
+      {
+        "id": "box-handling",
+        "status": "demonstrated",
+        "autonomy": "autonomous",
+        "source": {
+          "url": "https://www.therobotreport.com/boston-dynamics-shows-atlas-humanoid-working-georgia-hyundai-plant/",
+          "quote": "Atlas practiced sorting roof racks without human help",
+          "accessed": "2026-09-20"
+        },
+        "note": "Independent on-site observation (CBS 60 Minutes correspondent, reported via The Robot Report) at the Hyundai Metaplant, not a manufacturer clip."
+      }
+    ],
     "notes": [
       "Height/weight conflict: several outlets covering the April 2024 unveiling (aggregator sites, not manufacturer-sourced) reported roughly 1.5 m and 89 kg for electric Atlas, while the current official bostondynamics.com/atlas page (accessed 2026-09-20) states 1.9 m and 90 kg. Because the 1.5 m figure could not be traced to a manufacturer statement, only the current official page value is recorded here as claimed; the discrepancy is flagged rather than resolved.",
       "Payload: the official page lists 50 kg instant / 30 kg sustained lift capacity; only the instant figure is recorded in the single-value `payload_kg` field per schema.",
@@ -712,6 +789,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "box-handling",
+        "status": "shipped",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://www.agilityrobotics.com/content/digit-moves-over-100k-totes",
+          "quote": "picking items on and off an AMR to a conveyor",
+          "accessed": "2026-09-20"
+        },
+        "note": "GXO's Flowery Branch facility, named customer, 100,000+ totes moved by late 2025. Agility's own page describes the task and separately states the underlying pipeline 'blends traditional control methods, teleoperated demonstrations, policy training, and refinement' -- it does not explicitly say current day-to-day operation runs with no human in the loop, so autonomy is recorded as unknown rather than autonomous, per this dataset's strict rule."
+      }
+    ],
     "notes": [
       "This record covers the hardware generation of Digit that actually shipped to named customers (Ford 2020, Amazon 2023, GXO 2023-2024; Agility also claims a Toyota Motor Manufacturing Canada deployment per its own account, not independently sourced here).",
       "No independently sourced height/weight/payload/battery specs for this specific generation were located during this build, so specs is intentionally empty rather than reusing the newer Digit 5 numbers. See agility-digit for the current (Digit 5) generation's claimed specs, which is a different, not-yet-shipped hardware generation.",
@@ -801,6 +891,124 @@
     "updated": "2026-09-20"
   },
   {
+    "slug": "robonova-eva",
+    "name": "Eva.i",
+    "manufacturer": {
+      "name": "Robonova.i (Shenzhen Yizhizai Intelligent Technology Co., Ltd.)",
+      "country": "CN",
+      "url": "https://robonova.world"
+    },
+    "category": "compact",
+    "announced": {
+      "date": "2026-02-26",
+      "source": {
+        "url": "https://www.pledgebox.com/projects/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+        "quote": "February 26th → April 27th (60 days)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 160,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
+          "quote": "Planned height: Approximately 160cm with a natural, non-exaggerated body shape.",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 40,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
+          "quote": "It weighs around 40kg.",
+          "accessed": "2026-09-20"
+        }
+      },
+      "tactile_skin": {
+        "value": true,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+          "quote": "FPC electronic skin responds to pressure and location; full-body touch detection (face, arms, fingers, torso, neck, legs)",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2026-02-26",
+          "event": "announced",
+          "detail": "Eva.i crowdfunding campaign launched on Kickstarter, seeking HK$780,000; 200 units limited to a Kickstarter-exclusive edition.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.kicktraq.com/projects/878170019/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/",
+            "quote": "A fusion of bionic embodied robotics and an intelligent companion App, designed for real-time interaction and deep engagement.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-04-27",
+          "event": "preorders-open",
+          "detail": "Kickstarter campaign closed 158% funded (HK$1,238,905 of HK$780,000 goal); backers hold preorders, not delivered units.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.kicktraq.com/projects/878170019/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/",
+            "quote": "Amount Raised: HK$1,238,905 (158% of goal)",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "capabilities": [
+      {
+        "id": "facial-expressions",
+        "status": "claimed",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
+          "quote": "it is equipped with blinking, eye and mouth linkage movements, movable pupils, and an openable and closable mouth",
+          "accessed": "2026-09-20"
+        },
+        "note": "Mechanical face (no screen). Campaign copy only; no independently verified demonstration video found, and the campaign does not state whether expressions are AI-driven or pre-scripted."
+      },
+      {
+        "id": "voice-interaction",
+        "status": "claimed",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://r.jina.ai/https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+          "quote": "Eva.i detects the direction of your voice and naturally turns its head toward you",
+          "accessed": "2026-09-20"
+        },
+        "note": "Campaign claim of sound localization plus an on-device conversational AI; no independent demonstration found."
+      },
+      {
+        "id": "tactile-sensing",
+        "status": "claimed",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+          "quote": "Touch-sensitive zones allow commands and switch from \"Companion Mode\" to \"Work Mode\" in under 3 seconds",
+          "accessed": "2026-09-20"
+        },
+        "note": "Claimed behavior change from touch input; no independent demonstration found."
+      }
+    ],
+    "notes": [
+      "Eva.i is a Kickstarter/crowdfunding product (campaign ran 2026-02-26 to 2026-04-27, 158% funded, 126 backers), not a shipping commercial product; Robonova's own FAQ describes the campaign's stated specs as 'planned', and separately states 'no autonomous walking' for the platform. All specs and capabilities here are manufacturer/campaign claims, none independently demonstrated as of 2026-09-20.",
+      "robonova.world is a JavaScript-rendered storefront that could not be scraped directly; all quotes were retrieved via the Kickstarter campaign page (through a text-extraction proxy after Kickstarter's own page blocked direct fetches), its FAQ, and third-party campaign trackers (PledgeBox, KickTraq) that mirror the campaign's own copy and funding figures.",
+      "Manufacturer states mass production/shipping targeted for August 2026 (per Kickstarter FAQ) — not yet reached at time of writing, so no delivery timeline event was added for it per this site's rule against inventing unreached events."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
     "slug": "figure-03",
     "name": "Figure 03",
     "manufacturer": {
@@ -860,6 +1068,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "box-handling",
+        "status": "demonstrated",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://www.figure.ai/news/f-03-at-bmw",
+          "quote": "Figure 03's hands, arms, torso, and feet ... fluidly switches between precise picking and placement of thin-walled, individual parts and forceful manipulation requiring whole-body coordination.",
+          "accessed": "2026-09-20"
+        },
+        "note": "Figure and BMW describe the Helix 02 model driving the behavior but neither states explicitly that no human supervises or intervenes on the line; per this dataset's rule that silence keeps autonomy at unknown rather than autonomous."
+      }
+    ],
     "notes": [
       "No manufacturer-published height/weight/DoF spec sheet for Figure 03 was located on figure.ai during this build (figure.ai/product returned HTTP 404); specs are left empty rather than filled from secondary blogs. Follow-up: check Figure's press kit or a dated product page once published.",
       "Shipped bar applied (2026-09-20): BMW's own press portal (press.bmwgroup.com) published a 7-photo compilation on 2026-06-25 captioned \"Humanoid robot Figure 03 at BMW Group Plant Spartanburg\" -- a named customer (BMW Group Plant Spartanburg) with photographic evidence of the physical unit, published via the customer's own channel. Per this site's shipped rule, a named customer plus image via the customer's or an independent channel is sufficient; invoice/serial/unboxing/customs are alternatives, not an added requirement. Upgraded to shipped. (An earlier note in this file required invoice/serial/unboxing/customs in addition to the photo; that conjunctive reading was too strict and is removed.)"
@@ -928,6 +1149,24 @@
           "quote": "30 kg (66 lbs)",
           "accessed": "2026-09-20"
         }
+      },
+      "hand_dof": {
+        "value": 11,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+          "quote": "up to 11 degrees of freedom (active and passive) per hand",
+          "accessed": "2026-09-20"
+        }
+      },
+      "tactile_skin": {
+        "value": true,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+          "quote": "Each fingertip is equipped with a flexible sensor that includes up to 96 contact points",
+          "accessed": "2026-09-20"
+        }
       }
     },
     "price_history": [
@@ -985,6 +1224,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "continuous-operation-1h",
+        "status": "demonstrated",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "1-hour charge, 8-hour operation",
+          "accessed": "2026-09-20"
+        },
+        "note": "8-hour continuous livestream at WAIC 2025 -- Kepler's own event and press release, not independently observed; the release does not state whether tasks during the stream were autonomous, scripted, or teleoperated, so autonomy is unknown."
+      }
+    ],
     "notes": [
       "Height/weight conflict: Kepler's own PR Newswire releases (Oct 2024 and Aug 2025) do not give a consistent single figure across all Kepler materials; several secondary aggregator sites (e.g. humanoid.guide-derived listings) report 178 cm / 85 kg instead of the 175 cm / 75 kg used here. The 175 cm / 75 kg figure is used because it traces to Kepler's own named press release with a direct quote; the 178 cm / 85 kg figure could not be traced to a specific dated primary source and is not used.",
       "An earlier press round (April 2025, SAIC-GM Shanghai plant deployment) and independent coverage cited a $30,000 USD base price; this is not included as a price_history entry because it could not be traced to a specific dated Kepler statement during this build, and it conflicts with the ¥248,000 pre-sale price from the Aug 2025 Kepler release.",
@@ -1097,6 +1349,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "pick-and-place",
+        "status": "demonstrated",
+        "autonomy": "autonomous",
+        "source": {
+          "url": "https://chozan.co/galbot-g1/",
+          "quote": "AstraBrain translates natural language into physical actions in real time and supports autonomous task execution without fixed scripts.",
+          "accessed": "2026-09-20"
+        },
+        "note": "Galbot's own architecture description (via its AstraBrain control stack) explicitly claims autonomous task execution. A public video, 'Galbot G1 pick-and-deliver from shelf to customers 100% automatically!' (YouTube Shorts, https://www.youtube.com/shorts/kb362y4mB9A), shows the shelf-to-customer pick-and-place task referenced here, though a specific in-video timestamp/control statement could not be independently verified during this build. Treated as a manufacturer claim of autonomy for its own control stack rather than an independent-party observation."
+      }
+    ],
     "notes": [
       "Spec conflict: Galbot's own current Chinese-language product page (galbot.com/g1/, accessed 2026-09-20) states 1730 mm / 92.5 kg / 21 DOF / 8 h runtime / 1.5 m/s max speed / 10 kg combined payload. Widely repeated English-language secondary aggregators (Humanoid.guide, RoboZaps, robotsasia.com, humanoid-robots.io) instead give 173 cm / 85 kg / 47 total DOF (incl. a 12-DOF hand) / 10-hour runtime / 95-97% grasp success rate, none of which trace to a manufacturer page found during this build. Both figures are recorded in this note; the specs above follow the manufacturer's own current page.",
       "https://www.galbot.com/product (the English marketing page linked from search results) returned empty/no renderable content when fetched directly during this build; the specs above come from the manufacturer's Chinese product page (galbot.com/g1/) instead.",
@@ -1177,6 +1442,16 @@
           "quote": "About 2Kg (standard); About 3Kg (EDU)",
           "accessed": "2026-09-20"
         }
+      },
+      "tactile_skin": {
+        "value": true,
+        "status": "demonstrated",
+        "source": {
+          "url": "https://mikekalil.com/blog/textile-robot-e-skin/",
+          "quote": "Shanghai-based JQ Industries demonstrated the capabilities using a Unitree G1 humanoid robot, but the technology is intended for use across platforms.",
+          "accessed": "2026-09-20"
+        },
+        "note": "This is a third-party e-skin build (Shanghai-based JQ Industries' fabric-based piezoresistive tactile sensor, woven with conductive fibers that detect pressure, contact and force distribution), demonstrated on a Unitree G1 chassis as a showcase platform -- not a Unitree-manufactured or Unitree-sold component. A short video of the demo is publicly referenced ('This Robot's Skin Can Actually Feel Touch', YouTube Shorts, https://www.youtube.com/shorts/k9tj5kb3rHI) but could not be directly viewed during this build (YouTube consent redirect blocked automated fetch); 'demonstrated' status rests on the press description of an actual JQ Industries demo rather than direct video verification, and should be revisited if the video can be reviewed frame-by-frame."
       }
     },
     "price_history": [
@@ -1246,6 +1521,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "fall-recovery",
+        "status": "demonstrated",
+        "autonomy": "scripted",
+        "source": {
+          "url": "https://arxiv.org/abs/2511.07407",
+          "quote": "the default manufacturer-provided recovery controller on the Unitree G1, which executes a hard-coded joint trajectory with PD stabilization",
+          "accessed": "2026-09-20"
+        },
+        "note": "Independent research paper (not Unitree marketing) describes and benchmarks the stock get-up behavior shipped on the robot; it is a fixed, hard-coded trajectory, not a learned or teleoperated one, hence 'scripted' rather than 'autonomous'."
+      }
+    ],
     "notes": [
       "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
       "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",
@@ -1313,6 +1601,24 @@
         "source": {
           "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
           "quote": "12-DoF dexterous hands—double the dexterity of previous models",
+          "accessed": "2026-09-20"
+        }
+      },
+      "hand_dof": {
+        "value": 12,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+          "quote": "12-DoF dexterous hands—double the dexterity of previous models",
+          "accessed": "2026-09-20"
+        }
+      },
+      "tactile_skin": {
+        "value": true,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.techeblog.com/new-fourier-gr-2-humanoid-robot-upgrade/",
+          "quote": "Equipped with six array-type tactile sensors, GR-2 can sense force, identify object shapes and materials, and adjust its grip in real time",
           "accessed": "2026-09-20"
         }
       }
@@ -1444,7 +1750,8 @@
       "The walking speed field notes the H2 is a deliberate step down from the H1's top speed in exchange for dexterity: 'the H1 was celebrated for its record-breaking speed of 3.3 m/s, the H2 is rated for under 2 m/s' (Humanoids Daily, 2025-10-20). We recorded the H1's superseded top speed as the H2 value here is only bounded ('under 2 m/s'); treat 7.2 km/h (2 m/s) as an upper bound, not a measured figure.",
       "The task brief asked to pick H1 or H2 and name the other: H2 (announced 2025-10-20) is Unitree's direct successor to the H1 (announced 2019), replacing its 'R-A-F' hip layout with 'F-A-R' and adding a 3-DOF waist and up to three Jetson Orin NX modules. H1 itself remains for sale separately and is not covered by this file.",
       "Unitree's own shop page does not state battery runtime or payload; both are omitted rather than sourced from secondary aggregators (RoboZaps, Humanoid.guide) that were not independently verified against a primary page during this build.",
-      "No named-customer delivery evidence was found; delivery.status stays 'claimed' (store listing only, no unboxing/serial/customs record located)."
+      "No named-customer delivery evidence was found; delivery.status stays 'claimed' (store listing only, no unboxing/serial/customs record located).",
+      "Capabilities research (2026-09-20): Unitree's own 'daily training video' releases show the H2 doing flying kicks, backflips, sandbag strikes and a boxing spar with a G1 (Interesting Engineering, 2025-12/2026-01 coverage), but none of these map cleanly onto this dataset's fixed capability ids (no 'acrobatics'/'combat' id exists, and a single flip or kick is not the sustained aerial-phase gait the 'run' id requires). None of the coverage states who or what controlled the robot during these clips -- Interesting Engineering instead describes teleoperation as a general 'transitional technology' for Unitree's humanoids without confirming it for this footage -- so per the schema's silence rule any such entry would have to be 'unknown' autonomy anyway. No hand DOF, tactile-skin, depth-camera or onboard-compute figure could be traced to a primary Unitree page (shop.unitree.com/products/unitree-h2 does not list them; unitree.com/h2 404s); secondary aggregator figures (e.g. Sharpa Wave 22-DOF hands cited by RoboZaps/Humanoid.guide) were not added for the same reason battery/payload were omitted above. capabilities left empty for this build."
     ],
     "updated": "2026-09-20"
   },
@@ -1492,6 +1799,24 @@
           "quote": "has over 60 joints",
           "accessed": "2026-09-20"
         }
+      },
+      "hand_dof": {
+        "value": 22,
+        "status": "claimed",
+        "source": {
+          "url": "https://cnevpost.com/2025/11/05/xpeng-unveils-next-gen-iron-humanoid-robot/",
+          "quote": "a hand with 22 degrees of freedom",
+          "accessed": "2026-09-20"
+        }
+      },
+      "compute": {
+        "value": "3x XPeng Turing AI chips, 2,250 TOPS combined",
+        "status": "claimed",
+        "source": {
+          "url": "https://cnevpost.com/2025/11/05/xpeng-unveils-next-gen-iron-humanoid-robot/",
+          "quote": "three in-house developed Turing AI chips delivering 2,250 TOPS of computing power",
+          "accessed": "2026-09-20"
+        }
       }
     },
     "price_history": [],
@@ -1526,7 +1851,8 @@
     },
     "notes": [
       "Specs recorded here (178 cm / 70 kg / 60+ joints) are for the original Iron unveiled November 2024. The next-generation Iron shown at 2025 AI Day (Nov 5, 2025) has different hand dexterity: CnEVPost's 2025 coverage states 'a hand with 22 degrees of freedom', while a separate report cited elsewhere put per-hand DOF at 21 and total body DOF at 76 for the 2025 version. Updated full-body height/weight for the 2025 generation were not confirmed by a primary or press source during this session, so the 2024 figures are kept as the current record and the hand-DOF conflict is flagged rather than resolved.",
-      "No shipped or independently verified customer deployment was found; XPeng has stated mass production is targeted for end of 2026 with deliveries/showroom deployment planned for 2027, which is a plan, not a shipped or demonstrated-in-production status."
+      "No shipped or independently verified customer deployment was found; XPeng has stated mass production is targeted for end of 2026 with deliveries/showroom deployment planned for 2027, which is a plan, not a shipped or demonstrated-in-production status.",
+      "hand_dof (22) and compute (3x Turing chips, 2,250 TOPS) added 2026-09-20 from CnEVPost's 2025-11-05 coverage of the next-generation Iron shown at 2025 AI Day, i.e. a newer generation than the 2024 height/weight/dof figures kept above; per the discrepancy note already on file, a separate report elsewhere put per-hand DOF at 21 (vs. CnEVPost's 22) and total body DOF at 76 for this same 2025 generation -- that conflict is unresolved and CnEVPost's figure is used as the traceable press source. No fixed capability id in data/capabilities.json cleanly matches the 2025 catwalk/runway demonstration (no 'run' aerial-phase gait shown, no dexterous-hand task performed on stage), so no capabilities entry was added for this build."
     ],
     "updated": "2026-09-20"
   },
@@ -1624,6 +1950,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "box-handling",
+        "status": "demonstrated",
+        "autonomy": "autonomous",
+        "source": {
+          "url": "https://www.humanoidsdaily.com/news/mentee-robotics-demonstrates-warehouse-autonomy-with-dual-robot-uncut-demo",
+          "quote": "In the 18-minute continuous shot, two V3 MenteeBots transfer a total of 32 boxes from eight different piles into four flow racks.",
+          "accessed": "2026-09-20"
+        },
+        "note": "Same 2025-11-24 uncut warehouse demo already used for the delivery timeline; Mentee's own release describes it as autonomous dual-robot operation without human intervention."
+      }
+    ],
     "notes": [
       "Battery runtime is reported inconsistently across press coverage (Interesting Engineering: 'more than three hours'; other outlets: 'around 4 hours') and is not stated on Mentee's own /bot/ page, so battery_runtime_min is omitted rather than picking one figure.",
       "No official price has been published by Mentee Robotics; a $35,000 figure circulates on aggregator/marketplace sites but was not traced back to a manufacturer statement, so price_history is left empty.",
@@ -1669,6 +2008,15 @@
       },
       "hands": {
         "value": "22 DoF",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "quote": "22 DoF Hands with Human Level Dexterity",
+          "accessed": "2026-09-20"
+        }
+      },
+      "hand_dof": {
+        "value": 22,
         "status": "claimed",
         "source": {
           "url": "https://www.1x.tech/discover/neo-home-robot",
@@ -1732,6 +2080,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "teleoperation-shown",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://www.engadget.com/ai/1x-neo-is-a-20000-home-robot-that-will-learn-chores-via-teleoperation-040252200.html",
+          "quote": "much of the work will be done by teleoperators in the beginning",
+          "accessed": "2026-09-20"
+        },
+        "note": "1X CEO Bernt Børnich, quoted 2025-10-29, confirms Neo home demos and early customer units rely on remote human operators (1X calls them 'Experts') viewing the home via the robot's cameras, not autonomous operation."
+      }
+    ],
     "notes": [
       "As of 2026-09-20, 1X has not published evidence of any consumer unit delivered — only preorder/deposit terms and a 2026 shipping promise. Per this dataset's rules, that keeps delivery.status at claimed, not shipped, regardless of marketing language like \"order today\".",
       "Height was not found stated on 1X's own current page during this build; third-party coverage estimates \"5-foot-6\" but that is not a manufacturer source, so height_cm is omitted here rather than sourced to a secondary outlet."
@@ -1823,6 +2184,30 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "fall-recovery",
+        "status": "demonstrated",
+        "autonomy": "autonomous",
+        "source": {
+          "url": "https://interestingengineering.com/innovation/humanoid-robot-oli-full-body-human-like-sequence",
+          "quote": "the robotics company showcased two Oli humanoids lying down on the floor and then getting back up autonomously",
+          "accessed": "2026-09-20"
+        },
+        "note": "From a YouTube video released 2025-10-23, covered by Interesting Engineering (published 2025-10-28); explicit 'autonomously' from the source."
+      },
+      {
+        "id": "pick-and-place",
+        "status": "demonstrated",
+        "autonomy": "autonomous",
+        "source": {
+          "url": "https://www.humanoidsdaily.com/news/limx-dynamics-secures-200m-pre-ipo-round-unveils-fully-autonomous-oli-in-uncut-demo",
+          "quote": "no teleoperation and is captured in 'one continuous take'",
+          "accessed": "2026-09-20"
+        },
+        "note": "LimX's own uncut, single-take household-chores demo (published around 2026-07-25), described by LimX and Humanoids Daily as fully autonomous long-horizon mobile manipulation ('entirely autonomously'); the source does not itemize the specific objects picked and placed."
+      }
+    ],
     "notes": [
       "Weight, battery runtime and price were not stated on the manufacturer product page or in The Robot Report's launch article fetched during this build; a 9,500 mAh / 58.8V pack and ~2-hour runtime, and a ~55 kg weight for the Lite/EDU variants, are reported on third-party retailer/aggregator listings (e.g. RobotShop) but could not be traced to a dated manufacturer statement, so these fields are omitted rather than guessed.",
       "Oli ships in Lite, EDU and Super editions with different specs and pricing; the values recorded here are the ones stated without a variant qualifier on the manufacturer's product/news pages.",
@@ -1874,6 +2259,15 @@
           "quote": "Carrying capacity: 45 lb (20 kg)",
           "accessed": "2026-09-20"
         }
+      },
+      "hand_dof": {
+        "value": 22,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.teslarati.com/tesla-optimus-hands-22-degrees-of-freedom-upgrade-2024/",
+          "quote": "The new Optimus hand later this year will have 22 DoF",
+          "accessed": "2026-09-20"
+        }
       }
     },
     "price_history": [
@@ -1919,9 +2313,35 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "teleoperation-shown",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://fortune.com/2024/10/13/elon-musk-tesla-optimus-robot-tele-operated-robotaxi",
+          "quote": "Today I'm assisted by a human. I'm not yet fully autonomous",
+          "accessed": "2026-09-20"
+        },
+        "note": "At Tesla's 'We, Robot' event (2024-10-10), one of the Optimus units present told a guest it was human-assisted; independently observed and reported by multiple attendees/press (Fortune, Bloomberg, Cybernews), not a Tesla press claim."
+      },
+      {
+        "id": "pick-and-place",
+        "status": "demonstrated",
+        "autonomy": "unknown",
+        "source": {
+          "url": "https://fortune.com/2024/10/13/elon-musk-tesla-optimus-robot-tele-operated-robotaxi",
+          "quote": "Totally worthy to celebrate low latency remote control, but totally dishonest to demo these as autonomous robots—call it the parlor trick it is.",
+          "accessed": "2026-09-20"
+        },
+        "note": "Optimus units poured drinks and interacted with guests at the We, Robot event; Lux Capital cofounder Josh Wolfe's remark confirms remote control was used for at least some units, but Tesla has not disclosed which specific actions were teleoperated vs. scripted/autonomous, so this pick-and-place-style interaction is recorded as unknown rather than autonomous or teleoperated by default."
+      }
+    ],
     "notes": [
       "No unit has been sold or delivered to an external customer as of 2026-09-20; Tesla's own working demos (walking, sorting, dancing) qualify as demonstrated, not shipped.",
-      "Primary sourcing gap: tesla.com/AI returned HTTP 403 and Tesla's investor-relations PDFs were not reachable directly during this build; the figures above are Tesla's own stated numbers as compiled by Wikipedia with named dates and events (AI Day 2021, Q1 2026 earnings call), not independent journalism repeating a rumor. This should be replaced with a direct tesla.com or ir.tesla.com citation in a follow-up."
+      "Primary sourcing gap: tesla.com/AI returned HTTP 403 and Tesla's investor-relations PDFs were not reachable directly during this build; the figures above are Tesla's own stated numbers as compiled by Wikipedia with named dates and events (AI Day 2021, Q1 2026 earnings call), not independent journalism repeating a rumor. This should be replaced with a direct tesla.com or ir.tesla.com citation in a follow-up.",
+      "hand_dof (22 DoF) is Elon Musk's own statement (May 2024, as reported by Teslarati) about an upcoming hand upgrade, recorded as claimed; by 2026 multiple outlets describe this as the current Gen 3/V3 hand shipping in low volume, but no direct tesla.com spec page confirming the current production hand DOF was reachable during this build.",
+      "The teleoperation-shown capability documents the well-publicized fact that at least some We, Robot (Oct 2024) Optimus units were human-operated; this does not establish the current DOF or autonomy of any other demonstrated Optimus capability, which remain separately unsourced for autonomy."
     ],
     "updated": "2026-09-20"
   },
@@ -1944,6 +2364,30 @@
     },
     "specs": {},
     "price_history": [],
+    "capabilities": [
+      {
+        "id": "teleoperation-shown",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://persona.ai/robot-welding-in-a-real-industrial-environment/",
+          "quote": "our human operators guide the robot through dexterous tasks in real time",
+          "accessed": "2026-09-20"
+        },
+        "note": "Persona AI's own account of a VR-headset-teleoperated welding test at ARC Specialties, Houston; explicitly described as human-guided, collecting data toward future autonomous operation."
+      },
+      {
+        "id": "tool-use",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://persona.ai/robot-welding-in-a-real-industrial-environment/",
+          "quote": "strike a lit torch, maintain a steady arc, and successfully lay down a weld path",
+          "accessed": "2026-09-20"
+        },
+        "note": "Same teleoperated welding-torch demo; robot squats, welds and stands back up under its own power while under human teleoperation."
+      }
+    ],
     "delivery": {
       "status": "demonstrated",
       "timeline": [
@@ -2043,6 +2487,24 @@
           "quote": "55 lbs (20.5 kg)",
           "accessed": "2026-09-20"
         }
+      },
+      "hand_dof": {
+        "value": 21,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-integrates-tactile-sensors-into-phoenix-general-purpose-robots/",
+          "quote": "21 degree-of-freedom (DoF) hand",
+          "accessed": "2026-09-20"
+        }
+      },
+      "tactile_skin": {
+        "value": true,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-integrates-tactile-sensors-into-phoenix-general-purpose-robots/",
+          "quote": "a seven-cell touch sensor with micro-barometers",
+          "accessed": "2026-09-20"
+        }
       }
     },
     "price_history": [],
@@ -2063,6 +2525,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "teleoperation-shown",
+        "status": "claimed",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-integrates-tactile-sensors-into-phoenix-general-purpose-robots/",
+          "quote": "the primary use case for our touch sensors is to speed up teleoperation activity",
+          "accessed": "2026-09-20"
+        },
+        "note": "CEO James Wells describing teleoperation (with tactile feedback) as Sanctuary's recognized method for both remote task execution and capturing imitation-learning training data via Carbon; a general company statement rather than one specific demonstrated session, hence status 'claimed' not 'demonstrated'."
+      }
+    ],
     "notes": [
       "Sanctuary AI has run pilot programs with automotive supplier Magna International, but no source with a named customer plus invoice/serial-number/unboxing evidence was found during this build, so delivery.status is recorded as 'demonstrated', not 'shipped'.",
       "No battery runtime figure was found in the announcement source; the field is omitted rather than guessed.",
@@ -2179,6 +2654,7 @@
     },
     "notes": [
       "The front-flip video (2025-02-23) is manufacturer-produced marketing footage; it is recorded here under 'demonstrated' because the maneuver is a specific, visibly performed physical feat rather than a spec claim, but no independent (non-EngineAI) uncut footage was located during this build to confirm it as an unedited take.",
+      "Front-flip autonomy determination (2026-09-20): EngineAI's own statement on the flip describes only the *training* method -- 'By leveraging optical motion capture to collect extensive human motion data, it integrates end-to-end neural network learning with adversarial networks to achieve rapid evolution in a simulated environment. It thrives in various complex scenarios, continually refining itself through trial and error' (New Atlas, https://newatlas.com/ai-humanoids/worlds-first-front-flip-humanoid-robot-engineai/, accessed 2026-09-20) -- i.e. the flip is executed by a learned (sim-trained) policy, which suggests it runs onboard rather than being joystick-piloted move-by-move. But no EngineAI engineer or independent party is quoted stating explicitly that no human/teleoperator was in the loop during the filmed take, so per this dataset's strict rule this cannot be marked 'autonomous' or 'scripted' from the sources found in this pass; no capability entry was added for the flip itself since no fixed capability id in data/capabilities.json matches a single acrobatic maneuver (the 'run' id requires a sustained gait, not one flip), so this determination lives here in notes rather than in a capabilities entry.",
       "EngineAI's own site (en.engineai.com.cn) only lists height, DOF and peak torque density; weight, battery runtime, walking speed and price were sourced from The Robot Report's 2024-12-27 launch coverage instead.",
       "No named-customer shipment evidence (invoice, serial number, unboxing, customs record) was found during this build; delivery.status therefore stays 'demonstrated' rather than 'shipped'.",
       "Shipped-bar research (2026-09-20): EngineAI's own claim is ~100 units delivered in five months including \"Shenzhen police patrol support\", which would be a strong named-customer claim if independently verified -- but this pass found no independent photo/video of a PM01 physically in Shenzhen police possession, nor any consumer unboxing video with a named buyer. Not upgraded to shipped."
@@ -2286,6 +2762,30 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "run",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://www.yankodesign.com/2025/07/28/unitrees-5900-r1-humanoid-robot-can-run-do-cartwheels-and-perform-handstands/",
+          "quote": "Unitree R1 humanoid robot is capable of walking, running, cartwheeling, doing kung-fu, falling on its own will, and getting up like nothing ever happened.",
+          "accessed": "2026-09-20"
+        },
+        "note": "This launch-video coverage does not itself state who controlled the robot. Autonomy is set to 'teleoperated' on the strength of The Robot Report's separate, explicit statement that 'Unitree's R1 is remote-controlled' and that 'Autonomy is achievable but requires secondary development' (https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/, accessed 2026-09-20) -- a general characterization of the shipped R1 platform, not a clip-specific statement about this particular run."
+      },
+      {
+        "id": "fall-recovery",
+        "status": "demonstrated",
+        "autonomy": "teleoperated",
+        "source": {
+          "url": "https://www.yankodesign.com/2025/07/28/unitrees-5900-r1-humanoid-robot-can-run-do-cartwheels-and-perform-handstands/",
+          "quote": "falling on its own will, and getting up like nothing ever happened",
+          "accessed": "2026-09-20"
+        },
+        "note": "Same launch-video coverage as the 'run' entry above; autonomy is likewise inferred from The Robot Report's general 'remote-controlled' statement about the R1 platform rather than a clip-specific control statement."
+      }
+    ],
     "notes": [
       "Height/price conflict: The Robot Report's July 2025 launch coverage gives 1.2 m (3.9 ft) and a $5,900 standard price, while Unitree's own current store page (accessed 2026-09-20) states '123 cm' and lists the base unit at $4,900. Both are recorded here; the discrepancy is not resolved.",
       "The Robot Report notes the R1 'is remote-controlled rather than autonomous. Autonomy is achievable but requires secondary development' — relevant context for any 'demonstrated' autonomy claims made elsewhere about this robot.",
@@ -2392,6 +2892,19 @@
         }
       ]
     },
+    "capabilities": [
+      {
+        "id": "run",
+        "status": "demonstrated",
+        "autonomy": "autonomous",
+        "source": {
+          "url": "https://humanoid.robocup.org/wp-content/uploads/RC-HL-2025-Rules.pdf",
+          "quote": "Robots participating in the Humanoid League competitions must act autonomously while a competition is running. No external power supply, teleoperation, remote control, or remote brain of any kind is allowed.",
+          "accessed": "2026-09-20"
+        },
+        "note": "RoboCup Humanoid League Laws of the Game 2025, rule 335 (Communication and Control section), bans teleoperation for every robot playing a match under this ruleset. A named team competing with this exact platform: Tsinghua University's 'Hephaestus' team won the AdultSize category at RoboCup 2025 in Salvador, Brazil (July 2025) using Booster T1 robots -- 'Tsinghua dominated the competition using Chinese-developed Booster T1 robots, achieving decisive victories over multiple opponents' and 'Tsinghua University has placed top of the AdultSize category in the RoboCup Humanoid League soccer world championship, in the first time a Chinese team has claimed the top honor' (China Daily, https://global.chinadaily.com.cn/a/202507/25/WS6882e633a310ad07b5d91f03.html, accessed 2026-09-20; corroborated by Xinhua, https://english.news.cn/20250723/1d0f0b61bff142f5954fc42621c68bea/c.html). Booster's own RoboCup demo code (github.com/BoosterRobotics/robocup_demo) confirms the platform's vision/brain/game-controller stack 'makes autonomous decisions to kick the ball and complete the full RoboCup match', consistent with the rule. 'run' is used as the closest fixed capability id for AdultSize soccer play; no dedicated 'soccer' id exists in data/capabilities.json."
+      }
+    ],
     "notes": [
       "walking_speed_kmh and payload_kg are widely reported by aggregator sites (e.g. 18 km/h, 3 kg) but no literal quote from Booster's own site or a primary press source could be pinned during this build, so both fields are omitted rather than guessed.",
       "Price is sourced from a French authorized distributor (Generation Robots) rather than Booster's own storefront, since Booster's own site directs buyers to contact sales without listing a public price.",
@@ -2477,6 +2990,7 @@
       ]
     },
     "notes": [
+      "Capabilities research (2026-09-20): UBTech's own footage and press coverage document Walker S2 performing an autonomous, dual-arm hot-swap of its own back-mounted battery in roughly three minutes (e.g. therobotreport/CNET/Thomasnet coverage of the demo video) -- a real capability, but there is no matching id in this site's fixed capabilities list (closest is 'continuous-operation-1h', which requires one continuous run, not a swap event). Aggregator pages (HumanoidHub, robotsxhumanity, etc.) describe box lifting/sorting and warehouse deployment in generic marketing language without a specific dated video or independent observation with a literal, checkable quote, so no box-handling capability entry was added. Capabilities block left empty pending a source that ties a named id to a quotable, dated demonstration.",
       "UBTech's own product page (ubtrobot.com/en/humanoid/products/walker-s2) is reachable and confirms payload and battery-swap claims directly, but does not state height or weight. Height (1.76 m) and DOF (52) here are sourced from a secondary aggregator (heyupnow.com) that republishes UBTech's launch claims without linking an original press release; no PR Newswire/Business Wire/IEEE Spectrum/Robot Report coverage with those exact figures was found during this session. Treat height/DOF as needing a stronger source in a follow-up.",
       "Weight could not be confirmed from any source checked; third-party aggregators disagree (43-77 kg depending on battery configuration), so it is omitted rather than guessed.",
       "The November 2025 mass-production/delivery announcement is UBTech's own press release (claimed-level evidence per schema); it names deployment partners but the fetched text contains no photo, serial number, or independent verification of a specific customer's unit, so delivery.status stays 'claimed' rather than 'shipped'.",

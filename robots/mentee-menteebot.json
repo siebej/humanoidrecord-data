@@ -92,6 +92,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "box-handling",
+      "status": "demonstrated",
+      "autonomy": "autonomous",
+      "source": {
+        "url": "https://www.humanoidsdaily.com/news/mentee-robotics-demonstrates-warehouse-autonomy-with-dual-robot-uncut-demo",
+        "quote": "In the 18-minute continuous shot, two V3 MenteeBots transfer a total of 32 boxes from eight different piles into four flow racks.",
+        "accessed": "2026-09-20"
+      },
+      "note": "Same 2025-11-24 uncut warehouse demo already used for the delivery timeline; Mentee's own release describes it as autonomous dual-robot operation without human intervention."
+    }
+  ],
   "notes": [
     "Battery runtime is reported inconsistently across press coverage (Interesting Engineering: 'more than three hours'; other outlets: 'around 4 hours') and is not stated on Mentee's own /bot/ page, so battery_runtime_min is omitted rather than picking one figure.",
     "No official price has been published by Mentee Robotics; a $35,000 figure circulates on aggregator/marketplace sites but was not traced back to a manufacturer statement, so price_history is left empty.",

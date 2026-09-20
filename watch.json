@@ -1,25 +1,62 @@
 {
-  "1x-technologies": ["https://www.1x.tech/press"],
-  "agibot": ["https://www.agibot.com/article/223.html"],
-  "agility-robotics": ["https://www.agilityrobotics.com/latest-press"],
-  "apptronik": ["https://apptronik.com/company/in-the-news"],
-  "booster-robotics": ["https://www.booster.tech/news"],
-  "boston-dynamics": ["https://bostondynamics.com/news/"],
+  "1x-technologies": [
+    "https://www.1x.tech/press"
+  ],
+  "agibot": [
+    "https://www.agibot.com/article/223.html"
+  ],
+  "agility-robotics": [
+    "https://www.agilityrobotics.com/latest-press"
+  ],
+  "apptronik": [
+    "https://apptronik.com/company/in-the-news"
+  ],
+  "booster-robotics": [
+    "https://www.booster.tech/news"
+  ],
+  "boston-dynamics": [
+    "https://bostondynamics.com/news/"
+  ],
   "clone-robotics": [],
-  "engineai": ["https://en.engineai.com.cn/about-news.html"],
-  "figure-ai": ["https://www.figure.ai/news"],
+  "engineai": [
+    "https://en.engineai.com.cn/about-news.html"
+  ],
+  "figure-ai": [
+    "https://www.figure.ai/news"
+  ],
   "fourier": [],
-  "galbot": ["https://www.galbot.com/news"],
-  "hexagon": ["https://robotics.hexagon.com/news/"],
+  "galbot": [
+    "https://www.galbot.com/news"
+  ],
+  "hexagon": [
+    "https://robotics.hexagon.com/news/"
+  ],
   "kepler": [],
-  "limx-dynamics": ["https://limxdynamics.com/zh/news"],
-  "mentee-robotics": ["https://www.menteebot.com/news/"],
+  "limx-dynamics": [
+    "https://limxdynamics.com/zh/news"
+  ],
+  "mentee-robotics": [
+    "https://www.menteebot.com/news/"
+  ],
   "neura-robotics": [],
-  "persona-ai": ["https://persona.ai/news-articles/"],
+  "persona-ai": [
+    "https://persona.ai/news-articles/"
+  ],
   "pndbotics": [],
-  "sanctuary-ai": ["https://sanctuary.ai/news/"],
+  "robonova": [
+    "https://robonova.world/"
+  ],
+  "sanctuary-ai": [
+    "https://sanctuary.ai/news/"
+  ],
   "tesla": [],
-  "ubtech": ["https://www.ubtrobot.com/en/about/news"],
-  "unitree": ["https://www.unitree.com/news"],
-  "xpeng": ["https://www.xpeng.com/news"]
+  "ubtech": [
+    "https://www.ubtrobot.com/en/about/news"
+  ],
+  "unitree": [
+    "https://www.unitree.com/news"
+  ],
+  "xpeng": [
+    "https://www.xpeng.com/news"
+  ]
 }

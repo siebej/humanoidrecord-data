@@ -38,6 +38,15 @@
         "quote": "Carrying capacity: 45 lb (20 kg)",
         "accessed": "2026-09-20"
       }
+    },
+    "hand_dof": {
+      "value": 22,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.teslarati.com/tesla-optimus-hands-22-degrees-of-freedom-upgrade-2024/",
+        "quote": "The new Optimus hand later this year will have 22 DoF",
+        "accessed": "2026-09-20"
+      }
     }
   },
   "price_history": [
@@ -83,9 +92,35 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "teleoperation-shown",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://fortune.com/2024/10/13/elon-musk-tesla-optimus-robot-tele-operated-robotaxi",
+        "quote": "Today I'm assisted by a human. I'm not yet fully autonomous",
+        "accessed": "2026-09-20"
+      },
+      "note": "At Tesla's 'We, Robot' event (2024-10-10), one of the Optimus units present told a guest it was human-assisted; independently observed and reported by multiple attendees/press (Fortune, Bloomberg, Cybernews), not a Tesla press claim."
+    },
+    {
+      "id": "pick-and-place",
+      "status": "demonstrated",
+      "autonomy": "unknown",
+      "source": {
+        "url": "https://fortune.com/2024/10/13/elon-musk-tesla-optimus-robot-tele-operated-robotaxi",
+        "quote": "Totally worthy to celebrate low latency remote control, but totally dishonest to demo these as autonomous robots—call it the parlor trick it is.",
+        "accessed": "2026-09-20"
+      },
+      "note": "Optimus units poured drinks and interacted with guests at the We, Robot event; Lux Capital cofounder Josh Wolfe's remark confirms remote control was used for at least some units, but Tesla has not disclosed which specific actions were teleoperated vs. scripted/autonomous, so this pick-and-place-style interaction is recorded as unknown rather than autonomous or teleoperated by default."
+    }
+  ],
   "notes": [
     "No unit has been sold or delivered to an external customer as of 2026-09-20; Tesla's own working demos (walking, sorting, dancing) qualify as demonstrated, not shipped.",
-    "Primary sourcing gap: tesla.com/AI returned HTTP 403 and Tesla's investor-relations PDFs were not reachable directly during this build; the figures above are Tesla's own stated numbers as compiled by Wikipedia with named dates and events (AI Day 2021, Q1 2026 earnings call), not independent journalism repeating a rumor. This should be replaced with a direct tesla.com or ir.tesla.com citation in a follow-up."
+    "Primary sourcing gap: tesla.com/AI returned HTTP 403 and Tesla's investor-relations PDFs were not reachable directly during this build; the figures above are Tesla's own stated numbers as compiled by Wikipedia with named dates and events (AI Day 2021, Q1 2026 earnings call), not independent journalism repeating a rumor. This should be replaced with a direct tesla.com or ir.tesla.com citation in a follow-up.",
+    "hand_dof (22 DoF) is Elon Musk's own statement (May 2024, as reported by Teslarati) about an upcoming hand upgrade, recorded as claimed; by 2026 multiple outlets describe this as the current Gen 3/V3 hand shipping in low volume, but no direct tesla.com spec page confirming the current production hand DOF was reachable during this build.",
+    "The teleoperation-shown capability documents the well-publicized fact that at least some We, Robot (Oct 2024) Optimus units were human-operated; this does not establish the current DOF or autonomy of any other demonstrated Optimus capability, which remain separately unsourced for autonomy."
   ],
   "updated": "2026-09-20"
 }

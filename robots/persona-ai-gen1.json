@@ -17,6 +17,30 @@
   },
   "specs": {},
   "price_history": [],
+  "capabilities": [
+    {
+      "id": "teleoperation-shown",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://persona.ai/robot-welding-in-a-real-industrial-environment/",
+        "quote": "our human operators guide the robot through dexterous tasks in real time",
+        "accessed": "2026-09-20"
+      },
+      "note": "Persona AI's own account of a VR-headset-teleoperated welding test at ARC Specialties, Houston; explicitly described as human-guided, collecting data toward future autonomous operation."
+    },
+    {
+      "id": "tool-use",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://persona.ai/robot-welding-in-a-real-industrial-environment/",
+        "quote": "strike a lit torch, maintain a steady arc, and successfully lay down a weld path",
+        "accessed": "2026-09-20"
+      },
+      "note": "Same teleoperated welding-torch demo; robot squats, welds and stands back up under its own power while under human teleoperation."
+    }
+  ],
   "delivery": {
     "status": "demonstrated",
     "timeline": [

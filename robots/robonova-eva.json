@@ -1,0 +1,118 @@
+{
+  "slug": "robonova-eva",
+  "name": "Eva.i",
+  "manufacturer": {
+    "name": "Robonova.i (Shenzhen Yizhizai Intelligent Technology Co., Ltd.)",
+    "country": "CN",
+    "url": "https://robonova.world"
+  },
+  "category": "compact",
+  "announced": {
+    "date": "2026-02-26",
+    "source": {
+      "url": "https://www.pledgebox.com/projects/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+      "quote": "February 26th → April 27th (60 days)",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 160,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
+        "quote": "Planned height: Approximately 160cm with a natural, non-exaggerated body shape.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 40,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
+        "quote": "It weighs around 40kg.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "tactile_skin": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+        "quote": "FPC electronic skin responds to pressure and location; full-body touch detection (face, arms, fingers, torso, neck, legs)",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2026-02-26",
+        "event": "announced",
+        "detail": "Eva.i crowdfunding campaign launched on Kickstarter, seeking HK$780,000; 200 units limited to a Kickstarter-exclusive edition.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.kicktraq.com/projects/878170019/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/",
+          "quote": "A fusion of bionic embodied robotics and an intelligent companion App, designed for real-time interaction and deep engagement.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-04-27",
+        "event": "preorders-open",
+        "detail": "Kickstarter campaign closed 158% funded (HK$1,238,905 of HK$780,000 goal); backers hold preorders, not delivered units.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.kicktraq.com/projects/878170019/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/",
+          "quote": "Amount Raised: HK$1,238,905 (158% of goal)",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "capabilities": [
+    {
+      "id": "facial-expressions",
+      "status": "claimed",
+      "autonomy": "unknown",
+      "source": {
+        "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
+        "quote": "it is equipped with blinking, eye and mouth linkage movements, movable pupils, and an openable and closable mouth",
+        "accessed": "2026-09-20"
+      },
+      "note": "Mechanical face (no screen). Campaign copy only; no independently verified demonstration video found, and the campaign does not state whether expressions are AI-driven or pre-scripted."
+    },
+    {
+      "id": "voice-interaction",
+      "status": "claimed",
+      "autonomy": "unknown",
+      "source": {
+        "url": "https://r.jina.ai/https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+        "quote": "Eva.i detects the direction of your voice and naturally turns its head toward you",
+        "accessed": "2026-09-20"
+      },
+      "note": "Campaign claim of sound localization plus an on-device conversational AI; no independent demonstration found."
+    },
+    {
+      "id": "tactile-sensing",
+      "status": "claimed",
+      "autonomy": "unknown",
+      "source": {
+        "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+        "quote": "Touch-sensitive zones allow commands and switch from \"Companion Mode\" to \"Work Mode\" in under 3 seconds",
+        "accessed": "2026-09-20"
+      },
+      "note": "Claimed behavior change from touch input; no independent demonstration found."
+    }
+  ],
+  "notes": [
+    "Eva.i is a Kickstarter/crowdfunding product (campaign ran 2026-02-26 to 2026-04-27, 158% funded, 126 backers), not a shipping commercial product; Robonova's own FAQ describes the campaign's stated specs as 'planned', and separately states 'no autonomous walking' for the platform. All specs and capabilities here are manufacturer/campaign claims, none independently demonstrated as of 2026-09-20.",
+    "robonova.world is a JavaScript-rendered storefront that could not be scraped directly; all quotes were retrieved via the Kickstarter campaign page (through a text-extraction proxy after Kickstarter's own page blocked direct fetches), its FAQ, and third-party campaign trackers (PledgeBox, KickTraq) that mirror the campaign's own copy and funding figures.",
+    "Manufacturer states mass production/shipping targeted for August 2026 (per Kickstarter FAQ) — not yet reached at time of writing, so no delivery timeline event was added for it per this site's rule against inventing unreached events."
+  ],
+  "updated": "2026-09-20"
+}

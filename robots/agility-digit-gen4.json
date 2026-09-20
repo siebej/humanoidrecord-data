@@ -58,6 +58,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "box-handling",
+      "status": "shipped",
+      "autonomy": "unknown",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/digit-moves-over-100k-totes",
+        "quote": "picking items on and off an AMR to a conveyor",
+        "accessed": "2026-09-20"
+      },
+      "note": "GXO's Flowery Branch facility, named customer, 100,000+ totes moved by late 2025. Agility's own page describes the task and separately states the underlying pipeline 'blends traditional control methods, teleoperated demonstrations, policy training, and refinement' -- it does not explicitly say current day-to-day operation runs with no human in the loop, so autonomy is recorded as unknown rather than autonomous, per this dataset's strict rule."
+    }
+  ],
   "notes": [
     "This record covers the hardware generation of Digit that actually shipped to named customers (Ford 2020, Amazon 2023, GXO 2023-2024; Agility also claims a Toyota Motor Manufacturing Canada deployment per its own account, not independently sourced here).",
     "No independently sourced height/weight/payload/battery specs for this specific generation were located during this build, so specs is intentionally empty rather than reusing the newer Digit 5 numbers. See agility-digit for the current (Digit 5) generation's claimed specs, which is a different, not-yet-shipped hardware generation.",

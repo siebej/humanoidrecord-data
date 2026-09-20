@@ -28,8 +28,37 @@ must follow this shape:
 ```
 
 Recognized keys: `height_cm`, `weight_kg`, `dof`, `battery_runtime_min`,
-`walking_speed_kmh`, `payload_kg`, `hands`. Add more only if a robot has a
+`walking_speed_kmh`, `payload_kg`, `hands`, `hand_dof`, `fingers_per_hand`,
+`tactile_skin`, `depth_cameras`, `compute`. Add more only if a robot has a
 genuinely distinct, sourced attribute — do not pad with unsourced fields.
+`tactile_skin` is a boolean `value`; `compute` is free text (e.g. "NVIDIA
+Jetson Thor"); the rest are numbers. All still follow the
+`{ value, status, source }` shape above.
+
+## Capabilities
+
+`capabilities` is an optional array, one entry per demonstrated or claimed
+ability:
+
+```json
+{ "id": "stairs", "status": "demonstrated", "autonomy": "autonomous", "source": { "url": "...", "quote": "...", "accessed": "2026-09-20", "timestamp": "01:23" }, "note": "" }
+```
+
+`id` must be one of the fixed ids in `data/capabilities.json` (each with a
+label and short definition there); an unknown id fails validation.
+`status` is the same `claimed | demonstrated | shipped` used everywhere else
+(`shipped` means a named customer is shown using it, not just the
+manufacturer). `source.timestamp` is optional, `mm:ss`, for pointing at the
+moment in a video. `note` is optional free text.
+
+`autonomy` is required and is one of `teleoperated | scripted | autonomous |
+unknown`. A `demonstrated` capability with `autonomy: unknown` is allowed —
+most manufacturer clips simply don't say. But `autonomy: autonomous` is only
+allowed when the source explicitly says so (a named engineer or the
+manufacturer states no human/teleoperator was driving it), or an independent
+party observed it directly. A manufacturer highlight reel that shows a
+capability without saying who or what controlled it must be recorded as
+`unknown`, not `autonomous` — silence is not a claim.
 
 ## Source object
 
@@ -111,4 +140,6 @@ the timeline event entirely rather than guessing.
 `tools/validate.js` enforces: required fields present, `status` is exactly
 one of the three values, every value-bearing object has a non-empty
 `source.url`, `source.quote` (≤300 chars) and `source.accessed`
-(`YYYY-MM-DD`), and `slug` matches the filename.
+(`YYYY-MM-DD`), and `slug` matches the filename. For `capabilities`: `id`
+must be in `data/capabilities.json`, `autonomy` must be one of the four
+values, and `source.timestamp` (if present) must be `mm:ss`.

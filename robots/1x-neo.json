@@ -38,6 +38,15 @@
         "quote": "22 DoF Hands with Human Level Dexterity",
         "accessed": "2026-09-20"
       }
+    },
+    "hand_dof": {
+      "value": 22,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "quote": "22 DoF Hands with Human Level Dexterity",
+        "accessed": "2026-09-20"
+      }
     }
   },
   "price_history": [
@@ -95,6 +104,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "teleoperation-shown",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.engadget.com/ai/1x-neo-is-a-20000-home-robot-that-will-learn-chores-via-teleoperation-040252200.html",
+        "quote": "much of the work will be done by teleoperators in the beginning",
+        "accessed": "2026-09-20"
+      },
+      "note": "1X CEO Bernt Børnich, quoted 2025-10-29, confirms Neo home demos and early customer units rely on remote human operators (1X calls them 'Experts') viewing the home via the robot's cameras, not autonomous operation."
+    }
+  ],
   "notes": [
     "As of 2026-09-20, 1X has not published evidence of any consumer unit delivered — only preorder/deposit terms and a 2026 shipping promise. Per this dataset's rules, that keeps delivery.status at claimed, not shipped, regardless of marketing language like \"order today\".",
     "Height was not found stated on 1X's own current page during this build; third-party coverage estimates \"5-foot-6\" but that is not a manufacturer source, so height_cm is omitted here rather than sourced to a secondary outlet."

@@ -96,6 +96,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "pick-and-place",
+      "status": "demonstrated",
+      "autonomy": "unknown",
+      "source": {
+        "url": "https://newatlas.com/robotics/neura-4ne1-humanoid-robot/",
+        "quote": "performing a raft of mediocre or tiresome domestic chores – from doing the ironing to food prep",
+        "accessed": "2026-09-20"
+      },
+      "note": "NEURA's own demo reel, alternating simulation and real-world footage. New Atlas: \"It's not clear whether teleoperation was involved here, but the video does mention training the system in a simulated environment.\" No explicit no-teleop statement, so autonomy is recorded as unknown rather than autonomous."
+    }
+  ],
   "notes": [
     "Degrees of freedom is reported inconsistently across secondary sources (35, 42+, 55 DoF) and could not be traced to one dated primary-source figure during this build, so the dof spec field is omitted rather than guessed.",
     "Battery runtime is widely reported as 6-8 hours across secondary/aggregator sites, but the primary product page and reservation page fetched during this build did not state a runtime figure, so battery_runtime_min is omitted.",

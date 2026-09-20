@@ -60,6 +60,24 @@
         "quote": "30 kg (66 lbs)",
         "accessed": "2026-09-20"
       }
+    },
+    "hand_dof": {
+      "value": 11,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+        "quote": "up to 11 degrees of freedom (active and passive) per hand",
+        "accessed": "2026-09-20"
+      }
+    },
+    "tactile_skin": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+        "quote": "Each fingertip is equipped with a flexible sensor that includes up to 96 contact points",
+        "accessed": "2026-09-20"
+      }
     }
   },
   "price_history": [
@@ -117,6 +135,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "continuous-operation-1h",
+      "status": "demonstrated",
+      "autonomy": "unknown",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "1-hour charge, 8-hour operation",
+        "accessed": "2026-09-20"
+      },
+      "note": "8-hour continuous livestream at WAIC 2025 -- Kepler's own event and press release, not independently observed; the release does not state whether tasks during the stream were autonomous, scripted, or teleoperated, so autonomy is unknown."
+    }
+  ],
   "notes": [
     "Height/weight conflict: Kepler's own PR Newswire releases (Oct 2024 and Aug 2025) do not give a consistent single figure across all Kepler materials; several secondary aggregator sites (e.g. humanoid.guide-derived listings) report 178 cm / 85 kg instead of the 175 cm / 75 kg used here. The 175 cm / 75 kg figure is used because it traces to Kepler's own named press release with a direct quote; the 178 cm / 85 kg figure could not be traced to a specific dated primary source and is not used.",
     "An earlier press round (April 2025, SAIC-GM Shanghai plant deployment) and independent coverage cited a $30,000 USD base price; this is not included as a price_history entry because it could not be traced to a specific dated Kepler statement during this build, and it conflicts with the ¥248,000 pre-sale price from the Aug 2025 Kepler release.",

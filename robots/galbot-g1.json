@@ -101,6 +101,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "pick-and-place",
+      "status": "demonstrated",
+      "autonomy": "autonomous",
+      "source": {
+        "url": "https://chozan.co/galbot-g1/",
+        "quote": "AstraBrain translates natural language into physical actions in real time and supports autonomous task execution without fixed scripts.",
+        "accessed": "2026-09-20"
+      },
+      "note": "Galbot's own architecture description (via its AstraBrain control stack) explicitly claims autonomous task execution. A public video, 'Galbot G1 pick-and-deliver from shelf to customers 100% automatically!' (YouTube Shorts, https://www.youtube.com/shorts/kb362y4mB9A), shows the shelf-to-customer pick-and-place task referenced here, though a specific in-video timestamp/control statement could not be independently verified during this build. Treated as a manufacturer claim of autonomy for its own control stack rather than an independent-party observation."
+    }
+  ],
   "notes": [
     "Spec conflict: Galbot's own current Chinese-language product page (galbot.com/g1/, accessed 2026-09-20) states 1730 mm / 92.5 kg / 21 DOF / 8 h runtime / 1.5 m/s max speed / 10 kg combined payload. Widely repeated English-language secondary aggregators (Humanoid.guide, RoboZaps, robotsasia.com, humanoid-robots.io) instead give 173 cm / 85 kg / 47 total DOF (incl. a 12-DOF hand) / 10-hour runtime / 95-97% grasp success rate, none of which trace to a manufacturer page found during this build. Both figures are recorded in this note; the specs above follow the manufacturer's own current page.",
     "https://www.galbot.com/product (the English marketing page linked from search results) returned empty/no renderable content when fetched directly during this build; the specs above come from the manufacturer's Chinese product page (galbot.com/g1/) instead.",

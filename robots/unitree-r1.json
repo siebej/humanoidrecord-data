@@ -99,6 +99,30 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "run",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.yankodesign.com/2025/07/28/unitrees-5900-r1-humanoid-robot-can-run-do-cartwheels-and-perform-handstands/",
+        "quote": "Unitree R1 humanoid robot is capable of walking, running, cartwheeling, doing kung-fu, falling on its own will, and getting up like nothing ever happened.",
+        "accessed": "2026-09-20"
+      },
+      "note": "This launch-video coverage does not itself state who controlled the robot. Autonomy is set to 'teleoperated' on the strength of The Robot Report's separate, explicit statement that 'Unitree's R1 is remote-controlled' and that 'Autonomy is achievable but requires secondary development' (https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/, accessed 2026-09-20) -- a general characterization of the shipped R1 platform, not a clip-specific statement about this particular run."
+    },
+    {
+      "id": "fall-recovery",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.yankodesign.com/2025/07/28/unitrees-5900-r1-humanoid-robot-can-run-do-cartwheels-and-perform-handstands/",
+        "quote": "falling on its own will, and getting up like nothing ever happened",
+        "accessed": "2026-09-20"
+      },
+      "note": "Same launch-video coverage as the 'run' entry above; autonomy is likewise inferred from The Robot Report's general 'remote-controlled' statement about the R1 platform rather than a clip-specific control statement."
+    }
+  ],
   "notes": [
     "Height/price conflict: The Robot Report's July 2025 launch coverage gives 1.2 m (3.9 ft) and a $5,900 standard price, while Unitree's own current store page (accessed 2026-09-20) states '123 cm' and lists the base unit at $4,900. Both are recorded here; the discrepancy is not resolved.",
     "The Robot Report notes the R1 'is remote-controlled rather than autonomous. Autonomy is achievable but requires secondary development' — relevant context for any 'demonstrated' autonomy claims made elsewhere about this robot.",

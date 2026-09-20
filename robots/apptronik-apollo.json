@@ -95,6 +95,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "teleoperation-shown",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.manus-meta.com/use-cases/mercedes-benz-deploys-apptroniks-apollo-at-factory-floor-using-manus-gloves",
+        "quote": "human operators wearing MANUS gloves directly teleoperating Apollo demonstrated target movements while the system logged synchronized data in real time.",
+        "accessed": "2026-09-20"
+      },
+      "note": "Describes the Mercedes-Benz Digital Factory Campus Berlin-Marienfelde pilot; published by MANUS (the glove vendor involved in the deployment), an independent third party to Apptronik and Mercedes-Benz, not a manufacturer highlight reel."
+    }
+  ],
   "notes": [
     "Apptronik's own site (apptronik.com/apollo) returned no fetchable content during this research session; all specs here are sourced from The Robot Report's launch and Mercedes-Benz pilot coverage instead.",
     "Shipped bar applied (2026-09-20): Mercedes-Benz's own press release (media.mbusa.com, 2025-03-18) names Mercedes-Benz Digital Factory Campus Berlin-Marienfelde as the site, confirms Apollo units are physically present and collecting production data, and is published with a photo gallery on Mercedes-Benz's own media channel. Per this site's shipped rule (named customer + image via customer's or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped with 'pilot' noted in the detail, since Mercedes-Benz itself frames it as testing. Upgraded from demonstrated to shipped; an earlier note here required an invoice/serial/unboxing/customs record in addition to the photo, which was too strict, and is removed.",

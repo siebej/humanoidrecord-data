@@ -17,6 +17,30 @@
   },
   "specs": {},
   "price_history": [],
+  "capabilities": [
+    {
+      "id": "teleoperation-shown",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://interestingengineering.com/ai-robotics/clone-demos-creepy-humanoid-hand",
+        "quote": "a human wearing a sensor glove",
+        "accessed": "2026-09-20"
+      },
+      "note": "Demo of the Clone hand only (mounted on a desk), not the full Alpha body; operator wears a sensor glove and a neural-network 'V2 Controller' translates finger/wrist motion into the artificial-muscle hand in real time. This dataset only records what is shown on camera, so this entry covers the hand demo, not a claim about Alpha's full-body teleoperation."
+    },
+    {
+      "id": "tactile-sensing",
+      "status": "demonstrated",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://interestingengineering.com/ai-robotics/clone-demos-creepy-humanoid-hand",
+        "quote": "pressure pads in the palm",
+        "accessed": "2026-09-20"
+      },
+      "note": "Palm pressure pads reported to detect grip force during the same glove-teleoperated hand demo; shown affecting grip behavior on camera, not just listed as a spec."
+    }
+  ],
   "delivery": {
     "status": "claimed",
     "timeline": [

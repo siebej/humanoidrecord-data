@@ -39,7 +39,7 @@
       "status": "claimed",
       "source": {
         "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
-        "quote": "pitch 125\u00b0 angle and handle 15kg payload within 0-1.8 meters workspace",
+        "quote": "pitch 125° angle and handle 15kg payload within 0-1.8 meters workspace",
         "accessed": "2026-09-20"
       }
     }
@@ -75,6 +75,7 @@
     ]
   },
   "notes": [
+    "Capabilities research (2026-09-20): UBTech's own footage and press coverage document Walker S2 performing an autonomous, dual-arm hot-swap of its own back-mounted battery in roughly three minutes (e.g. therobotreport/CNET/Thomasnet coverage of the demo video) -- a real capability, but there is no matching id in this site's fixed capabilities list (closest is 'continuous-operation-1h', which requires one continuous run, not a swap event). Aggregator pages (HumanoidHub, robotsxhumanity, etc.) describe box lifting/sorting and warehouse deployment in generic marketing language without a specific dated video or independent observation with a literal, checkable quote, so no box-handling capability entry was added. Capabilities block left empty pending a source that ties a named id to a quotable, dated demonstration.",
     "UBTech's own product page (ubtrobot.com/en/humanoid/products/walker-s2) is reachable and confirms payload and battery-swap claims directly, but does not state height or weight. Height (1.76 m) and DOF (52) here are sourced from a secondary aggregator (heyupnow.com) that republishes UBTech's launch claims without linking an original press release; no PR Newswire/Business Wire/IEEE Spectrum/Robot Report coverage with those exact figures was found during this session. Treat height/DOF as needing a stronger source in a follow-up.",
     "Weight could not be confirmed from any source checked; third-party aggregators disagree (43-77 kg depending on battery configuration), so it is omitted rather than guessed.",
     "The November 2025 mass-production/delivery announcement is UBTech's own press release (claimed-level evidence per schema); it names deployment partners but the fetched text contains no photo, serial number, or independent verification of a specific customer's unit, so delivery.status stays 'claimed' rather than 'shipped'.",

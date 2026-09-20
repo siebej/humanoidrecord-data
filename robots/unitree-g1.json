@@ -69,6 +69,16 @@
         "quote": "About 2Kg (standard); About 3Kg (EDU)",
         "accessed": "2026-09-20"
       }
+    },
+    "tactile_skin": {
+      "value": true,
+      "status": "demonstrated",
+      "source": {
+        "url": "https://mikekalil.com/blog/textile-robot-e-skin/",
+        "quote": "Shanghai-based JQ Industries demonstrated the capabilities using a Unitree G1 humanoid robot, but the technology is intended for use across platforms.",
+        "accessed": "2026-09-20"
+      },
+      "note": "This is a third-party e-skin build (Shanghai-based JQ Industries' fabric-based piezoresistive tactile sensor, woven with conductive fibers that detect pressure, contact and force distribution), demonstrated on a Unitree G1 chassis as a showcase platform -- not a Unitree-manufactured or Unitree-sold component. A short video of the demo is publicly referenced ('This Robot's Skin Can Actually Feel Touch', YouTube Shorts, https://www.youtube.com/shorts/k9tj5kb3rHI) but could not be directly viewed during this build (YouTube consent redirect blocked automated fetch); 'demonstrated' status rests on the press description of an actual JQ Industries demo rather than direct video verification, and should be revisited if the video can be reviewed frame-by-frame."
     }
   },
   "price_history": [
@@ -138,6 +148,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "fall-recovery",
+      "status": "demonstrated",
+      "autonomy": "scripted",
+      "source": {
+        "url": "https://arxiv.org/abs/2511.07407",
+        "quote": "the default manufacturer-provided recovery controller on the Unitree G1, which executes a hard-coded joint trajectory with PD stabilization",
+        "accessed": "2026-09-20"
+      },
+      "note": "Independent research paper (not Unitree marketing) describes and benchmarks the stock get-up behavior shipped on the robot; it is a fixed, hard-coded trajectory, not a learned or teleoperated one, hence 'scripted' rather than 'autonomous'."
+    }
+  ],
   "notes": [
     "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
     "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",

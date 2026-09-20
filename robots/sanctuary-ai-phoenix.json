@@ -60,6 +60,24 @@
         "quote": "55 lbs (20.5 kg)",
         "accessed": "2026-09-20"
       }
+    },
+    "hand_dof": {
+      "value": 21,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-integrates-tactile-sensors-into-phoenix-general-purpose-robots/",
+        "quote": "21 degree-of-freedom (DoF) hand",
+        "accessed": "2026-09-20"
+      }
+    },
+    "tactile_skin": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-integrates-tactile-sensors-into-phoenix-general-purpose-robots/",
+        "quote": "a seven-cell touch sensor with micro-barometers",
+        "accessed": "2026-09-20"
+      }
     }
   },
   "price_history": [],
@@ -80,6 +98,19 @@
       }
     ]
   },
+  "capabilities": [
+    {
+      "id": "teleoperation-shown",
+      "status": "claimed",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-integrates-tactile-sensors-into-phoenix-general-purpose-robots/",
+        "quote": "the primary use case for our touch sensors is to speed up teleoperation activity",
+        "accessed": "2026-09-20"
+      },
+      "note": "CEO James Wells describing teleoperation (with tactile feedback) as Sanctuary's recognized method for both remote task execution and capturing imitation-learning training data via Carbon; a general company statement rather than one specific demonstrated session, hence status 'claimed' not 'demonstrated'."
+    }
+  ],
   "notes": [
     "Sanctuary AI has run pilot programs with automotive supplier Magna International, but no source with a named customer plus invoice/serial-number/unboxing evidence was found during this build, so delivery.status is recorded as 'demonstrated', not 'shipped'.",
     "No battery runtime figure was found in the announcement source; the field is omitted rather than guessed.",

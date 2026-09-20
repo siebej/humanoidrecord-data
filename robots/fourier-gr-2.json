@@ -60,6 +60,24 @@
         "quote": "12-DoF dexterous hands\u2014double the dexterity of previous models",
         "accessed": "2026-09-20"
       }
+    },
+    "hand_dof": {
+      "value": 12,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+        "quote": "12-DoF dexterous hands\u2014double the dexterity of previous models",
+        "accessed": "2026-09-20"
+      }
+    },
+    "tactile_skin": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.techeblog.com/new-fourier-gr-2-humanoid-robot-upgrade/",
+        "quote": "Equipped with six array-type tactile sensors, GR-2 can sense force, identify object shapes and materials, and adjust its grip in real time",
+        "accessed": "2026-09-20"
+      }
     }
   },
   "price_history": [],
