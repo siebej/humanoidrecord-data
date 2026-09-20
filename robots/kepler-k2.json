@@ -78,6 +78,25 @@
         "quote": "Each fingertip is equipped with a flexible sensor that includes up to 96 contact points",
         "accessed": "2026-09-20"
       }
+    },
+    "charge_time_min": {
+      "value": 60,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "1-hour charge, 8-hour operation",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "175 cm (5 ft 9 in)",
+        "accessed": "2026-09-21"
+      },
+      "note": "The tracked K2 'Bumblebee' configuration is bipedal; Kepler also lists a separate 'Wheeled Developer' configuration of the same platform, not covered by this record."
     }
   },
   "price_history": [
@@ -155,5 +174,14 @@
     "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status remains 'demonstrated', not 'shipped'.",
     "Shipped-bar research (2026-09-20): Web search for delivery evidence returned only NASA's unrelated Kepler/K2 space telescope mission and generic spec-sheet pages; no named-customer delivery evidence for the Kepler Robotics K2 humanoid was found in this pass. Remains at prior status."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21",
+  "order_type": {
+    "value": "preorder",
+    "status": "claimed",
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+      "quote": "World's first commercially available planetary roller screw-driven humanoid robot",
+      "accessed": "2026-09-21"
+    }
+  }
 }

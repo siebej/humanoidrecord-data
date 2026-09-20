@@ -51,6 +51,25 @@
         "quote": "the dexterity to lift payloads of about 5 kg",
         "accessed": "2026-09-20"
       }
+    },
+    "actuator_torque_nm": {
+      "value": 340,
+      "status": "claimed",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "340 Nm (250 lb.ft) of joint torque",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "1.67-m (5.5-ft)",
+        "accessed": "2026-09-21"
+      },
+      "note": "Adam SP is a two-legged walking humanoid; PNDbotics also sells an 'Adam-U' wheeled-base upper-body variant, not covered by this record."
     }
   },
   "price_history": [
@@ -92,5 +111,5 @@
     "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status is 'demonstrated' (public festival debut shown), not 'shipped'.",
     "Battery runtime and walking speed were not found in the sources checked during this build and are omitted rather than guessed."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

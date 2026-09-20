@@ -47,6 +47,25 @@
         "quote": "22 DoF Hands with Human Level Dexterity",
         "accessed": "2026-09-20"
       }
+    },
+    "battery_wh": {
+      "value": 842,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/order",
+        "quote": "842 Wh",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "demonstrated",
+      "source": {
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "quote": "At just 66 pounds (29.94 kg), NEO is capable of lifting over 150 pounds",
+        "accessed": "2026-09-21"
+      },
+      "note": "Same source as weight/payload; 1X's own demo videos and product shots consistently show Neo as a two-legged walking humanoid, not wheeled."
     }
   },
   "price_history": [
@@ -104,6 +123,28 @@
       }
     ]
   },
+  "order_type": {
+    "value": "preorder",
+    "status": "claimed",
+    "source": {
+      "url": "https://www.1x.tech/order",
+      "quote": "$200 Deposit Due Today",
+      "accessed": "2026-09-21"
+    },
+    "note": "1x.tech/order takes a fully refundable $200 deposit against either a $20,000 Ownership plan or a $499/mo subscription, with US deliveries starting in 2026 -- a deposit-and-wait-for-delivery flow, not an immediate cart checkout."
+  },
+  "warranty": [
+    {
+      "months": 36,
+      "region": "US (Early Access / Ownership plan)",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/order",
+        "quote": "Ownership with 3-Year Warranty",
+        "accessed": "2026-09-21"
+      }
+    }
+  ],
   "capabilities": [
     {
       "id": "teleoperation-shown",
@@ -119,7 +160,8 @@
   ],
   "notes": [
     "As of 2026-09-20, 1X has not published evidence of any consumer unit delivered — only preorder/deposit terms and a 2026 shipping promise. Per this dataset's rules, that keeps delivery.status at claimed, not shipped, regardless of marketing language like \"order today\".",
-    "Height was not found stated on 1X's own current page during this build; third-party coverage estimates \"5-foot-6\" but that is not a manufacturer source, so height_cm is omitted here rather than sourced to a secondary outlet."
+    "Height was not found stated on 1X's own current page during this build; third-party coverage estimates \"5-foot-6\" but that is not a manufacturer source, so height_cm is omitted here rather than sourced to a secondary outlet.",
+    "charge_time_min, battery_swappable, actuator_torque_nm, and sdk were left out (2026-09-21): 1x.tech/order states only a charge rate (\"6min per hour runtime\", not a single full-charge minutes figure) and does not state swappability, joint torque, or any developer SDK/API."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

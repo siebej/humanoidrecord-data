@@ -1,0 +1,232 @@
+{
+  "slug": "unitree-h1",
+  "name": "H1",
+  "manufacturer": {
+    "name": "Unitree Robotics",
+    "country": "CN",
+    "url": "https://www.unitree.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2023-08-15",
+    "source": {
+      "url": "https://www.therobotreport.com/unitree-teases-new-h1-humanoid-robot/",
+      "quote": "The highest-power-performance robot of its counterparts with similar specifications in the world, weigh ~47Kg",
+      "accessed": "2026-09-21"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 180,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "Height about 180CM",
+        "accessed": "2026-09-21"
+      }
+    },
+    "weight_kg": {
+      "value": 47,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "Weight about 47kg",
+        "accessed": "2026-09-21"
+      }
+    },
+    "dof": {
+      "value": 18,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "DOF of Each Leg: 5（Hip × 3 + Knee × 1 + Ankle × 1）; DOF of Each Arm: 4（Expandable）",
+        "accessed": "2026-09-21"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 120,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "Battery capacity: 864Wh",
+        "accessed": "2026-09-21"
+      }
+    },
+    "walking_speed_kmh": {
+      "value": 11.9,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "Moving speed of 3.3m/s",
+        "accessed": "2026-09-21"
+      }
+    },
+    "actuator_torque_nm": {
+      "value": 360,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "Maximum Joint Torque 360N.m",
+        "accessed": "2026-09-21"
+      },
+      "note": "Peak torque at the knee joint (highest of the listed joints: knee ~360N.m, hip ~220N.m, ankle ~59N.m, arm ~75N.m)."
+    },
+    "battery_wh": {
+      "value": 864,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "Battery capacity: 864Wh, quickly replaceable",
+        "accessed": "2026-09-21"
+      }
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "Battery capacity: 864Wh, quickly replaceable",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "shipped",
+      "source": {
+        "url": "https://www.unitree.com/h1/",
+        "quote": "The first full-size general-purpose humanoid robot that can run in China",
+        "accessed": "2026-09-21"
+      },
+      "note": "Two-legged walking/running humanoid; confirmed further by the World Humanoid Robot Games 2025 track results (400m, 1500m, hurdles, relay) run on two legs."
+    }
+  },
+  "price_history": [
+    {
+      "date": "2023-08-15",
+      "amount": 90000,
+      "currency": "USD",
+      "variant": "base",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-teases-new-h1-humanoid-robot/",
+        "quote": "Price: less than $90,000",
+        "accessed": "2026-09-21"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2023-08-15",
+        "event": "announced",
+        "detail": "Unveiled by Unitree, priced below $90,000.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-teases-new-h1-humanoid-robot/",
+          "quote": "The highest-power-performance robot of its counterparts with similar specifications in the world, weigh ~47Kg",
+          "accessed": "2026-09-21"
+        }
+      },
+      {
+        "date": "2025-08-15",
+        "event": "first-demo",
+        "detail": "Won gold in the 400m and 1500m at the inaugural World Humanoid Robot Games in Beijing, in front of an independent jury under a fixed ruleset; see Results under fixed rules.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.robotics247.com/article/unitree_h1_earns_two_gold_medals_at_world_humanoid_robot_games",
+          "quote": "the Unitree H1 humanoid took home two gold medals. H1 won the 400m and 1500m races.",
+          "accessed": "2026-09-21"
+        }
+      }
+    ]
+  },
+  "results": [
+    {
+      "event": "world-humanoid-robot-games-2025",
+      "discipline": "400 m",
+      "result": "1:28.03",
+      "rank": 1,
+      "team": "Unitree",
+      "unit": "time",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.robotics247.com/article/unitree_h1_earns_two_gold_medals_at_world_humanoid_robot_games",
+        "quote": "H1 also earned gold in the 400m, with a time of 1:28.03",
+        "accessed": "2026-09-21"
+      }
+    },
+    {
+      "event": "world-humanoid-robot-games-2025",
+      "discipline": "1500 m",
+      "result": "6:34.40",
+      "rank": 1,
+      "team": "Unitree",
+      "unit": "time",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.robotics247.com/article/unitree_h1_earns_two_gold_medals_at_world_humanoid_robot_games",
+        "quote": "In the 1500m race, the Unitree H1 finished in 6:34.40, which the company said is a new world record.",
+        "accessed": "2026-09-21"
+      }
+    },
+    {
+      "event": "world-humanoid-robot-games-2025",
+      "discipline": "100 m hurdles",
+      "result": "gold",
+      "rank": 1,
+      "team": "Unitree",
+      "unit": "medal",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://interestingengineering.com/innovation/humanoid-robot-games-unitree-dominates-with-11-medals",
+        "quote": "The Hangzhou-based robotics company's H1 humanoids stormed the 400-metre dash, 1,500-metre race, 100-metre hurdles, and 4×100-metre relay.",
+        "accessed": "2026-09-21"
+      }
+    },
+    {
+      "event": "world-humanoid-robot-games-2025",
+      "discipline": "4x100 m relay",
+      "result": "gold",
+      "rank": 1,
+      "team": "Unitree",
+      "unit": "medal",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://interestingengineering.com/innovation/humanoid-robot-games-unitree-dominates-with-11-medals",
+        "quote": "The Hangzhou-based robotics company's H1 humanoids stormed the 400-metre dash, 1,500-metre race, 100-metre hurdles, and 4×100-metre relay.",
+        "accessed": "2026-09-21"
+      }
+    }
+  ],
+  "sdk": {
+    "open_source": true,
+    "ros": "ros2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "status": "shipped",
+    "source": {
+      "url": "https://github.com/unitreerobotics/unitree_sdk2",
+      "quote": "Unitree robot sdk version 2. https://support.unitree.com/home/zh/developer",
+      "accessed": "2026-09-21"
+    },
+    "note": "unitree_sdk2 (BSD-3-Clause) ships a dedicated h1/ example folder alongside g1, h2, r1 and others (github.com/unitreerobotics/unitree_sdk2/tree/main/example, accessed 2026-09-21), confirming H1 support in the same generic Unitree SDK used across the lineup. unitree_ros2 provides ROS2 (CycloneDDS) tooling on top of the same SDK."
+  },
+  "order_type": {
+    "value": "quote",
+    "status": "claimed",
+    "source": {
+      "url": "https://shop.unitree.com/products/unitree-h1",
+      "quote": "Unitree H1（Contact us for the real price）",
+      "accessed": "2026-09-21"
+    },
+    "note": "Shop listing shows an indicative $90,000 figure but the product title and page state pricing is only available on request; the listed variant is marked unavailable for direct checkout."
+  },
+  "notes": [
+    "Height/weight/speed specs are Unitree's own current product-page figures (unitree.com/h1/, accessed 2026-09-21); DOF given there as 19 total joints (5+5 legs, 4+4 arms, 1 waist).",
+    "This record was created to attach the World Humanoid Robot Games 2025 results to a robot record; delivery status is 'demonstrated' rather than 'shipped' -- no named customer with a delivered H1 unit was found during this build.",
+    "No sourced warranty terms or charge-time figure could be found for H1 specifically (searched unitree.com/h1/ and shop.unitree.com/products/unitree-h1); both fields left out rather than guessed."
+  ],
+  "updated": "2026-09-21"
+}

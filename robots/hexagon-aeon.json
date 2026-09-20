@@ -69,7 +69,36 @@
         "quote": "15 kg short-term, 8 kg constant carry",
         "accessed": "2026-09-20"
       }
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://robotics.hexagon.com/product",
+        "quote": "Auto-swap for continuous work; each charge lasts up to 4 hours",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "hybrid",
+      "status": "claimed",
+      "source": {
+        "url": "https://robotics.hexagon.com/hexagon-robotics-and-schaeffler-deploy-a-fleet-of-aeon-humanoids/",
+        "quote": "AEON used its unique sensor suite and wheel-based locomotion to demonstrate high-precision manipulation capabilities",
+        "accessed": "2026-09-21"
+      },
+      "note": "Hexagon's own coverage confirms 'wheel-based locomotion'; independent trade coverage (Association for Advancing Automation, headlined 'This humanoid robot has wheels for feet') describes the underlying design as two articulated legs each ending in a wheel rather than a foot -- automate.org itself returned HTTP 403 to a direct fetch during this build, so only the headline (not a body-text quote) is treated as verified from that outlet. Recorded as 'hybrid' (legs + wheeled feet) rather than 'wheeled' (no legs) or 'bipedal' (feet, no wheels)."
     }
+  },
+  "order_type": {
+    "value": "quote",
+    "status": "claimed",
+    "source": {
+      "url": "https://robotics.hexagon.com/product/",
+      "quote": "Contact Us",
+      "accessed": "2026-09-21"
+    },
+    "note": "No price or checkout is published; AEON is deployed only through enterprise pilot/rollout partnerships (Schaeffler, Pilatus), reached via the product page's 'Contact Us' link, not a self-service cart."
   },
   "price_history": [],
   "delivery": {
@@ -81,6 +110,7 @@
         "detail": "Hexagon launched AEON at its Hexagon LIVE Global 2025 event in Las Vegas, positioning it for manipulation, asset inspection, reality capture and operator support in automotive, aerospace, manufacturing and logistics.",
         "quantity_min": null,
         "quantity_max": null,
+        "sector": "manufacturing",
         "source": {
           "url": "https://www.prnewswire.com/news-releases/hexagon-launches-aeon-a-humanoid-built-for-industry-302482236.html",
           "quote": "AEON represents a state-of-the-art, industrially bespoke humanoid.",
@@ -93,10 +123,24 @@
         "detail": "Hexagon named Schaeffler and Pilatus as pilot partners evaluating AEON for manipulation, machine tending, part inspection and other use cases; this is a named-partner pilot commitment, not a completed named-customer delivery.",
         "quantity_min": null,
         "quantity_max": null,
+        "sector": "manufacturing",
         "source": {
           "url": "https://www.prnewswire.com/news-releases/hexagon-launches-aeon-a-humanoid-built-for-industry-302482236.html",
           "quote": "Schaeffler - piloting AEON for manipulation, machine tending, part inspection",
           "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-04-22",
+        "event": "volume-estimate",
+        "detail": "Hexagon and Schaeffler expanded their partnership: Schaeffler committed to deploying at least 1,000 AEON humanoids across its global production system by 2032.",
+        "quantity_min": 1000,
+        "quantity_max": null,
+        "sector": "manufacturing",
+        "source": {
+          "url": "https://robotics.hexagon.com/hexagon-robotics-and-schaeffler-deploy-a-fleet-of-aeon-humanoids/",
+          "quote": "at least 1,000 Hexagon Robotics humanoids across its global production system by 2032",
+          "accessed": "2026-09-21"
         }
       }
     ]
@@ -107,5 +151,5 @@
     "A November 2025 Hexagon press item (via Microsoft Ignite 2025 coverage) states AEON 'completed more than 1,600 missions without interruption' during pilot testing — evidence of extended demonstrated operation at partner sites, but not tied to a single uncut video or named unit delivery, so delivery.status is kept at 'claimed' rather than 'demonstrated' or 'shipped'.",
     "walking_speed_kmh is converted from the manufacturer's stated 2.4 m/s (→ 8.64 km/h, rounded to 8.6 km/h)."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

@@ -78,7 +78,26 @@
         "quote": "a seven-cell touch sensor with micro-barometers",
         "accessed": "2026-09-20"
       }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+        "quote": "The Phoenix model is the sixth generation of the platform and is the first robot model to be complete with legs and worthy of being characterized as a 'humanoid' bipedal robotic system.",
+        "accessed": "2026-09-21"
+      }
     }
+  },
+  "order_type": {
+    "value": "quote",
+    "status": "claimed",
+    "source": {
+      "url": "https://sanctuary.ai/contact",
+      "quote": "Contact us to get in touch with a member of our commercial team.",
+      "accessed": "2026-09-21"
+    },
+    "note": "Sanctuary AI does not list a price or checkout for Phoenix; acquisition goes through a commercial-team contact form (fields include 'Hardware of Interest' and 'Anticipated Robot Fleet Size'), consistent with an enterprise sales-conversation model rather than direct purchase."
   },
   "price_history": [],
   "delivery": {
@@ -116,5 +135,5 @@
     "No battery runtime figure was found in the announcement source; the field is omitted rather than guessed.",
     "Phoenix is not sold as a commercial product with public pricing (deployed via partnerships), so price_history is empty rather than populated with a guess."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

@@ -51,6 +51,25 @@
         "quote": "Battery Life: 2h (walking), 4h (standing)",
         "accessed": "2026-09-20"
       }
+    },
+    "actuator_torque_nm": {
+      "value": 130,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.booster.tech/booster-t1/",
+        "quote": "Max Peak Torque: 130N·m",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "shipped",
+      "source": {
+        "url": "https://humanoid.robocup.org/wp-content/uploads/RC-HL-2025-Rules.pdf",
+        "quote": "Robots participating in the Humanoid League competitions must act autonomously while a competition is running.",
+        "accessed": "2026-09-20"
+      },
+      "note": "Two-legged humanoid; confirmed by the AdultSize soccer match play (running, kicking) recorded under results/capabilities above, which requires bipedal locomotion under RoboCup Humanoid League rules."
     }
   },
   "price_history": [
@@ -109,11 +128,63 @@
       "note": "RoboCup Humanoid League Laws of the Game 2025, rule 335 (Communication and Control section), bans teleoperation for every robot playing a match under this ruleset. A named team competing with this exact platform: Tsinghua University's 'Hephaestus' team won the AdultSize category at RoboCup 2025 in Salvador, Brazil (July 2025) using Booster T1 robots -- 'Tsinghua dominated the competition using Chinese-developed Booster T1 robots, achieving decisive victories over multiple opponents' and 'Tsinghua University has placed top of the AdultSize category in the RoboCup Humanoid League soccer world championship, in the first time a Chinese team has claimed the top honor' (China Daily, https://global.chinadaily.com.cn/a/202507/25/WS6882e633a310ad07b5d91f03.html, accessed 2026-09-20; corroborated by Xinhua, https://english.news.cn/20250723/1d0f0b61bff142f5954fc42621c68bea/c.html). Booster's own RoboCup demo code (github.com/BoosterRobotics/robocup_demo) confirms the platform's vision/brain/game-controller stack 'makes autonomous decisions to kick the ball and complete the full RoboCup match', consistent with the rule. 'run' is used as the closest fixed capability id for AdultSize soccer play; no dedicated 'soccer' id exists in data/capabilities.json."
     }
   ],
+  "sdk": {
+    "open_source": true,
+    "ros": "ros2",
+    "url": "https://github.com/BoosterRobotics/booster_robotics_sdk",
+    "status": "shipped",
+    "source": {
+      "url": "https://github.com/BoosterRobotics/booster_robotics_sdk",
+      "quote": "Booster Robotics SDK aims to provide a simple and easy-to-use interface for developers to control the Booster Robotics products.",
+      "accessed": "2026-09-21"
+    },
+    "note": "Public GitHub repo (booster_robotics_sdk) plus a separate ROS2 interface package (booster_robotics_sdk_ros2, 'a ROS 2 interface package that provides a series of message and service definitions for robot control', github.com/BoosterRobotics/booster_robotics_sdk_ros2, accessed 2026-09-21). GitHub reports the main SDK repo's license metadata as 'Other/NOASSERTION' rather than a named permissive license, but the source is publicly published and usable, consistent with the T1 product page's own claim of an 'Open-Source Framework'."
+  },
+  "warranty": [
+    {
+      "months": 12,
+      "region": "Global (standard)",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.booster.tech/booster-t1/",
+        "quote": "Warranty: 1 year",
+        "accessed": "2026-09-21"
+      }
+    }
+  ],
+  "order_type": {
+    "value": "quote",
+    "status": "claimed",
+    "source": {
+      "url": "https://www.booster.tech/store",
+      "quote": "Please fill in the information and Booster Robotics will contact you.",
+      "accessed": "2026-09-21"
+    },
+    "note": "Booster's own store page is an inquiry form (name/country/company/email), no price shown and no direct checkout; a lower price point is available via authorized EU resellers such as Generation Robots (see price_history), but Booster's own primary sales channel is quote-based."
+  },
   "notes": [
     "walking_speed_kmh and payload_kg are widely reported by aggregator sites (e.g. 18 km/h, 3 kg) but no literal quote from Booster's own site or a primary press source could be pinned during this build, so both fields are omitted rather than guessed.",
     "Price is sourced from a French authorized distributor (Generation Robots) rather than Booster's own storefront, since Booster's own site directs buyers to contact sales without listing a public price.",
     "Booster.tech's own product page (booster-t1) does not state degrees-of-freedom variants with grippers/dexterous hands the way older aggregator pages do (23/31/41); only the base 23 DoF figure is confirmed on the current official page.",
-    "Shipped-bar research (2026-09-20): Bipedal GmbH (Cologne, Germany) is Booster Robotics' EU distributor and has both a promotional blog post (\"Der neue BoosterT1 ist endlich da\", 2025-02-09, using manufacturer product photos, not delivery photos) and its own YouTube tutorial series (\"Booster Robotic T1 How to start\") showing a physical unit. A distributor's own stock unit is not a first customer delivery in the RoboCup-team sense the task asked about, and no RoboCup team's own channel showing a specific received T1 with invoice/serial/customs was found in this pass. Independent buyer unboxings exist on YouTube (e.g. \"Unboxing & Getting Started with Booster T1\" by Generation Robots, a French robotics reseller) but again show a reseller's demo unit, not a clearly named end-customer delivery. Not upgraded to shipped."
+    "Shipped-bar research (2026-09-20): Bipedal GmbH (Cologne, Germany) is Booster Robotics' EU distributor and has both a promotional blog post (\"Der neue BoosterT1 ist endlich da\", 2025-02-09, using manufacturer product photos, not delivery photos) and its own YouTube tutorial series (\"Booster Robotic T1 How to start\") showing a physical unit. A distributor's own stock unit is not a first customer delivery in the RoboCup-team sense the task asked about, and no RoboCup team's own channel showing a specific received T1 with invoice/serial/customs was found in this pass. Independent buyer unboxings exist on YouTube (e.g. \"Unboxing & Getting Started with Booster T1\" by Generation Robots, a French robotics reseller) but again show a reseller's demo unit, not a clearly named end-customer delivery. Not upgraded to shipped.",
+    "T1 usage for the RoboCup 2025 AdultSize win is separately confirmed by chinadaily.com.cn (\"Tsinghua dominated the competition using Chinese-developed Booster T1 robots\", accessed 2026-09-21); the 5-3 scoreline itself is the CGTN photo caption cited in the result source above.",
+    "battery_wh, battery_swappable and charge_time_min omitted (2026-09-21): booster.tech/booster-t1/ states only 'Battery: 10.5Ah' with no voltage figure, so Wh cannot be derived, and neither swappability nor charge time is stated on the primary page."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21",
+  "results": [
+    {
+      "event": "robocup-2025-humanoid-adultsize",
+      "discipline": "AdultSize soccer, final",
+      "result": "5-3",
+      "rank": 1,
+      "team": "Tsinghua Hephaestus",
+      "unit": "score",
+      "autonomy": "autonomous",
+      "source": {
+        "url": "https://news.cgtn.com/news/2025-07-23/Two-Chinese-teams-sweep-1-2-in-adult-size-at-Robo-Cup-Humanoid-League-1FeWW0KezmM/p.html",
+        "quote": "Tsinghua University's Hephaestus pose for a photo after defeating China Agricultural University's Mountain & Sea 5-3 in the final to win the adult size title at the Robo Cup Humanoid League in Brazil, July 21, 2025.",
+        "accessed": "2026-09-21"
+      }
+    }
+  ]
 }

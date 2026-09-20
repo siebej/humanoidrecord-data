@@ -51,6 +51,35 @@
         "quote": "Single-arm payload is 3 kg.",
         "accessed": "2026-09-20"
       }
+    },
+    "actuator_torque_nm": {
+      "value": 150,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.limxdynamics.com/en/products/oli/spec",
+        "quote": "Maximum Joint Torque 150N·m",
+        "accessed": "2026-09-21"
+      },
+      "note": "Spec sheet footnote: 'The maximum torque differs among motors. The value shown represents the maximum torque of the highest-torque motor.'"
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.limxdynamics.com/en/products/oli/spec",
+        "quote": "Slide-Out Battery Module",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.limxdynamics.com/en/products/oli",
+        "quote": "165cm height",
+        "accessed": "2026-09-21"
+      },
+      "note": "Oli is a two-legged walking humanoid, per the same product page as the height spec and the spec sheet's own description of humanoid walking."
     }
   },
   "price_history": [],
@@ -112,5 +141,17 @@
     "Oli ships in Lite, EDU and Super editions with different specs and pricing; the values recorded here are the ones stated without a variant qualifier on the manufacturer's product/news pages.",
     "Currently sold in Mainland China only per the manufacturer's news page, with a global version described as forthcoming."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21",
+  "warranty": [
+    {
+      "months": 12,
+      "region": "Not specified (single value on spec sheet)",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.limxdynamics.com/en/products/oli/spec",
+        "quote": "12 Months",
+        "accessed": "2026-09-21"
+      }
+    }
+  ]
 }

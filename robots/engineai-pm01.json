@@ -60,6 +60,44 @@
         "quote": "can operate for two hours on a single charge",
         "accessed": "2026-09-20"
       }
+    },
+    "actuator_torque_nm": {
+      "value": 164,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.engineai.com.cn/product-pm01.html",
+        "quote": "Max Torque [1] 164 N·m",
+        "accessed": "2026-09-21"
+      },
+      "note": "Manufacturer's own EDU-edition spec table lists 164N.m as the joint 'Max Torque'; a separate marketing line elsewhere on the same page cites 'a peak torque of 130 N·m' for the actuator module -- both figures are the manufacturer's own, the 164N.m table value is used as the more specific per-joint spec."
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.engineai.com.cn/product-pm01.html",
+        "quote": "Smart Battery Intelligent Quick Disassembly Supported",
+        "accessed": "2026-09-21"
+      }
+    },
+    "charge_time_min": {
+      "value": 120,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.engineai.com.cn/product-pm01.html",
+        "quote": "Charging Duration 2h for Full Charge",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "demonstrated",
+      "source": {
+        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+        "quote": "2 m/sec. (4.4 mph)",
+        "accessed": "2026-09-21"
+      },
+      "note": "Two-legged walking humanoid; confirmed by the front-flip video coverage (2025-02-23) and manufacturer's own leg-DOF spec (Leg DOF 6 per side)."
     }
   },
   "price_history": [
@@ -105,12 +143,24 @@
       }
     ]
   },
+  "order_type": {
+    "value": "cart",
+    "status": "claimed",
+    "source": {
+      "url": "https://en.engineai.com.cn/product-pm01.html",
+      "quote": "Purchase now",
+      "accessed": "2026-09-21"
+    },
+    "note": "EngineAI's own PM01 page links its 'Buy now'/'Purchase now' buttons directly to a JD.com (3.cn short link) marketplace storefront rather than a sales-inquiry form."
+  },
   "notes": [
+    "battery_wh omitted (2026-09-21): EngineAI's own PM01 page gives charging power/voltage (54.6V/4.5A) but not a capacity in Ah or Wh, so Wh cannot be derived from a primary source; no manufacturer-published Wh figure was found.",
+    "No sourced SDK/ROS or warranty information for PM01 could be found on en.engineai.com.cn (searched 2026-09-21); both fields left out rather than guessed.",
     "The front-flip video (2025-02-23) is manufacturer-produced marketing footage; it is recorded here under 'demonstrated' because the maneuver is a specific, visibly performed physical feat rather than a spec claim, but no independent (non-EngineAI) uncut footage was located during this build to confirm it as an unedited take.",
     "Front-flip autonomy determination (2026-09-20): EngineAI's own statement on the flip describes only the *training* method -- 'By leveraging optical motion capture to collect extensive human motion data, it integrates end-to-end neural network learning with adversarial networks to achieve rapid evolution in a simulated environment. It thrives in various complex scenarios, continually refining itself through trial and error' (New Atlas, https://newatlas.com/ai-humanoids/worlds-first-front-flip-humanoid-robot-engineai/, accessed 2026-09-20) -- i.e. the flip is executed by a learned (sim-trained) policy, which suggests it runs onboard rather than being joystick-piloted move-by-move. But no EngineAI engineer or independent party is quoted stating explicitly that no human/teleoperator was in the loop during the filmed take, so per this dataset's strict rule this cannot be marked 'autonomous' or 'scripted' from the sources found in this pass; no capability entry was added for the flip itself since no fixed capability id in data/capabilities.json matches a single acrobatic maneuver (the 'run' id requires a sustained gait, not one flip), so this determination lives here in notes rather than in a capabilities entry.",
     "EngineAI's own site (en.engineai.com.cn) only lists height, DOF and peak torque density; weight, battery runtime, walking speed and price were sourced from The Robot Report's 2024-12-27 launch coverage instead.",
     "No named-customer shipment evidence (invoice, serial number, unboxing, customs record) was found during this build; delivery.status therefore stays 'demonstrated' rather than 'shipped'.",
     "Shipped-bar research (2026-09-20): EngineAI's own claim is ~100 units delivered in five months including \"Shenzhen police patrol support\", which would be a strong named-customer claim if independently verified -- but this pass found no independent photo/video of a PM01 physically in Shenzhen police possession, nor any consumer unboxing video with a named buyer. Not upgraded to shipped."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

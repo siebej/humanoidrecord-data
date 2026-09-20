@@ -42,7 +42,27 @@
         "quote": "FPC electronic skin responds to pressure and location; full-body touch detection (face, arms, fingers, torso, neck, legs)",
         "accessed": "2026-09-20"
       }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://r.jina.ai/https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
+        "quote": "Eva.i V1.0 does not have the walking function. Full autonomous standing is under development; the 1.0 version can only stand leaning against a wall, primarily designed for sitting and lying positions.",
+        "accessed": "2026-09-21"
+      },
+      "note": "Recorded as 'bipedal' by body form (two movable legs with knee/ankle joints, per the same FAQ: 'head, arms, waist and legs are all flexible and movable'), not by demonstrated walking -- Robonova's own FAQ states V1.0 cannot walk and can only stand leaning against a wall, with autonomous walking planned for a future V2. This is the weakest-evidence locomotion entry in this batch: a bipedal-shaped robot without a working bipedal gait yet."
     }
+  },
+  "order_type": {
+    "value": "preorder",
+    "status": "claimed",
+    "source": {
+      "url": "https://www.kicktraq.com/projects/878170019/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/",
+      "quote": "Amount Raised: HK$1,238,905 (158% of goal)",
+      "accessed": "2026-09-20"
+    },
+    "note": "Eva.i is sold through a Kickstarter crowdfunding campaign (closed 158% funded, 126 backers); backers hold reward pledges for future delivery, not completed sales -- a preorder, not a live storefront cart."
   },
   "price_history": [],
   "delivery": {
@@ -114,5 +134,5 @@
     "robonova.world is a JavaScript-rendered storefront that could not be scraped directly; all quotes were retrieved via the Kickstarter campaign page (through a text-extraction proxy after Kickstarter's own page blocked direct fetches), its FAQ, and third-party campaign trackers (PledgeBox, KickTraq) that mirror the campaign's own copy and funding figures.",
     "Manufacturer states mass production/shipping targeted for August 2026 (per Kickstarter FAQ) — not yet reached at time of writing, so no delivery timeline event was added for it per this site's rule against inventing unreached events."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

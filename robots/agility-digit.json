@@ -51,6 +51,25 @@
         "quote": "90-minute runtime battery system charges in just 9 minutes",
         "accessed": "2026-09-20"
       }
+    },
+    "charge_time_min": {
+      "value": 9,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+        "quote": "90-minute runtime battery system charges in just 9 minutes",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+        "quote": "stands 5' 11\" (1.81 m)",
+        "accessed": "2026-09-21"
+      },
+      "note": "Same announcement source as height; Digit is Agility's long-running bipedal (two-legged, backward-bending knee) humanoid platform, unchanged in leg architecture across generations."
     }
   },
   "price_history": [],
@@ -74,7 +93,8 @@
   "notes": [
     "This record covers only the newly announced Digit 5 generation (Sept 2026). Its specs (height/weight/payload/battery) are manufacturer claims for early access targeted H1 2027; no shipped or demonstrated evidence exists yet for this generation.",
     "The prior generation's named, operating deployments (Ford 2020, GXO 2023-2024) are a different hardware generation and are tracked separately as agility-digit-gen4, so shipped status is never implied for a generation that has not shipped.",
-    "Digit is sold as Robots-as-a-Service, not a one-time purchase, so price_history is intentionally empty — no credible per-unit or subscription price was located from a manufacturer source during this build."
+    "Digit is sold as Robots-as-a-Service, not a one-time purchase, so price_history is intentionally empty \u2014 no credible per-unit or subscription price was located from a manufacturer source during this build.",
+    "actuator_torque_nm, battery_wh, battery_swappable, sdk, warranty, and order_type were left out (2026-09-21): the Digit 5 announcement discloses only the 90-min/9-min runtime-and-charge figures and 'proprietary cycloidal actuator technology' without an Nm value, and directs buyers to a sales/quote page ('Deploy Digit') without a literal, quotable ordering-model or warranty statement."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

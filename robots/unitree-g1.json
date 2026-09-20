@@ -79,6 +79,25 @@
         "accessed": "2026-09-20"
       },
       "note": "This is a third-party e-skin build (Shanghai-based JQ Industries' fabric-based piezoresistive tactile sensor, woven with conductive fibers that detect pressure, contact and force distribution), demonstrated on a Unitree G1 chassis as a showcase platform -- not a Unitree-manufactured or Unitree-sold component. A short video of the demo is publicly referenced ('This Robot's Skin Can Actually Feel Touch', YouTube Shorts, https://www.youtube.com/shorts/k9tj5kb3rHI) but could not be directly viewed during this build (YouTube consent redirect blocked automated fetch); 'demonstrated' status rests on the press description of an actual JQ Industries demo rather than direct video verification, and should be revisited if the video can be reviewed frame-by-frame."
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "Smart Battery (Quick Release) 9000mAh",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "shipped",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "1320x450x200mm",
+        "accessed": "2026-09-21"
+      },
+      "note": "G1 is a two-legged walking humanoid; cited against the same product page as the height/weight specs since Unitree does not publish a single sentence stating 'bipedal', but every demonstrated and shipped use (see capabilities, results, delivery timeline) shows two-legged locomotion."
     }
   },
   "price_history": [
@@ -161,10 +180,70 @@
       "note": "Independent research paper (not Unitree marketing) describes and benchmarks the stock get-up behavior shipped on the robot; it is a fixed, hard-coded trajectory, not a learned or teleoperated one, hence 'scripted' rather than 'autonomous'."
     }
   ],
+  "sdk": {
+    "open_source": true,
+    "ros": "ros2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "status": "shipped",
+    "source": {
+      "url": "https://github.com/unitreerobotics/unitree_sdk2",
+      "quote": "Unitree robot sdk version 2. https://support.unitree.com/home/zh/developer",
+      "accessed": "2026-09-21"
+    },
+    "note": "unitree_sdk2 (BSD-3-Clause license per the repo's own license metadata) is Unitree's own published SDK, used by developers to control shipped units. ROS2 support is via the separate unitree_ros2 repository, which ships a G1-specific low-level control example ('g1/lowlevel/g1_low_level_example: Low level control for G1', github.com/unitreerobotics/unitree_ros2, accessed 2026-09-21) built on CycloneDDS, the same transport ROS2 uses -- this is demonstrated, shipped-grade tooling, not a claim."
+  },
+  "warranty": [
+    {
+      "months": 8,
+      "region": "Global (standard configuration)",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "8 months",
+        "accessed": "2026-09-21"
+      }
+    },
+    {
+      "months": 18,
+      "region": "Global (EDU configuration)",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "18 months",
+        "accessed": "2026-09-21"
+      }
+    }
+  ],
+  "order_type": {
+    "value": "cart",
+    "status": "shipped",
+    "source": {
+      "url": "https://shop.unitree.com/products/unitree-g1",
+      "quote": "Add to Cart",
+      "accessed": "2026-09-21"
+    }
+  },
   "notes": [
     "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
     "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",
-    "Shipped bar applied (2026-09-20): Durham University's own website (durham.ac.uk, published 1 April 2026) names the Department of Computer Science as the owner of a Unitree G1 Edu robot it calls 'Alan', with a photo of the unit ('Alan-robot-WEB.png') hosted on Durham's own site. This is a named customer with photographic evidence published on the customer's own channel, which satisfies this site's shipped rule without needing an invoice, serial number, unboxing, or customs record as an additional requirement. Upgraded from demonstrated to shipped; the earlier note here (requiring a serial number/invoice/customs record on top of a named buyer with a photo) applied too strict a reading and is removed."
+    "Shipped bar applied (2026-09-20): Durham University's own website (durham.ac.uk, published 1 April 2026) names the Department of Computer Science as the owner of a Unitree G1 Edu robot it calls 'Alan', with a photo of the unit ('Alan-robot-WEB.png') hosted on Durham's own site. This is a named customer with photographic evidence published on the customer's own channel, which satisfies this site's shipped rule without needing an invoice, serial number, unboxing, or customs record as an additional requirement. Upgraded from demonstrated to shipped; the earlier note here (requiring a serial number/invoice/customs record on top of a named buyer with a photo) applied too strict a reading and is removed.",
+    "The 100m obstacle race result is attributed to G1 per Unitree's own social post naming the G1 for this event; the Shanghai Gaoyi Technology government press release (source above) confirms the time and team but does not itself name the robot model, since it covers both the G1 obstacle result and the H1 400m result from the same subsidiary team in one paragraph."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21",
+  "results": [
+    {
+      "event": "world-humanoid-robot-games-2025",
+      "discipline": "100 m obstacle race",
+      "result": "33.71",
+      "rank": 1,
+      "team": "Shanghai Gaoyi Technology (Unitree)",
+      "unit": "time",
+      "autonomy": "teleoperated",
+      "source": {
+        "url": "https://www.shbsq.gov.cn/shbs/en/newscenter/20250826/416201.html",
+        "quote": "The company clinched first place in the 400-meter final with a time of 1 minute 28.03 seconds and the 100-meter obstacle race in 33.71 seconds.",
+        "accessed": "2026-09-21"
+      }
+    }
+  ]
 }

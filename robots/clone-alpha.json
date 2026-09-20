@@ -15,7 +15,27 @@
       "accessed": "2026-09-20"
     }
   },
-  "specs": {},
+  "specs": {
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://clonerobotics.com/",
+        "quote": "Clone is a bipedal android companion. Made for individuals and businesses alike.",
+        "accessed": "2026-09-21"
+      }
+    }
+  },
+  "order_type": {
+    "value": "preorder",
+    "status": "claimed",
+    "source": {
+      "url": "https://clonerobotics.com/pre-order/",
+      "quote": "Clone is manufacturing only 279 units of the limited edition Clone Alpha.",
+      "accessed": "2026-09-21"
+    },
+    "note": "The /pre-order/ page hosts a free reservation form ('Reserve') for the 279-unit limited edition, with no price or checkout shown as of this build -- a preorder/reservation, not a live cart sale."
+  },
   "price_history": [],
   "capabilities": [
     {
@@ -64,5 +84,5 @@
     "No independent or uncut demonstration video of Alpha walking or performing tasks live could be confirmed during this build; walking is reported by trade press as a 2027 target, and the 2025 preorder window is reported to have passed without shipments. Delivery status is therefore recorded as 'claimed' (announced + preorder claim), not 'demonstrated' or 'shipped'.",
     "Clone Robotics' operational presence is reported in Wrocław, Poland (R&D/manufacturing) while corporate/investor materials list a US entity; manufacturer.country is set to US pending a single authoritative filing, and this should be revisited if a primary source pins one jurisdiction."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

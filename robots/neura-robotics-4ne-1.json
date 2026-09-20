@@ -51,7 +51,27 @@
         "quote": "10-100",
         "accessed": "2026-09-20"
       }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "demonstrated",
+      "source": {
+        "url": "https://newatlas.com/robotics/neura-4ne1-humanoid-robot/",
+        "quote": "performing a raft of mediocre or tiresome domestic chores – from doing the ironing to food prep",
+        "accessed": "2026-09-21"
+      },
+      "note": "4NE-1 is shown standing and walking on two legs in NEURA's own demo reel and product photography (same page cited for height/weight/walking speed); no manufacturer sentence states 'bipedal' verbatim, but every demonstrated use shows two-legged locomotion, consistent with the walking_speed_kmh spec above."
     }
+  },
+  "order_type": {
+    "value": "preorder",
+    "status": "claimed",
+    "source": {
+      "url": "https://neura-robotics.com/product/4ne1-reservation/",
+      "quote": "A reservation fee secures your place in the delivery queue.",
+      "accessed": "2026-09-21"
+    },
+    "note": "A refundable €100 reservation fee (credited toward the final purchase price) secures a queue position ahead of expected end-of-2026 delivery -- a preorder, not a waitlist signup with no payment and not a live cart checkout."
   },
   "price_history": [
     {
@@ -114,5 +134,5 @@
     "Battery runtime is widely reported as 6-8 hours across secondary/aggregator sites, but the primary product page and reservation page fetched during this build did not state a runtime figure, so battery_runtime_min is omitted.",
     "The manufacturer's official datasheet PDF (linked from the CES 2026 page) was not accessible as text during this build and should be added as a follow-up source for dof/battery."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

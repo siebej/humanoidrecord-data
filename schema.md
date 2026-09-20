@@ -29,11 +29,62 @@ must follow this shape:
 
 Recognized keys: `height_cm`, `weight_kg`, `dof`, `battery_runtime_min`,
 `walking_speed_kmh`, `payload_kg`, `hands`, `hand_dof`, `fingers_per_hand`,
-`tactile_skin`, `depth_cameras`, `compute`. Add more only if a robot has a
-genuinely distinct, sourced attribute — do not pad with unsourced fields.
-`tactile_skin` is a boolean `value`; `compute` is free text (e.g. "NVIDIA
-Jetson Thor"); the rest are numbers. All still follow the
-`{ value, status, source }` shape above.
+`tactile_skin`, `depth_cameras`, `compute`, `actuator_torque_nm`,
+`battery_wh`, `battery_swappable`, `charge_time_min`, `locomotion`. Add
+more only if a robot has a genuinely distinct, sourced attribute — do not
+pad with unsourced fields. `tactile_skin` and `battery_swappable` are
+boolean `value`s; `compute` is free text (e.g. "NVIDIA Jetson Thor");
+`locomotion` is an enum `value`, one of `bipedal | wheeled | hybrid`; the
+rest (`actuator_torque_nm` — peak/max torque in Nm, `battery_wh`,
+`charge_time_min`) are numbers. All still follow the `{ value, status,
+source }` shape above.
+
+## Power, software, and buying (top-level, all optional)
+
+These sit alongside `specs` at the top level, not inside it, because each
+has its own shape.
+
+`sdk` is a single object (not an array): `{ open_source: boolean, ros:
+"none"|"ros1"|"ros2", url, status, source }`. `url` points at the SDK
+itself (a repo, a docs page) — `source` is the evidence for the claim
+(open-source status, ROS support), which is often the same page but kept
+separate so a docs URL and an evidence quote don't have to collide.
+
+`warranty` is an array, because coverage differs by region and reseller:
+`[{ months, region, source, status }]`. Record one entry per region/seller
+combination that has its own source; do not average or guess a global
+number.
+
+`order_type` is a single object, same shape as a spec entry: `{ value,
+source, status }`, where `value` is one of `cart | quote | waitlist |
+preorder | none` — `cart` means direct checkout with a price shown,
+`quote` means a sales conversation is required before a price is given,
+`waitlist` and `preorder` are self-explanatory, `none` means the robot is
+not offered for sale at all (research-only, internal use).
+
+`export_restrictions` is an array, `[{ jurisdiction, detail, source,
+status }]`. Only record an entry when the source is a hard, named
+decision (an export-control ruling, a government notice, a manufacturer
+statement about which countries it will not ship to) — not a rumor, not
+an analyst's guess about where sanctions might apply.
+
+`delivery.timeline[].sector` is an optional enum on each timeline event,
+one of `automotive | logistics | manufacturing | research | consumer |
+healthcare | other` — the industry of the customer or deployment named in
+that event, when known.
+
+**Why lease prices, business financials, and scores are not tracked:**
+this site records claimed/demonstrated/shipped facts with a primary
+source behind each one. Lease pricing and financing terms are
+negotiated per-deal and rarely published with a source that applies
+generally; recording one publicly quoted lease rate would misrepresent it
+as the going rate. Manufacturer revenue, funding, and valuation are
+business facts about a company, not the robot, and belong in financial
+press rather than a robot spec sheet. A composite "score" would require
+weighting unlike properties (height against battery life against SDK
+maturity) by some formula this site would have to invent and defend —
+that is an opinion, not a sourced fact, and it's exactly the kind of
+review-site judgment this project exists to avoid.
 
 ## Capabilities
 
@@ -135,6 +186,74 @@ source where possible (e.g. "at least 500" from one filing, "fewer than
 2,000" inferred from another). If no credible number exists at all, omit
 the timeline event entirely rather than guessing.
 
+## Events and results under fixed rules
+
+One JSON file per competition event in `data/events/<slug>.json`. `<slug>`
+must match the `slug` field exactly.
+
+```json
+{
+  "slug": "world-humanoid-robot-games-2025",
+  "name": "World Humanoid Robot Games 2025",
+  "organizer": "World Humanoid Robot Sports Federation",
+  "date": "2025-08-15",
+  "location": "Beijing, China (National Speed Skating Oval)",
+  "rules_url": "https://www.whrgoc.com/",
+  "autonomy_rule": {
+    "value": "mixed",
+    "source": { "url": "...", "quote": "...", "accessed": "2026-09-21" }
+  },
+  "source": { "url": "...", "quote": "...", "accessed": "2026-09-21" }
+}
+```
+
+`autonomy_rule.value` is one of `autonomous | teleoperated | mixed |
+unknown` and describes how the event as a whole is run (e.g. "mixed" when
+autonomous entries get a scoring bonus but most competitors are remote
+controlled) -- it is not a claim about any single robot. `source` backs
+the event's own facts (date, location, organizer).
+
+A robot record may carry an optional `results` array, one entry per
+recorded outcome at a tracked event:
+
+```json
+"results": [
+  {
+    "event": "world-humanoid-robot-games-2025",
+    "discipline": "1500 m",
+    "result": "6:34",
+    "rank": 1,
+    "team": "Unitree",
+    "unit": "time",
+    "autonomy": "teleoperated",
+    "source": { "url": "...", "quote": "...", "accessed": "2026-09-21" }
+  }
+]
+```
+
+`event` must match a slug in `data/events/`. `rank` is an integer (1 =
+first place) or `null` when no ranking applies (e.g. a solo timed attempt).
+`autonomy` defaults to the event's own `autonomy_rule.value`; it may be
+recorded differently for one result only when the source specifically says
+so for that run (e.g. one entrant ran autonomously in an event otherwise
+dominated by teleoperation) -- that source is the same `result.source`
+already required on every entry.
+
+**Why a fixed-rules result is the strongest demonstrated-layer evidence,
+and still not `shipped`:** a manufacturer's own demo video can be cut,
+staged, retried until it works, or narrated to imply more than happened. A
+result at a competition with a published ruleset and an independent jury
+cannot: the discipline, the clock, and the judging are fixed before the
+robot shows up, and every entrant is measured the same way. That is why
+this is the strongest evidence this site records short of a customer using
+the robot in production. It is still not `shipped`: winning a race or a
+match is not a named customer running the robot in their own operation,
+and no continuous, independent, cross-manufacturer benchmark exists (NIST's
+Humanoid Robot Baseline Performance Benchmark, still under development,
+will publish only results aggregated across manufacturers, not per-robot,
+per-run data) -- competition results are therefore reported alongside, not
+folded into, the `claimed / demonstrated / shipped` ladder.
+
 ## Validation
 
 `tools/validate.js` enforces: required fields present, `status` is exactly
@@ -142,4 +261,19 @@ one of the three values, every value-bearing object has a non-empty
 `source.url`, `source.quote` (≤300 chars) and `source.accessed`
 (`YYYY-MM-DD`), and `slug` matches the filename. For `capabilities`: `id`
 must be in `data/capabilities.json`, `autonomy` must be one of the four
-values, and `source.timestamp` (if present) must be `mm:ss`.
+values, and `source.timestamp` (if present) must be `mm:ss`. For `results`:
+`event` must match a slug under `data/events/`, `rank` must be an integer
+or `null`, and `autonomy` must be one of `autonomous | teleoperated |
+mixed | unknown`. Event records under `data/events/` are validated the
+same way (required fields, dated fields, sourced `autonomy_rule`).
+
+For the power/software/buying fields: `specs.locomotion.value` must be one
+of `bipedal | wheeled | hybrid`; `sdk.ros` must be one of `none | ros1 |
+ros2` and `sdk.open_source`/`sdk.url`/`sdk.status`/`sdk.source` are all
+required when `sdk` is present; each `warranty[]` entry requires
+`months`, `region`, `status`, and `source`; `order_type.value` must be one
+of `cart | quote | waitlist | preorder | none`; each
+`export_restrictions[]` entry requires `jurisdiction`, `detail`, `status`,
+and `source`; `delivery.timeline[].sector`, when present, must be one of
+`automotive | logistics | manufacturing | research | consumer |
+healthcare | other`.

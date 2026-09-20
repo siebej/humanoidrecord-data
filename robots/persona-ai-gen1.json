@@ -15,7 +15,28 @@
       "accessed": "2026-09-20"
     }
   },
-  "specs": {},
+  "specs": {
+    "locomotion": {
+      "value": "bipedal",
+      "status": "demonstrated",
+      "source": {
+        "url": "https://www.robotaigeek.com/news/persona-ai-deploys-humanoid-welding-robot-in-houston-shipyards",
+        "quote": "The 175cm, 85kg robot is designed to fit the same physical envelope as human welders in confined shipyard spaces.",
+        "accessed": "2026-09-21"
+      },
+      "note": "Same source already used for the first-demo timeline event; the on-site Houston welding demo shows the robot standing, squatting and standing back up on two legs, sized to a human welder's envelope."
+    }
+  },
+  "order_type": {
+    "value": "quote",
+    "status": "claimed",
+    "source": {
+      "url": "https://info.persona.ai/lease-a-humanoid",
+      "quote": "Learn how the Persona Humanoid Leasing Program includes the AI platform, autonomous API updates, custom tooling modules, and comprehensive fleet management training.",
+      "accessed": "2026-09-21"
+    },
+    "note": "Gen 1 is not offered with a published price or checkout; acquisition is via a robotics-as-a-service leasing program reached through a 'Contact Us' form, not a self-service cart."
+  },
   "price_history": [],
   "capabilities": [
     {
@@ -50,6 +71,7 @@
         "detail": "Persona AI (Houston) announced a $27M oversubscribed pre-seed round and said it had already signed an agreement with HD Hyundai to deploy humanoids into shipyards, with initial delivery expected within 18 months.",
         "quantity_min": null,
         "quantity_max": null,
+        "sector": "manufacturing",
         "source": {
           "url": "https://www.therobotreport.com/persona-ai-raises-27m-develops-purpose-built-humanoid-robots-shipyards/",
           "quote": "Persona AI said it has already signed an agreement with HD Hyundai, a global leader in shipbuilding, to deploy humanoids into shipyards, with initial delivery expected within 18 months.",
@@ -62,6 +84,7 @@
         "detail": "Persona AI deployed a humanoid welding robot at its own Houston facility, sized to fit human welders' physical envelope in confined shipyard spaces; described as prototype/pre-commercial, with commercial testing targeted for 2027.",
         "quantity_min": null,
         "quantity_max": null,
+        "sector": "manufacturing",
         "source": {
           "url": "https://www.robotaigeek.com/news/persona-ai-deploys-humanoid-welding-robot-in-houston-shipyards",
           "quote": "The 175cm, 85kg robot is designed to fit the same physical envelope as human welders in confined shipyard spaces.",
@@ -76,5 +99,5 @@
     "No named-customer unit with an invoice, serial number, or independent unboxing was found; the HD Hyundai relationship is a signed deployment agreement/MOU with initial delivery 'expected' within 18 months of May 2025, not a completed shipment. delivery.status is set to 'demonstrated' on the strength of the on-site Houston welding-robot deployment (RobotAIGeek, Jul 2026), not 'shipped'.",
     "No public price has been found for Gen 1; Persona AI operates a robotics-as-a-service model without published unit pricing, so price_history is left empty."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

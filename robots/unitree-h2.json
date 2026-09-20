@@ -51,6 +51,25 @@
         "quote": "the H1 was celebrated for its record-breaking speed of 3.3 m/s, the H2 is rated for under 2 m/s",
         "accessed": "2026-09-20"
       }
+    },
+    "actuator_torque_nm": {
+      "value": 360,
+      "status": "claimed",
+      "source": {
+        "url": "https://shop.unitree.com/products/unitree-h2",
+        "quote": "31 degrees of freedom, 360N.m joint torque, and precise dynamic movement replication.",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://shop.unitree.com/products/unitree-h2",
+        "quote": "The 180 cm humanoid design redefines industrial aesthetics with its streamlined elegance.",
+        "accessed": "2026-09-21"
+      },
+      "note": "H2 is Unitree's two-legged successor to H1; product page and launch coverage (dance/kung-fu demo video) show two-legged walking, not wheels."
     }
   },
   "price_history": [
@@ -96,6 +115,28 @@
       }
     ]
   },
+  "sdk": {
+    "open_source": true,
+    "ros": "ros2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "status": "shipped",
+    "source": {
+      "url": "https://github.com/unitreerobotics/unitree_sdk2",
+      "quote": "Unitree robot sdk version 2. https://support.unitree.com/home/zh/developer",
+      "accessed": "2026-09-21"
+    },
+    "note": "unitree_sdk2 ships a dedicated h2/ example folder (github.com/unitreerobotics/unitree_sdk2/tree/main/example, accessed 2026-09-21) alongside g1, h1, r1, confirming H2 support in the same generic Unitree SDK; unitree_ros2 layers ROS2 on top via CycloneDDS."
+  },
+  "order_type": {
+    "value": "cart",
+    "status": "claimed",
+    "source": {
+      "url": "https://shop.unitree.com/products/unitree-h2",
+      "quote": "Unitree H2 $29,900.00 USD",
+      "accessed": "2026-09-21"
+    },
+    "note": "Standard H2 is listed with a direct price on Unitree's own storefront; only the EDU customization variant requires contacting sales ('Please contact our sales team ... to purchase the EDU edition'). The standard listing was marked unavailable at time of access (stock/queue status), which does not change the storefront's cart-based order mechanism."
+  },
   "notes": [
     "The walking speed field notes the H2 is a deliberate step down from the H1's top speed in exchange for dexterity: 'the H1 was celebrated for its record-breaking speed of 3.3 m/s, the H2 is rated for under 2 m/s' (Humanoids Daily, 2025-10-20). We recorded the H1's superseded top speed as the H2 value here is only bounded ('under 2 m/s'); treat 7.2 km/h (2 m/s) as an upper bound, not a measured figure.",
     "The task brief asked to pick H1 or H2 and name the other: H2 (announced 2025-10-20) is Unitree's direct successor to the H1 (announced 2019), replacing its 'R-A-F' hip layout with 'F-A-R' and adding a 3-DOF waist and up to three Jetson Orin NX modules. H1 itself remains for sale separately and is not covered by this file.",
@@ -103,5 +144,5 @@
     "No named-customer delivery evidence was found; delivery.status stays 'claimed' (store listing only, no unboxing/serial/customs record located).",
     "Capabilities research (2026-09-20): Unitree's own 'daily training video' releases show the H2 doing flying kicks, backflips, sandbag strikes and a boxing spar with a G1 (Interesting Engineering, 2025-12/2026-01 coverage), but none of these map cleanly onto this dataset's fixed capability ids (no 'acrobatics'/'combat' id exists, and a single flip or kick is not the sustained aerial-phase gait the 'run' id requires). None of the coverage states who or what controlled the robot during these clips -- Interesting Engineering instead describes teleoperation as a general 'transitional technology' for Unitree's humanoids without confirming it for this footage -- so per the schema's silence rule any such entry would have to be 'unknown' autonomy anyway. No hand DOF, tactile-skin, depth-camera or onboard-compute figure could be traced to a primary Unitree page (shop.unitree.com/products/unitree-h2 does not list them; unitree.com/h2 404s); secondary aggregator figures (e.g. Sharpa Wave 22-DOF hands cited by RoboZaps/Humanoid.guide) were not added for the same reason battery/payload were omitted above. capabilities left empty for this build."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

@@ -60,7 +60,36 @@
         "quote": "Can carry up to 25kg",
         "accessed": "2026-09-20"
       }
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://interestingengineering.com/innovation/israel-humanoid-robot-with-360-vision",
+        "quote": "With its hot-swappable battery system, the robot can operate continuously for more than three hours without any disruptions.",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "demonstrated",
+      "source": {
+        "url": "https://www.humanoidsdaily.com/news/mentee-robotics-demonstrates-warehouse-autonomy-with-dual-robot-uncut-demo",
+        "quote": "In the 18-minute continuous shot, two V3 MenteeBots transfer a total of 32 boxes from eight different piles into four flow racks.",
+        "accessed": "2026-09-21"
+      },
+      "note": "Mentee's own /bot/ page (used for height/weight/speed) does not state 'bipedal' verbatim, but the uncut 18-minute warehouse demo (same source already used for the box-handling capability and first-demo timeline event) shows both V3 units walking on two legs while carrying and placing boxes."
     }
+  },
+  "order_type": {
+    "value": "none",
+    "status": "claimed",
+    "source": {
+      "url": "https://www.mobileye.com/news/mobileye-to-acquire-mentee-robotics-to-accelerate-physical-ai-leadership/",
+      "quote": "Mentee has signed an agreement to be acquired by Mobileye, with the transaction expected to close in the first quarter",
+      "accessed": "2026-09-21"
+    },
+    "note": "MenteeBot is not offered for sale; no price, cart, waitlist, or preorder mechanism was found on menteebot.com. Mentee Robotics is being acquired by Mobileye (deal announced Jan 2026) and describes 2026 as a proof-of-concept stage with select enterprise customers ahead of planned 2027 production, not a public buying process."
   },
   "price_history": [],
   "delivery": {
@@ -110,5 +139,5 @@
     "No official price has been published by Mentee Robotics; a $35,000 figure circulates on aggregator/marketplace sites but was not traced back to a manufacturer statement, so price_history is left empty.",
     "In 2026 press reported Mobileye (whose CEO Amnon Shashua also founded Mentee Robotics) in talks to acquire Mentee Robotics; this is a corporate/ownership development, not a delivery or spec fact, and was not verified further for this record."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

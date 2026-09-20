@@ -42,6 +42,34 @@
         "quote": "features 26 degrees of freedom across its legs, waist, arms, and head",
         "accessed": "2026-09-20"
       }
+    },
+    "battery_wh": {
+      "value": 199,
+      "status": "claimed",
+      "source": {
+        "url": "https://shop.unitree.com/products/r1-battery",
+        "quote": "6000mAh, 199Wh",
+        "accessed": "2026-09-21"
+      }
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/R1/",
+        "quote": "Smart Battery (Quick Release)",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "shipped",
+      "source": {
+        "url": "https://www.yankodesign.com/2025/07/28/unitrees-5900-r1-humanoid-robot-can-run-do-cartwheels-and-perform-handstands/",
+        "quote": "Unitree R1 humanoid robot is capable of walking, running, cartwheeling, doing kung-fu, falling on its own will, and getting up like nothing ever happened.",
+        "accessed": "2026-09-21"
+      },
+      "note": "Two-legged humanoid; walking/running/cartwheeling behavior and the 'run'/'fall-recovery' capability entries above are two-legged gait, not wheeled."
     }
   },
   "price_history": [
@@ -123,11 +151,32 @@
       "note": "Same launch-video coverage as the 'run' entry above; autonomy is likewise inferred from The Robot Report's general 'remote-controlled' statement about the R1 platform rather than a clip-specific control statement."
     }
   ],
+  "sdk": {
+    "open_source": true,
+    "ros": "ros2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "status": "shipped",
+    "source": {
+      "url": "https://github.com/unitreerobotics/unitree_sdk2",
+      "quote": "Unitree robot sdk version 2. https://support.unitree.com/home/zh/developer",
+      "accessed": "2026-09-21"
+    },
+    "note": "unitree_sdk2 ships a dedicated r1/ example folder (github.com/unitreerobotics/unitree_sdk2/tree/main/example, accessed 2026-09-21) alongside g1, h1, h2, confirming R1 support in the same generic Unitree SDK; unitree_ros2 layers ROS2 on top via CycloneDDS."
+  },
+  "order_type": {
+    "value": "cart",
+    "status": "shipped",
+    "source": {
+      "url": "https://shop.unitree.com/products/unitree-r1",
+      "quote": "Add to Cart",
+      "accessed": "2026-09-21"
+    }
+  },
   "notes": [
     "Height/price conflict: The Robot Report's July 2025 launch coverage gives 1.2 m (3.9 ft) and a $5,900 standard price, while Unitree's own current store page (accessed 2026-09-20) states '123 cm' and lists the base unit at $4,900. Both are recorded here; the discrepancy is not resolved.",
     "The Robot Report notes the R1 'is remote-controlled rather than autonomous. Autonomy is achievable but requires secondary development' — relevant context for any 'demonstrated' autonomy claims made elsewhere about this robot.",
     "Battery runtime, walking speed and payload were not found on a primary source during this build and are omitted rather than guessed; secondary aggregators (RoboZaps, Humanoid.guide) cite ~1 hour runtime but this was not independently confirmed against a manufacturer or press primary source.",
     "No named-customer delivery evidence was found; delivery.status stays 'claimed'."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

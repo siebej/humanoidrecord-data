@@ -51,6 +51,43 @@
         "quote": "2 h Support battery swapping",
         "accessed": "2026-09-20"
       }
+    },
+    "actuator_torque_nm": {
+      "value": 512,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "delivering peak torque of 512Nm and stable operation for thousands of hours",
+        "accessed": "2026-09-21"
+      }
+    },
+    "battery_wh": {
+      "value": 700,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "Battery 700 wh",
+        "accessed": "2026-09-21"
+      }
+    },
+    "battery_swappable": {
+      "value": true,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "Runtime 2 h Support battery swapping",
+        "accessed": "2026-09-21"
+      }
+    },
+    "locomotion": {
+      "value": "bipedal",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "Turning Radius 60 cm",
+        "accessed": "2026-09-21"
+      },
+      "note": "Full-size two-legged humanoid per the product page's own 'Humanoid Configuration and Ergonomic Design' framing and leg/turning-radius spec; AgiBot separately sells a wheeled 'A2-W' variant, distinct from this bipedal A2."
     }
   },
   "price_history": [],
@@ -83,12 +120,34 @@
       }
     ]
   },
+  "sdk": {
+    "open_source": true,
+    "ros": "ros2",
+    "url": "https://github.com/AimRT/AimRT",
+    "status": "shipped",
+    "source": {
+      "url": "https://github.com/AimRT/AimRT",
+      "quote": "AimRT also provides a comprehensive plug-in development interface, which is highly scalable and compatible with ROS2, HTTP, Grpc and other traditional robot ecosystems",
+      "accessed": "2026-09-21"
+    },
+    "note": "AGIBOT A2's own product page links its 'Open Source' section directly to AimRT (aimrt.org, GitHub org github.com/AimRT/AimRT), the runtime framework AgiBot publishes for its robots; GitHub reports the license metadata as 'Other/NOASSERTION' rather than a named permissive license, but the source is publicly published. This is the general AgiBot runtime, not an A2-exclusive SDK repo."
+  },
+  "order_type": {
+    "value": "quote",
+    "status": "claimed",
+    "source": {
+      "url": "https://www.agibot.com/products/A2",
+      "quote": "for business inquiries. Contact us",
+      "accessed": "2026-09-21"
+    }
+  },
   "notes": [
+    "No sourced warranty terms or charge-time-in-minutes figure for A2 could be found on agibot.com/products/A2 (accessed 2026-09-21); both fields left out rather than guessed.",
     "AgiBot (the brand) is run by Shanghai Zhiyuan New Innovation Technology Co., Ltd. ('Zhiyuan Robotics'); the two names refer to the same company in coverage.",
     "Walking speed (3.3 m/s) and payload (15 kg) are widely repeated by secondary outlets (e.g. RoboZaps, Aparobot) citing the August 2024 launch event, but were not found on a page directly attributable to the manufacturer during this build, so they are omitted here rather than sourced to a non-manufacturer repeat of the claim.",
     "No manufacturer or press source with a named customer and delivery evidence (invoice, serial number, unboxing, customs record) was found during this build; AgiBot separately claims a '5,000th mass-produced humanoid robot' milestone across its whole product line (PR Newswire, 2026), but that figure is not broken out by model, so delivery status here stays 'claimed' rather than 'shipped'.",
     "AgiBot's own product page (agibot.com/products/A2) does not list a price; no primary price source was found during this build, so price_history is left empty rather than using third-party reseller prices (e.g. Top3DShop, RoboZaps).",
     "Capabilities research (2026-09-20): AgiBot's own product page (agibot.com/products/A2, accessed 2026-09-20) lists a 'Dexterous Hand', 'Force/Torque Sensors' and 'L4-level autonomous mobility' among the A2's features, and separately advertises 'ActionGPT' for 'natural movement generation ... for task execution'. These are manufacturer capability claims, but the page gives no hand DOF number, no video/demo link, and no description of a specific demonstrated task (e.g. a bimanual grasp or a stair climb) that would satisfy this schema's 'demonstrated' bar or match a fixed capability id with confidence. Reseller/aggregator pages (Top3DShop, Americansatellite) repeat a 19-DOF dexterous hand figure and stair/curb navigation claims, but do not trace these to a primary AgiBot source. No capabilities entry was added for this build rather than recording an under-sourced claim; this should be revisited if a primary AgiBot demo video or spec page with DOF figures surfaces."
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }
