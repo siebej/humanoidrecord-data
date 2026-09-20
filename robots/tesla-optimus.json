@@ -1,0 +1,91 @@
+{
+  "slug": "tesla-optimus",
+  "name": "Optimus",
+  "manufacturer": { "name": "Tesla, Inc.", "country": "US", "url": "https://www.tesla.com/AI" },
+  "category": "full-size",
+  "announced": {
+    "date": "2021-08-19",
+    "source": {
+      "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+      "quote": "August 19, 2021, at Tesla's AI Day event",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 173,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "quote": "Height: 5 ft 8 in (173 cm)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 57,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "quote": "Weight: 125 lb (57 kg)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 20,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "quote": "Carrying capacity: 45 lb (20 kg)",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2026-04-22",
+      "amount": 30000,
+      "currency": "USD",
+      "variant": "estimate, not yet for sale",
+      "status": "claimed",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "quote": "April 22, 2026 (Q1 Earnings Call): Musk estimated the robot would be \"available for purchase at around US$30,000.\"",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2021-08-19",
+        "event": "announced",
+        "detail": "Tesla reveals plans for a humanoid robot (initially \"Tesla Bot\") at AI Day; presented by a person in a costume, not a functioning unit.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "quote": "August 19, 2021, at Tesla's AI Day event",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-04-22",
+        "event": "volume-estimate",
+        "detail": "No customer deliveries confirmed; Tesla states production lines are being installed at Fremont with full-scale manufacturing targeted for 2027.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "quote": "April 2026: Production lines being installed in Fremont; full-scale manufacturing targeted for 2027",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "No unit has been sold or delivered to an external customer as of 2026-09-20; Tesla's own working demos (walking, sorting, dancing) qualify as demonstrated, not shipped.",
+    "Primary sourcing gap: tesla.com/AI returned HTTP 403 and Tesla's investor-relations PDFs were not reachable directly during this build; the figures above are Tesla's own stated numbers as compiled by Wikipedia with named dates and events (AI Day 2021, Q1 2026 earnings call), not independent journalism repeating a rumor. This should be replaced with a direct tesla.com or ir.tesla.com citation in a follow-up."
+  ],
+  "updated": "2026-09-20"
+}

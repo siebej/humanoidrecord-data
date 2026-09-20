@@ -1,0 +1,101 @@
+{
+  "slug": "mentee-menteebot",
+  "name": "MenteeBot V3",
+  "manufacturer": {
+    "name": "Mentee Robotics",
+    "country": "IL",
+    "url": "https://www.menteebot.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2025-02-17",
+    "source": {
+      "url": "https://interestingengineering.com/innovation/israel-humanoid-robot-with-360-vision",
+      "quote": "Israel's Mentee Robotics has unveiled an updated version of its versatile Menteebot humanoid. MenteeBot V3.0 is a fully integrated humanoid robot with full-stack AI and proprietary hardware.",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 175,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.menteebot.com/bot/",
+        "quote": "175cmHeight",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 70,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.menteebot.com/bot/",
+        "quote": "70kgWeight",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 40,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.menteebot.com/bot/",
+        "quote": "40",
+        "accessed": "2026-09-20"
+      }
+    },
+    "walking_speed_kmh": {
+      "value": 5.4,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.menteebot.com/bot/",
+        "quote": "1.5m/s",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 25,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.menteebot.com/bot/",
+        "quote": "Can carry up to 25kg",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2025-02-17",
+        "event": "announced",
+        "detail": "Mentee Robotics unveiled MenteeBot V3.0, a fully integrated humanoid with proprietary hardware and hot-swappable batteries for continuous operation.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://interestingengineering.com/innovation/israel-humanoid-robot-with-360-vision",
+          "quote": "Israel's Mentee Robotics has unveiled an updated version of its versatile Menteebot humanoid.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-11-24",
+        "event": "first-demo",
+        "detail": "Mentee published an 18-minute continuous (uncut) shot of two V3 MenteeBots working together in a warehouse, moving boxes between piles and flow racks without human intervention.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.humanoidsdaily.com/news/mentee-robotics-demonstrates-warehouse-autonomy-with-dual-robot-uncut-demo",
+          "quote": "In the 18-minute continuous shot, two V3 MenteeBots transfer a total of 32 boxes from eight different piles into four flow racks.",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Battery runtime is reported inconsistently across press coverage (Interesting Engineering: 'more than three hours'; other outlets: 'around 4 hours') and is not stated on Mentee's own /bot/ page, so battery_runtime_min is omitted rather than picking one figure.",
+    "No official price has been published by Mentee Robotics; a $35,000 figure circulates on aggregator/marketplace sites but was not traced back to a manufacturer statement, so price_history is left empty.",
+    "In 2026 press reported Mobileye (whose CEO Amnon Shashua also founded Mentee Robotics) in talks to acquire Mentee Robotics; this is a corporate/ownership development, not a delivery or spec fact, and was not verified further for this record."
+  ],
+  "updated": "2026-09-20"
+}

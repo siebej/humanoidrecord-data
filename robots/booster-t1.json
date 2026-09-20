@@ -1,0 +1,106 @@
+{
+  "slug": "booster-t1",
+  "name": "T1",
+  "manufacturer": {
+    "name": "Booster Robotics",
+    "country": "CN",
+    "url": "https://www.booster.tech"
+  },
+  "category": "research",
+  "announced": {
+    "date": "2024-12-18",
+    "source": {
+      "url": "https://www.booster.tech/news/",
+      "quote": "Booster Robotics Becomes RoboCup's Official Partner! Booster T1 shows excellent performance in the football-playing scenario. It is durable and supports secondary development.",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 118,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.booster.tech/booster-t1/",
+        "quote": "Dimensions: 118×47×23 cm",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 30,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.booster.tech/booster-t1/",
+        "quote": "Weight: ~30kg",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 23,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.booster.tech/booster-t1/",
+        "quote": "Total DoFs: 23",
+        "accessed": "2026-09-20"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 120,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.booster.tech/booster-t1/",
+        "quote": "Battery Life: 2h (walking), 4h (standing)",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2026-09-20",
+      "amount": 26000,
+      "currency": "EUR",
+      "variant": "Standard, VAT excl., promotional price via authorized EU distributor",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.generationrobots.com/en/404278-booster-t1-humanoid-robot.html",
+        "quote": "€31,200.00 VAT incl. €26,000.00 VAT excl.",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2024-12-18",
+        "event": "announced",
+        "detail": "Earliest pinned press date on Booster's own news page, tied to Booster becoming RoboCup's official partner platform. Multiple secondary sources place an earlier debut at the World Robot Conference in Beijing (Aug 2024) and a competition win at IEEE-RAS Humanoids 2024 (Nov 2024), but no primary Booster source with a specific date for either was found.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.booster.tech/news/",
+          "quote": "Booster Robotics Becomes RoboCup's Official Partner! Booster T1 shows excellent performance in the football-playing scenario.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-01-23",
+        "event": "preorders-open",
+        "detail": "Booster's own news page claims T1 is shipping worldwide following a showing at NVIDIA's event with Jensen Huang, and it is listed for direct purchase by EU/US resellers. No named-customer unboxing or serial-number evidence was found, so this is treated as a claimed-level availability signal rather than shipped.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.booster.tech/news/",
+          "quote": "Booster T1, featured at NVIDIA's Spring Party and signed by Jensen Huang, is now shipping worldwide",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "walking_speed_kmh and payload_kg are widely reported by aggregator sites (e.g. 18 km/h, 3 kg) but no literal quote from Booster's own site or a primary press source could be pinned during this build, so both fields are omitted rather than guessed.",
+    "Price is sourced from a French authorized distributor (Generation Robots) rather than Booster's own storefront, since Booster's own site directs buyers to contact sales without listing a public price.",
+    "Booster.tech's own product page (booster-t1) does not state degrees-of-freedom variants with grippers/dexterous hands the way older aggregator pages do (23/31/41); only the base 23 DoF figure is confirmed on the current official page.",
+    "Shipped-bar research (2026-09-20): Bipedal GmbH (Cologne, Germany) is Booster Robotics' EU distributor and has both a promotional blog post (\"Der neue BoosterT1 ist endlich da\", 2025-02-09, using manufacturer product photos, not delivery photos) and its own YouTube tutorial series (\"Booster Robotic T1 How to start\") showing a physical unit. A distributor's own stock unit is not a first customer delivery in the RoboCup-team sense the task asked about, and no RoboCup team's own channel showing a specific received T1 with invoice/serial/customs was found in this pass. Independent buyer unboxings exist on YouTube (e.g. \"Unboxing & Getting Started with Booster T1\" by Generation Robots, a French robotics reseller) but again show a reseller's demo unit, not a clearly named end-customer delivery. Not upgraded to shipped."
+  ],
+  "updated": "2026-09-20"
+}

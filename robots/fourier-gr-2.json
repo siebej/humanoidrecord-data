@@ -1,0 +1,89 @@
+{
+  "slug": "fourier-gr-2",
+  "name": "GR-2",
+  "manufacturer": {
+    "name": "Fourier",
+    "country": "CN",
+    "url": "https://www.fftai.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2024-09-30",
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+      "quote": "Standing at 175 cm and weighing 63 kg",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 175,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
+        "quote": "175 cm (68.9 in.)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 63,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
+        "quote": "63 kg (139 lb.)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 53,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+        "quote": "53 degrees of freedom",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 3,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
+        "quote": "single-arm load capacity of 3 kg (6.6 lb.)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "hands": {
+      "value": "12 DoF per hand, tactile sensors",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+        "quote": "12-DoF dexterous hands\u2014double the dexterity of previous models",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2024-09-30",
+        "event": "announced",
+        "detail": "Fourier (rebranded from Fourier Intelligence earlier in 2024) launched GR-2 as the successor to GR-1, alongside a new software development platform.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+          "quote": "Standing at 175 cm and weighing 63 kg",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Payload capacity is single-arm load capacity (3 kg / 6.6 lb) as stated by the manufacturer's press release, not a whole-body payload figure.",
+    "No named-customer delivery or independent demonstration video was found during this research session, so delivery.status is 'claimed'; price figures circulating on aggregator sites (e.g. $150,000+, \u20ac110,803.55) could not be traced to a manufacturer or press source and were omitted rather than included unsourced.",
+    "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement): searched specifically for a named hospital, university, or lab publishing its own photo of a GR-1 unit (parallel to the Durham University / Unitree G1 case). None was found -- coverage of Fourier's healthcare/rehab use cases describes GR-1 as designed for hospital and care-home tasks and cites '2,000+ organizations and hospitals' served as a manufacturer-side aggregate claim, but no specific institution's own channel or independent report names itself as a GR-1 recipient with a photo of its unit. This is a genuine evidence gap, not an over-strict reading of the rule, so GR-1/GR-2 remains claimed, not shipped. No fourier-gr-1.json record exists in this dataset; if one is added later, this same gap applies to it."
+  ],
+  "updated": "2026-09-20"
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "agibot-a2",
+  "name": "A2",
+  "manufacturer": {
+    "name": "AgiBot (Zhiyuan Robotics)",
+    "country": "CN",
+    "url": "https://www.agibot.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2024-08-18",
+    "source": {
+      "url": "https://inspenet.com/en/noticias/agibot-present-5-new-humanoid-robots/",
+      "quote": "169 centimeters tall",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 169,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "169 cm",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 69,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "69 kg",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 40,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "40 + Active DoF",
+        "accessed": "2026-09-20"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 120,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agibot.com/products/A2",
+        "quote": "2 h Support battery swapping",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2024-08-18",
+        "event": "announced",
+        "detail": "Unveiled at AgiBot's 'Commercial Voyage' 2024 product launch alongside four sibling models (A2-Max, A2-W, X1, X1-W).",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://inspenet.com/en/noticias/agibot-present-5-new-humanoid-robots/",
+          "quote": "169 centimeters tall",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-12-02",
+        "event": "volume-estimate",
+        "detail": "Shown as 'special guest' at a Fortune China event in Macau and awarded Fortune China's Best Design Award 2025; press release does not disclose unit counts.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/agibot-makes-debut-at-fortune-event-with-full-size-humanoid-robot-agibot-a2-as-special-guest-302630428.html",
+          "quote": "AGIBOT Makes Debut at Fortune Event with Full-Size Humanoid Robot AGIBOT A2 as Special Guest",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "AgiBot (the brand) is run by Shanghai Zhiyuan New Innovation Technology Co., Ltd. ('Zhiyuan Robotics'); the two names refer to the same company in coverage.",
+    "Walking speed (3.3 m/s) and payload (15 kg) are widely repeated by secondary outlets (e.g. RoboZaps, Aparobot) citing the August 2024 launch event, but were not found on a page directly attributable to the manufacturer during this build, so they are omitted here rather than sourced to a non-manufacturer repeat of the claim.",
+    "No manufacturer or press source with a named customer and delivery evidence (invoice, serial number, unboxing, customs record) was found during this build; AgiBot separately claims a '5,000th mass-produced humanoid robot' milestone across its whole product line (PR Newswire, 2026), but that figure is not broken out by model, so delivery status here stays 'claimed' rather than 'shipped'.",
+    "AgiBot's own product page (agibot.com/products/A2) does not list a price; no primary price source was found during this build, so price_history is left empty rather than using third-party reseller prices (e.g. Top3DShop, RoboZaps)."
+  ],
+  "updated": "2026-09-20"
+}

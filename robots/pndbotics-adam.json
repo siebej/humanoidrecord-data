@@ -1,0 +1,95 @@
+{
+  "slug": "pndbotics-adam",
+  "name": "Adam SP",
+  "manufacturer": {
+    "name": "PNDbotics",
+    "country": "CN",
+    "url": "https://www.pndbotics.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2025-07-25",
+    "source": {
+      "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+      "quote": "1.67-m (5.5-ft)",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 167,
+      "status": "claimed",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "1.67-m (5.5-ft)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 62,
+      "status": "claimed",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "62-kg (136-lb)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 41,
+      "status": "claimed",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "41 joints driven by PSA quasi-direct-drive actuators",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 5,
+      "status": "claimed",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "the dexterity to lift payloads of about 5 kg",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2025-07-25",
+      "amount": 100000,
+      "currency": "USD",
+      "variant": "Adam SP prototype (listed online)",
+      "status": "claimed",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "$100,000",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2025-07-01",
+        "event": "first-demo",
+        "detail": "Adam debuted publicly at a music festival in Changchun, China.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+          "quote": "Humanoid robot Adam debuts at music festival in China",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "PNDbotics' own site (pndbotics.com) returned no readable specification content when fetched during this build (JavaScript-rendered page); this record relies on New Atlas's article, which reports PNDbotics' own stated specs but is independent press coverage rather than a manufacturer page or press release. Treat height/weight/dof/payload as claimed-by-manufacturer-via-press-coverage pending a direct manufacturer source.",
+    "DOF figures conflict across sources: this file uses 41 (Adam SP, from the actuator-count description in the New Atlas article); other secondary listings cite 'up to 44 degrees of full-body freedom' for the wider Adam platform and 25 actuators for the separate Adam Lite variant. Not resolved; flagged here rather than picking silently.",
+    "The $100,000 figure is described as an online prototype listing, not a stable product price; the separate wheeled 'Adam U' variant is reported at $45,000 launching around September 2025 at WAIC, but that is a different SKU and not included in this file's price_history.",
+    "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status is 'demonstrated' (public festival debut shown), not 'shipped'.",
+    "Battery runtime and walking speed were not found in the sources checked during this build and are omitted rather than guessed."
+  ],
+  "updated": "2026-09-20"
+}

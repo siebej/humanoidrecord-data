@@ -1,0 +1,104 @@
+{
+  "slug": "apptronik-apollo",
+  "name": "Apollo",
+  "manufacturer": {
+    "name": "Apptronik",
+    "country": "US",
+    "url": "https://apptronik.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2023-08-23",
+    "source": {
+      "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+      "quote": "Apollo is the first commercial humanoid robot that was designed for friendly interaction, mass manufacturability, performance, and safety.",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 172,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+        "quote": "5 feet 8 inches (172 cm) tall",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 72.5,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+        "quote": "160 lbs (72.5kg)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 25,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+        "quote": "Capable of lifting 55 lbs (25kg)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 240,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+        "quote": "the swappable battery to power the robot for 4 hours",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "shipped",
+    "timeline": [
+      {
+        "date": "2023-08-23",
+        "event": "announced",
+        "detail": "Apptronik unveiled Apollo, targeting an end-of-2024 release for warehouse and manufacturing tasks.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+          "quote": "Apollo is the first commercial humanoid robot that was designed for friendly interaction, mass manufacturability, performance, and safety.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2024-03-15",
+        "event": "first-demo",
+        "detail": "Mercedes-Benz began testing Apollo at a Hungarian manufacturing plant under a pilot agreement; photos show a physical unit on site, but the article notes scale and scope were unclear.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/mercedes-benz-testing-apollo-humanoid/",
+          "quote": "Apptronik today announced that leading automotive brand Mercedes-Benz is testing its Apollo humanoid robot.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-03-18",
+        "event": "first-customer-delivery",
+        "detail": "Pilot at Mercedes-Benz Digital Factory Campus Berlin-Marienfelde: Mercedes-Benz's own press release confirms Apollo units are physically on site collecting production data, published with photos on Mercedes-Benz's own media channel.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://media.mbusa.com/releases/release-cf381cd2fcff624ae37d3911631103dc-mercedes-benz-accelerates-the-transformation-of-its-production-network-by-integrating-ai-and-humanoid-robots-at-its-digital-factory-campus-in-berlin",
+          "quote": "Mercedes-Benz is testing the use of Apollo, a humanoid robot from Apptronik, in production.",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Apptronik's own site (apptronik.com/apollo) returned no fetchable content during this research session; all specs here are sourced from The Robot Report's launch and Mercedes-Benz pilot coverage instead.",
+    "Shipped bar applied (2026-09-20): Mercedes-Benz's own press release (media.mbusa.com, 2025-03-18) names Mercedes-Benz Digital Factory Campus Berlin-Marienfelde as the site, confirms Apollo units are physically present and collecting production data, and is published with a photo gallery on Mercedes-Benz's own media channel. Per this site's shipped rule (named customer + image via customer's or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped with 'pilot' noted in the detail, since Mercedes-Benz itself frames it as testing. Upgraded from demonstrated to shipped; an earlier note here required an invoice/serial/unboxing/customs record in addition to the photo, which was too strict, and is removed.",
+    "The separate GXO/Apptronik relationship (gxo.com, Aug 2024) does not clear the same bar: GXO's own news page (https://gxo.com/news_article/shaping-supply-chains-with-humanoid-technology/) lists Apollo alongside Digit and 'Reflex' but describes GXO as still evaluating Apollo in a lab setting before any live-facility deployment, unlike Digit which GXO describes as already live -- so Apollo-at-GXO is not treated as a second shipped delivery here; the Mercedes-Benz pilot is what carries this record to shipped."
+  ],
+  "updated": "2026-09-20"
+}

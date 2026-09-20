@@ -1,0 +1,84 @@
+{
+  "slug": "ubtech-walker-s2",
+  "name": "Walker S2",
+  "manufacturer": {
+    "name": "UBTech Robotics",
+    "country": "CN",
+    "url": "https://www.ubtrobot.com"
+  },
+  "category": "industrial",
+  "announced": {
+    "date": "2025-07-23",
+    "source": {
+      "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
+      "quote": "On July 23rd, UBTECH Robotics announced the launch of its latest innovation, the Walker S2",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 176,
+      "status": "claimed",
+      "source": {
+        "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
+        "quote": "stands at an impressive height of 1.76 meters",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 52,
+      "status": "claimed",
+      "source": {
+        "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
+        "quote": "52 degrees of freedom in its bionic body",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 15,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+        "quote": "pitch 125\u00b0 angle and handle 15kg payload within 0-1.8 meters workspace",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2025-07-23",
+        "event": "announced",
+        "detail": "UBTech launched Walker S2, a full-size industrial humanoid with an autonomous hot-swappable battery system.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+          "quote": "The world's first autonomous hot-swappable battery swap system for humanoid robots",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "event": "volume-estimate",
+        "detail": "UBTech's own press release states mass production and delivery of the first batch began, naming automotive and logistics deployment partners (BYD, Dongfeng Liuzhou Motor, Geely Auto, FAW-Volkswagen Qingdao, Audi FAW, BAIC New Energy, Foxconn, SF Express) and orders exceeding 800 million yuan. No independent photo/serial/unboxing evidence of a specific named-customer unit was found, so this is recorded as claimed, not shipped.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan-302616924.html",
+          "quote": "begun mass production and delivery of the first batch of several hundred full-size industrial humanoid robots",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "UBTech's own product page (ubtrobot.com/en/humanoid/products/walker-s2) is reachable and confirms payload and battery-swap claims directly, but does not state height or weight. Height (1.76 m) and DOF (52) here are sourced from a secondary aggregator (heyupnow.com) that republishes UBTech's launch claims without linking an original press release; no PR Newswire/Business Wire/IEEE Spectrum/Robot Report coverage with those exact figures was found during this session. Treat height/DOF as needing a stronger source in a follow-up.",
+    "Weight could not be confirmed from any source checked; third-party aggregators disagree (43-77 kg depending on battery configuration), so it is omitted rather than guessed.",
+    "The November 2025 mass-production/delivery announcement is UBTech's own press release (claimed-level evidence per schema); it names deployment partners but the fetched text contains no photo, serial number, or independent verification of a specific customer's unit, so delivery.status stays 'claimed' rather than 'shipped'.",
+    "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement, so the earlier note requiring both was too strict and is superseded by this one): UBTech's own PR Newswire release (Nov 2025) names BYD, Foxconn, Geely, Zeekr, Audi-FAW etc. only as order sources/collaborators, with no photo tied to a specific customer's unit. The one strong independent-channel match found -- SCMP's photographed, on-the-record coverage of a Zeekr Ningbo deployment (published 2025-03-03, https://www.scmp.com/tech/tech-trends/article/3300872/) -- explicitly names the model as 'Walker S1', not Walker S2 (Walker S2 was announced later, 2025-07-23), so it is evidence for a different generation and does not carry this record to shipped. No named customer with photographic evidence of a specific Walker S2 unit (as opposed to S1/S Lite) was found via customer or independent channels. Remains claimed, not shipped."
+  ],
+  "updated": "2026-09-20"
+}

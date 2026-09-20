@@ -1,0 +1,63 @@
+name: Data correction
+description: Report a wrong, outdated, or missing value in a robot record.
+title: "<slug>: <field>"
+labels: ["correction"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Robot slug
+      description: The robot's slug, e.g. as it appears in robots/<slug>.json
+      placeholder: unitree-g1
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: Which field is wrong (e.g. specs.height_cm, price_history, delivery.status)
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current value
+    validations:
+      required: false
+  - type: input
+    id: proposed
+    attributes:
+      label: Proposed value
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Link to the primary evidence for the proposed value
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Literal quote
+      description: Exact quote from the source (max 300 characters)
+    validations:
+      required: true
+  - type: input
+    id: accessed
+    attributes:
+      label: Date accessed
+      description: YYYY-MM-DD, the date you checked the source
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - claimed
+        - demonstrated
+        - shipped
+    validations:
+      required: true

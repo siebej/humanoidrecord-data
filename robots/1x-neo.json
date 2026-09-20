@@ -1,0 +1,103 @@
+{
+  "slug": "1x-neo",
+  "name": "Neo",
+  "manufacturer": { "name": "1X Technologies", "country": "NO", "url": "https://www.1x.tech" },
+  "category": "full-size",
+  "announced": {
+    "date": "2024-08-01",
+    "source": {
+      "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+      "quote": "NEO's Original Strategy Reveal: August 2024 — when the company unveiled its strategy to develop NEO",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "weight_kg": {
+      "value": 30,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "quote": "At just 66 pounds (29.94 kg), NEO is capable of lifting over 150 pounds",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 68,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "quote": "capable of lifting over 150 pounds (68 kg) and carrying 55 pounds (24.95kg)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "hands": {
+      "value": "22 DoF",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "quote": "22 DoF Hands with Human Level Dexterity",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2025-10-30",
+      "amount": 20000,
+      "currency": "USD",
+      "variant": "Early Access (purchase, $200 deposit)",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "quote": "$20,000, which includes priority delivery in 2026",
+        "accessed": "2026-09-20"
+      }
+    },
+    {
+      "date": "2025-10-30",
+      "amount": 499,
+      "currency": "USD",
+      "variant": "monthly subscription",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "quote": "A subscription offering is also available for $499 per month",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2024-08-01",
+        "event": "announced",
+        "detail": "1X unveils its strategy to develop a consumer home robot, later named Neo.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+          "quote": "NEO's Original Strategy Reveal: August 2024 — when the company unveiled its strategy to develop NEO",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-10-30",
+        "event": "preorders-open",
+        "detail": "Preorders open with a $200 deposit; company states first units ship to US consumer homes in 2026, other markets from 2027.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "quote": "first orders shipping to consumer homes in 2026",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "As of 2026-09-20, 1X has not published evidence of any consumer unit delivered — only preorder/deposit terms and a 2026 shipping promise. Per this dataset's rules, that keeps delivery.status at claimed, not shipped, regardless of marketing language like \"order today\".",
+    "Height was not found stated on 1X's own current page during this build; third-party coverage estimates \"5-foot-6\" but that is not a manufacturer source, so height_cm is omitted here rather than sourced to a secondary outlet."
+  ],
+  "updated": "2026-09-20"
+}

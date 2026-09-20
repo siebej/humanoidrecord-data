@@ -1,0 +1,128 @@
+{
+  "slug": "kepler-k2",
+  "name": "Forerunner K2",
+  "manufacturer": {
+    "name": "Shanghai Kepler Robotics Co., Ltd.",
+    "country": "CN",
+    "url": "https://www.gotokepler.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2024-10-21",
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+      "quote": "The Forerunner K2 represents the Gen 5.0 robot model, showcasing a seamless integration of the humanoid robot's cerebral, cerebellar, and high-load body functions.",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 175,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "175 cm (5 ft 9 in)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 75,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "75 kg (165 lbs)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 52,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+        "quote": "52 total; hands feature up to 11 DOF per hand (active and passive)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 480,
+      "status": "demonstrated",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "1-hour charge, 8-hour operation",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 30,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "30 kg (66 lbs)",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2025-08-01",
+      "amount": 248000,
+      "currency": "CNY",
+      "variant": "Bumblebee base pre-sale configuration",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+        "quote": "Pre-sales launched with three configurations starting at ¥248,000",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2024-10-21",
+        "event": "announced",
+        "detail": "Forerunner K2 (Gen 5.0) debuted at Gitex Global 2024 in Dubai.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+          "quote": "The Forerunner K2 represents the Gen 5.0 robot model, showcasing a seamless integration of the humanoid robot's cerebral, cerebellar, and high-load body functions.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-07-27",
+        "event": "first-demo",
+        "detail": "K2 'Bumblebee' completed an 8-hour continuous livestream at WAIC 2025.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "1-hour charge, 8-hour operation",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-08-01",
+        "event": "preorders-open",
+        "detail": "Pre-sales opened for the K2 'Bumblebee', marketed as the world's first commercially available planetary-roller-screw-driven humanoid robot.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "World's first commercially available planetary roller screw-driven humanoid robot",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Height/weight conflict: Kepler's own PR Newswire releases (Oct 2024 and Aug 2025) do not give a consistent single figure across all Kepler materials; several secondary aggregator sites (e.g. humanoid.guide-derived listings) report 178 cm / 85 kg instead of the 175 cm / 75 kg used here. The 175 cm / 75 kg figure is used because it traces to Kepler's own named press release with a direct quote; the 178 cm / 85 kg figure could not be traced to a specific dated primary source and is not used.",
+    "An earlier press round (April 2025, SAIC-GM Shanghai plant deployment) and independent coverage cited a $30,000 USD base price; this is not included as a price_history entry because it could not be traced to a specific dated Kepler statement during this build, and it conflicts with the ¥248,000 pre-sale price from the Aug 2025 Kepler release.",
+    "The 8-hour livestream is Kepler's own event, described in a Kepler press release rather than fully independent press coverage; it is recorded as 'demonstrated' rather than 'shipped' or bare 'claimed' because it is a real, timestamped, continuous public demonstration.",
+    "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status remains 'demonstrated', not 'shipped'.",
+    "Shipped-bar research (2026-09-20): Web search for delivery evidence returned only NASA's unrelated Kepler/K2 space telescope mission and generic spec-sheet pages; no named-customer delivery evidence for the Kepler Robotics K2 humanoid was found in this pass. Remains at prior status."
+  ],
+  "updated": "2026-09-20"
+}

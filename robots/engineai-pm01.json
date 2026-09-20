@@ -1,0 +1,115 @@
+{
+  "slug": "engineai-pm01",
+  "name": "PM01",
+  "manufacturer": {
+    "name": "EngineAI Robotics",
+    "country": "CN",
+    "url": "https://en.engineai.com.cn"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2024-12-27",
+    "source": {
+      "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+      "quote": "EngineAI releases PM01 humanoid robot for commercial, educational use",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 138,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.engineai.com.cn/",
+        "quote": "138CM",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 40,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+        "quote": "weighs about 40 kg (88 lb.)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 24,
+      "status": "claimed",
+      "source": {
+        "url": "https://en.engineai.com.cn/",
+        "quote": "24-DOF",
+        "accessed": "2026-09-20"
+      }
+    },
+    "walking_speed_kmh": {
+      "value": 7.2,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+        "quote": "2 m/sec. (4.4 mph)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 120,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+        "quote": "can operate for two hours on a single charge",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2024-12-27",
+      "amount": 12000,
+      "currency": "USD",
+      "variant": "unified (business & education)",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+        "quote": "unified price of 88,000 yuan ($12,000 U.S.) until March 31, 2025",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2024-12-27",
+        "event": "announced",
+        "detail": "Launched as an open-source, general-purpose humanoid at 88,000 yuan ($12,000), positioned $3,000 below Unitree's G1.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+          "quote": "This positions the PM01 $3,000 below Unitree's G1 humanoid.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-02-23",
+        "event": "first-demo",
+        "detail": "EngineAI released video of a PM01 performing what it called the world's first humanoid front flip.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.foxnews.com/tech/chinese-humanoid-robot-lands-worlds-first-front-flip",
+          "quote": "A Chinese humanoid robot lands the world's first front flip",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "The front-flip video (2025-02-23) is manufacturer-produced marketing footage; it is recorded here under 'demonstrated' because the maneuver is a specific, visibly performed physical feat rather than a spec claim, but no independent (non-EngineAI) uncut footage was located during this build to confirm it as an unedited take.",
+    "EngineAI's own site (en.engineai.com.cn) only lists height, DOF and peak torque density; weight, battery runtime, walking speed and price were sourced from The Robot Report's 2024-12-27 launch coverage instead.",
+    "No named-customer shipment evidence (invoice, serial number, unboxing, customs record) was found during this build; delivery.status therefore stays 'demonstrated' rather than 'shipped'.",
+    "Shipped-bar research (2026-09-20): EngineAI's own claim is ~100 units delivered in five months including \"Shenzhen police patrol support\", which would be a strong named-customer claim if independently verified -- but this pass found no independent photo/video of a PM01 physically in Shenzhen police possession, nor any consumer unboxing video with a named buyer. Not upgraded to shipped."
+  ],
+  "updated": "2026-09-20"
+}

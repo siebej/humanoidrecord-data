@@ -1,0 +1,82 @@
+{
+  "slug": "xpeng-iron",
+  "name": "Iron",
+  "manufacturer": {
+    "name": "XPeng",
+    "country": "CN",
+    "url": "https://www.xpeng.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2024-11-06",
+    "source": {
+      "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+      "quote": "Xpeng unveiled Iron, a humanoid robot that stands 178 cm tall and weighs 70 kg, close to a real person.",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 178,
+      "status": "claimed",
+      "source": {
+        "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+        "quote": "stands 178 cm tall",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 70,
+      "status": "claimed",
+      "source": {
+        "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+        "quote": "weighs 70 kg",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 60,
+      "status": "claimed",
+      "source": {
+        "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+        "quote": "has over 60 joints",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2024-11-06",
+        "event": "announced",
+        "detail": "XPeng unveiled its first humanoid robot, Iron, at its 2024 AI Day, saying it would work its way into XPeng's own factories.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+          "quote": "Xpeng unveiled Iron, a humanoid robot that stands 178 cm tall and weighs 70 kg, close to a real person.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-11-05",
+        "event": "first-demo",
+        "detail": "XPeng showed a next-generation Iron walking on stage at 2025 AI Day; the walk looked so human-like that online viewers accused the company of hiding a person inside, prompting CEO He Xiaopeng to cut open the robot's leg on stage to show the wiring.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://cnevpost.com/2025/11/06/xpengs-iron-humanoid-robot-looks-so-real/",
+          "quote": "Xpeng's Iron humanoid robot looks so real that some suspect it hides a human inside",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Specs recorded here (178 cm / 70 kg / 60+ joints) are for the original Iron unveiled November 2024. The next-generation Iron shown at 2025 AI Day (Nov 5, 2025) has different hand dexterity: CnEVPost's 2025 coverage states 'a hand with 22 degrees of freedom', while a separate report cited elsewhere put per-hand DOF at 21 and total body DOF at 76 for the 2025 version. Updated full-body height/weight for the 2025 generation were not confirmed by a primary or press source during this session, so the 2024 figures are kept as the current record and the hand-DOF conflict is flagged rather than resolved.",
+    "No shipped or independently verified customer deployment was found; XPeng has stated mass production is targeted for end of 2026 with deliveries/showroom deployment planned for 2027, which is a plan, not a shipped or demonstrated-in-production status."
+  ],
+  "updated": "2026-09-20"
+}

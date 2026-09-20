@@ -1,0 +1,2487 @@
+[
+  {
+    "slug": "neura-robotics-4ne-1",
+    "name": "4NE-1",
+    "manufacturer": {
+      "name": "NEURA Robotics",
+      "country": "DE",
+      "url": "https://neura-robotics.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2026-01-06",
+      "source": {
+        "url": "https://neura-robotics.com/neura-robotics-at-ces-2026/",
+        "quote": "NEURA Robotics at CES 2026",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 180,
+        "status": "claimed",
+        "source": {
+          "url": "https://neura-robotics.com/products/4ne1/",
+          "quote": "180",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 80,
+        "status": "claimed",
+        "source": {
+          "url": "https://neura-robotics.com/products/4ne1/",
+          "quote": "80",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 5,
+        "status": "claimed",
+        "source": {
+          "url": "https://neura-robotics.com/products/4ne1/",
+          "quote": "5",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 100,
+        "status": "claimed",
+        "source": {
+          "url": "https://neura-robotics.com/products/4ne1/",
+          "quote": "10-100",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2026-09-20",
+        "amount": 98000,
+        "currency": "EUR",
+        "variant": "Gen 3.5, single unit (1-19)",
+        "status": "claimed",
+        "source": {
+          "url": "https://neura-robotics.com/product/4ne1-reservation/",
+          "quote": "98,000 € (excluding taxes and shipping)",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2026-01-06",
+          "event": "announced",
+          "detail": "4NE-1 Gen 3.5 and 4NE-1 Mini unveiled at CES 2026, designed with Studio F.A. Porsche.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://neura-robotics.com/neura-robotics-at-ces-2026/",
+            "quote": "NEURA Robotics at CES 2026",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "event": "preorders-open",
+          "detail": "Reservation open for €100 (refundable) to secure a place in the delivery queue; Gen 3.5 expected end of 2026.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://neura-robotics.com/product/4ne1-reservation/",
+            "quote": "secures your place in the delivery queue",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Degrees of freedom is reported inconsistently across secondary sources (35, 42+, 55 DoF) and could not be traced to one dated primary-source figure during this build, so the dof spec field is omitted rather than guessed.",
+      "Battery runtime is widely reported as 6-8 hours across secondary/aggregator sites, but the primary product page and reservation page fetched during this build did not state a runtime figure, so battery_runtime_min is omitted.",
+      "The manufacturer's official datasheet PDF (linked from the CES 2026 page) was not accessible as text during this build and should be added as a follow-up source for dof/battery."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "agibot-a2",
+    "name": "A2",
+    "manufacturer": {
+      "name": "AgiBot (Zhiyuan Robotics)",
+      "country": "CN",
+      "url": "https://www.agibot.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-08-18",
+      "source": {
+        "url": "https://inspenet.com/en/noticias/agibot-present-5-new-humanoid-robots/",
+        "quote": "169 centimeters tall",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 169,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agibot.com/products/A2",
+          "quote": "169 cm",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 69,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agibot.com/products/A2",
+          "quote": "69 kg",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 40,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agibot.com/products/A2",
+          "quote": "40 + Active DoF",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 120,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agibot.com/products/A2",
+          "quote": "2 h Support battery swapping",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2024-08-18",
+          "event": "announced",
+          "detail": "Unveiled at AgiBot's 'Commercial Voyage' 2024 product launch alongside four sibling models (A2-Max, A2-W, X1, X1-W).",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://inspenet.com/en/noticias/agibot-present-5-new-humanoid-robots/",
+            "quote": "169 centimeters tall",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-12-02",
+          "event": "volume-estimate",
+          "detail": "Shown as 'special guest' at a Fortune China event in Macau and awarded Fortune China's Best Design Award 2025; press release does not disclose unit counts.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/agibot-makes-debut-at-fortune-event-with-full-size-humanoid-robot-agibot-a2-as-special-guest-302630428.html",
+            "quote": "AGIBOT Makes Debut at Fortune Event with Full-Size Humanoid Robot AGIBOT A2 as Special Guest",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "AgiBot (the brand) is run by Shanghai Zhiyuan New Innovation Technology Co., Ltd. ('Zhiyuan Robotics'); the two names refer to the same company in coverage.",
+      "Walking speed (3.3 m/s) and payload (15 kg) are widely repeated by secondary outlets (e.g. RoboZaps, Aparobot) citing the August 2024 launch event, but were not found on a page directly attributable to the manufacturer during this build, so they are omitted here rather than sourced to a non-manufacturer repeat of the claim.",
+      "No manufacturer or press source with a named customer and delivery evidence (invoice, serial number, unboxing, customs record) was found during this build; AgiBot separately claims a '5,000th mass-produced humanoid robot' milestone across its whole product line (PR Newswire, 2026), but that figure is not broken out by model, so delivery status here stays 'claimed' rather than 'shipped'.",
+      "AgiBot's own product page (agibot.com/products/A2) does not list a price; no primary price source was found during this build, so price_history is left empty rather than using third-party reseller prices (e.g. Top3DShop, RoboZaps)."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "pndbotics-adam",
+    "name": "Adam SP",
+    "manufacturer": {
+      "name": "PNDbotics",
+      "country": "CN",
+      "url": "https://www.pndbotics.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2025-07-25",
+      "source": {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "quote": "1.67-m (5.5-ft)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 167,
+        "status": "claimed",
+        "source": {
+          "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+          "quote": "1.67-m (5.5-ft)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 62,
+        "status": "claimed",
+        "source": {
+          "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+          "quote": "62-kg (136-lb)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 41,
+        "status": "claimed",
+        "source": {
+          "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+          "quote": "41 joints driven by PSA quasi-direct-drive actuators",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 5,
+        "status": "claimed",
+        "source": {
+          "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+          "quote": "the dexterity to lift payloads of about 5 kg",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2025-07-25",
+        "amount": 100000,
+        "currency": "USD",
+        "variant": "Adam SP prototype (listed online)",
+        "status": "claimed",
+        "source": {
+          "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+          "quote": "$100,000",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2025-07-01",
+          "event": "first-demo",
+          "detail": "Adam debuted publicly at a music festival in Changchun, China.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+            "quote": "Humanoid robot Adam debuts at music festival in China",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "PNDbotics' own site (pndbotics.com) returned no readable specification content when fetched during this build (JavaScript-rendered page); this record relies on New Atlas's article, which reports PNDbotics' own stated specs but is independent press coverage rather than a manufacturer page or press release. Treat height/weight/dof/payload as claimed-by-manufacturer-via-press-coverage pending a direct manufacturer source.",
+      "DOF figures conflict across sources: this file uses 41 (Adam SP, from the actuator-count description in the New Atlas article); other secondary listings cite 'up to 44 degrees of full-body freedom' for the wider Adam platform and 25 actuators for the separate Adam Lite variant. Not resolved; flagged here rather than picking silently.",
+      "The $100,000 figure is described as an online prototype listing, not a stable product price; the separate wheeled 'Adam U' variant is reported at $45,000 launching around September 2025 at WAIC, but that is a different SKU and not included in this file's price_history.",
+      "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status is 'demonstrated' (public festival debut shown), not 'shipped'.",
+      "Battery runtime and walking speed were not found in the sources checked during this build and are omitted rather than guessed."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "hexagon-aeon",
+    "name": "AEON",
+    "manufacturer": {
+      "name": "Hexagon AB (Hexagon Robotics)",
+      "country": "SE",
+      "url": "https://robotics.hexagon.com"
+    },
+    "category": "industrial",
+    "announced": {
+      "date": "2025-06-17",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/hexagon-launches-aeon-a-humanoid-built-for-industry-302482236.html",
+        "quote": "AEON represents a state-of-the-art, industrially bespoke humanoid.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 165,
+        "status": "claimed",
+        "source": {
+          "url": "https://robotics.hexagon.com/product",
+          "quote": "165cm",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 60,
+        "status": "claimed",
+        "source": {
+          "url": "https://robotics.hexagon.com/product",
+          "quote": "60kg",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 34,
+        "status": "claimed",
+        "source": {
+          "url": "https://robotics.hexagon.com/product",
+          "quote": "34",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 240,
+        "status": "claimed",
+        "source": {
+          "url": "https://robotics.hexagon.com/product",
+          "quote": "Auto-swap for continuous work; each charge lasts up to 4 hours",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 8.6,
+        "status": "claimed",
+        "source": {
+          "url": "https://robotics.hexagon.com/product",
+          "quote": "2.4m/s",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 15,
+        "status": "claimed",
+        "source": {
+          "url": "https://robotics.hexagon.com/product",
+          "quote": "15 kg short-term, 8 kg constant carry",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2025-06-17",
+          "event": "announced",
+          "detail": "Hexagon launched AEON at its Hexagon LIVE Global 2025 event in Las Vegas, positioning it for manipulation, asset inspection, reality capture and operator support in automotive, aerospace, manufacturing and logistics.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/hexagon-launches-aeon-a-humanoid-built-for-industry-302482236.html",
+            "quote": "AEON represents a state-of-the-art, industrially bespoke humanoid.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-06-17",
+          "event": "preorders-open",
+          "detail": "Hexagon named Schaeffler and Pilatus as pilot partners evaluating AEON for manipulation, machine tending, part inspection and other use cases; this is a named-partner pilot commitment, not a completed named-customer delivery.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/hexagon-launches-aeon-a-humanoid-built-for-industry-302482236.html",
+            "quote": "Schaeffler - piloting AEON for manipulation, machine tending, part inspection",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "AEON is not sold publicly; Hexagon states it is deployed only through enterprise pilot partnerships (named: Schaeffler, Pilatus; BMW is cited by several secondary aggregator sites but was not confirmed on Hexagon's own pages during this build). No price has been published, so price_history is left empty rather than using the speculative ~$20,000 figure some aggregators cite.",
+      "A November 2025 Hexagon press item (via Microsoft Ignite 2025 coverage) states AEON 'completed more than 1,600 missions without interruption' during pilot testing — evidence of extended demonstrated operation at partner sites, but not tied to a single uncut video or named unit delivery, so delivery.status is kept at 'claimed' rather than 'demonstrated' or 'shipped'.",
+      "walking_speed_kmh is converted from the manufacturer's stated 2.4 m/s (→ 8.64 km/h, rounded to 8.6 km/h)."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "clone-alpha",
+    "name": "Alpha",
+    "manufacturer": {
+      "name": "Clone Robotics",
+      "country": "US",
+      "url": "https://clonerobotics.com"
+    },
+    "category": "research",
+    "announced": {
+      "date": "2024-12-06",
+      "source": {
+        "url": "https://humanoidroboticstechnology.com/industry-news/clone-robotics-unveils-its-clone-alpha-humanoid/",
+        "quote": "Clone Robotics proudly announces that its cutting-edge humanoid android, the Clone Alpha, is now available for pre-order.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {},
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2024-12-06",
+          "event": "announced",
+          "detail": "Clone Robotics announced the Clone Alpha as a limited edition of 279 home android units and opened a pre-order waitlist, with pre-orders stated to become available in 2025.",
+          "quantity_min": 279,
+          "quantity_max": 279,
+          "source": {
+            "url": "https://clonerobotics.com/pre-order/",
+            "quote": "Clone is manufacturing only 279 units of the limited edition Clone Alpha.",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "No manufacturer source states Alpha's height, weight, or degrees-of-freedom with a checkable literal quote. Clone's own /research/ specs page currently reads 'We are currently researching, page will be available soon' (accessed 2026-09-20). Aggregator sites (Humanoid Index, Humanoid.guide, etc.) widely repeat figures of ~170 cm / ~60 kg / 164 DOF, but per the evidence rules these do not qualify as a claimed-status source because they do not cite a traceable manufacturer statement for those exact numbers. Specs are left empty rather than sourced to an aggregator.",
+      "No checkout price has ever been published by Clone Robotics; the pre-order page collects a waitlist signup without a stated amount, so price_history is empty rather than guessed. Clone's 2023 pitch mentioned an aspirational ~$20,000 target price, and the founder repeated a similar figure in a March 2026 interview, but neither is an orderable price.",
+      "No independent or uncut demonstration video of Alpha walking or performing tasks live could be confirmed during this build; walking is reported by trade press as a 2027 target, and the 2025 preorder window is reported to have passed without shipments. Delivery status is therefore recorded as 'claimed' (announced + preorder claim), not 'demonstrated' or 'shipped'.",
+      "Clone Robotics' operational presence is reported in Wrocław, Poland (R&D/manufacturing) while corporate/investor materials list a US entity; manufacturer.country is set to US pending a single authoritative filing, and this should be revisited if a primary source pins one jurisdiction."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "apptronik-apollo",
+    "name": "Apollo",
+    "manufacturer": {
+      "name": "Apptronik",
+      "country": "US",
+      "url": "https://apptronik.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2023-08-23",
+      "source": {
+        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+        "quote": "Apollo is the first commercial humanoid robot that was designed for friendly interaction, mass manufacturability, performance, and safety.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 172,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+          "quote": "5 feet 8 inches (172 cm) tall",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 72.5,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+          "quote": "160 lbs (72.5kg)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 25,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+          "quote": "Capable of lifting 55 lbs (25kg)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 240,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+          "quote": "the swappable battery to power the robot for 4 hours",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "shipped",
+      "timeline": [
+        {
+          "date": "2023-08-23",
+          "event": "announced",
+          "detail": "Apptronik unveiled Apollo, targeting an end-of-2024 release for warehouse and manufacturing tasks.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+            "quote": "Apollo is the first commercial humanoid robot that was designed for friendly interaction, mass manufacturability, performance, and safety.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2024-03-15",
+          "event": "first-demo",
+          "detail": "Mercedes-Benz began testing Apollo at a Hungarian manufacturing plant under a pilot agreement; photos show a physical unit on site, but the article notes scale and scope were unclear.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/mercedes-benz-testing-apollo-humanoid/",
+            "quote": "Apptronik today announced that leading automotive brand Mercedes-Benz is testing its Apollo humanoid robot.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-03-18",
+          "event": "first-customer-delivery",
+          "detail": "Pilot at Mercedes-Benz Digital Factory Campus Berlin-Marienfelde: Mercedes-Benz's own press release confirms Apollo units are physically on site collecting production data, published with photos on Mercedes-Benz's own media channel.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://media.mbusa.com/releases/release-cf381cd2fcff624ae37d3911631103dc-mercedes-benz-accelerates-the-transformation-of-its-production-network-by-integrating-ai-and-humanoid-robots-at-its-digital-factory-campus-in-berlin",
+            "quote": "Mercedes-Benz is testing the use of Apollo, a humanoid robot from Apptronik, in production.",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Apptronik's own site (apptronik.com/apollo) returned no fetchable content during this research session; all specs here are sourced from The Robot Report's launch and Mercedes-Benz pilot coverage instead.",
+      "Shipped bar applied (2026-09-20): Mercedes-Benz's own press release (media.mbusa.com, 2025-03-18) names Mercedes-Benz Digital Factory Campus Berlin-Marienfelde as the site, confirms Apollo units are physically present and collecting production data, and is published with a photo gallery on Mercedes-Benz's own media channel. Per this site's shipped rule (named customer + image via customer's or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped with 'pilot' noted in the detail, since Mercedes-Benz itself frames it as testing. Upgraded from demonstrated to shipped; an earlier note here required an invoice/serial/unboxing/customs record in addition to the photo, which was too strict, and is removed.",
+      "The separate GXO/Apptronik relationship (gxo.com, Aug 2024) does not clear the same bar: GXO's own news page (https://gxo.com/news_article/shaping-supply-chains-with-humanoid-technology/) lists Apollo alongside Digit and 'Reflex' but describes GXO as still evaluating Apollo in a lab setting before any live-facility deployment, unlike Digit which GXO describes as already live -- so Apollo-at-GXO is not treated as a second shipped delivery here; the Mercedes-Benz pilot is what carries this record to shipped."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "boston-dynamics-atlas-electric",
+    "name": "Atlas (Electric)",
+    "manufacturer": {
+      "name": "Boston Dynamics",
+      "country": "US",
+      "url": "https://bostondynamics.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-04-17",
+      "source": {
+        "url": "https://bostondynamics.com/news/introducing-electric-atlas/",
+        "quote": "This week we announced the retirement of our hydraulic Atlas and unveiled what comes next—a fully electric Atlas robot designed for real-world applications.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 190,
+        "status": "claimed",
+        "source": {
+          "url": "https://bostondynamics.com/atlas/",
+          "quote": "1.9 m (6.2 ft)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 90,
+        "status": "claimed",
+        "source": {
+          "url": "https://bostondynamics.com/atlas/",
+          "quote": "90 kg (198 lbs)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 56,
+        "status": "claimed",
+        "source": {
+          "url": "https://bostondynamics.com/atlas/",
+          "quote": "56",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 240,
+        "status": "claimed",
+        "source": {
+          "url": "https://bostondynamics.com/atlas/",
+          "quote": "4 hours",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 50,
+        "status": "claimed",
+        "source": {
+          "url": "https://bostondynamics.com/atlas/",
+          "quote": "50 kg (110 lbs)",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "shipped",
+      "timeline": [
+        {
+          "date": "2024-04-17",
+          "event": "announced",
+          "detail": "Boston Dynamics retired the hydraulic Atlas and unveiled a fully electric successor.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://bostondynamics.com/news/introducing-electric-atlas/",
+            "quote": "This week we announced the retirement of our hydraulic Atlas and unveiled what comes next—a fully electric Atlas robot designed for real-world applications.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-01-04",
+          "event": "first-customer-delivery",
+          "detail": "Pilot at Hyundai Motor Group Metaplant America (Ellabell, GA): CBS 60 Minutes correspondent Bill Whitaker visited the plant in person and filmed Atlas sorting roof racks; an independent outlet, not Boston Dynamics or Hyundai, observed and photographed the physical unit on Hyundai's site.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/boston-dynamics-shows-atlas-humanoid-working-georgia-hyundai-plant/",
+            "quote": "Atlas practiced sorting roof racks without human help",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Height/weight conflict: several outlets covering the April 2024 unveiling (aggregator sites, not manufacturer-sourced) reported roughly 1.5 m and 89 kg for electric Atlas, while the current official bostondynamics.com/atlas page (accessed 2026-09-20) states 1.9 m and 90 kg. Because the 1.5 m figure could not be traced to a manufacturer statement, only the current official page value is recorded here as claimed; the discrepancy is flagged rather than resolved.",
+      "Payload: the official page lists 50 kg instant / 30 kg sustained lift capacity; only the instant figure is recorded in the single-value `payload_kg` field per schema.",
+      "Full-scale Hyundai production deployment is still ramping (Boston Dynamics/Hyundai have said full introduction to production is targeted for 2028).",
+      "Shipped bar applied (2026-09-20): the January 2026 CBS 60 Minutes visit is an independent-party (CBS, not Boston Dynamics or Hyundai) on-site observation of a named customer (Hyundai Motor Group Metaplant America, Ellabell, GA) with video/photo evidence of the physical unit performing real work. Per this site's shipped rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped, with 'pilot' noted since 2028 is cited as the target for full production deployment. Upgraded from demonstrated to shipped; an earlier note here required invoice/serial evidence in addition to the observation, which was too strict, and is removed."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "agility-digit-gen4",
+    "name": "Digit (2020 generation)",
+    "manufacturer": {
+      "name": "Agility Robotics",
+      "country": "US",
+      "url": "https://www.agilityrobotics.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2019-10-15",
+      "source": {
+        "url": "https://www.futuretimeline.net/blog/2019/10/15.htm",
+        "quote": "The company, based in Albany, Oregon, USA, has just revealed the latest iteration of its 'Digit' robot.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {},
+    "price_history": [],
+    "delivery": {
+      "status": "shipped",
+      "timeline": [
+        {
+          "date": "2020-01-06",
+          "event": "first-customer-delivery",
+          "detail": "Ford Motor Company becomes Digit's first named commercial customer, testing it for last-mile delivery paired with autonomous vehicles.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Agility_Robotics",
+            "quote": "Ford Motor Company (2020) — First commercial customer; Purpose: explore last-mile delivery",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2024-01-01",
+          "event": "first-customer-delivery",
+          "detail": "GXO Logistics deploys Digit at its SPANX facility near Atlanta, Georgia, under a Robots-as-a-Service contract; GXO's own news page shows a photo of the unit and describes it as GXO's most advanced live humanoid deployment.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://gxo.com/news_article/shaping-supply-chains-with-humanoid-technology/",
+            "quote": "GXO has made the most progress with Digit, a humanoid robot that has been optimized to fit our needs and integrated with other automated technology in the warehouse.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2023-10-18",
+          "event": "first-customer-delivery",
+          "detail": "Amazon begins testing Digit at its own robotics facility for tote recycling; Amazon's own newsroom names itself as the customer and publishes photos of the physical unit working alongside Amazon employees.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-new-robotics-solutions",
+            "quote": "Broadening our partnership with Agility Robotics, we will begin testing their bipedal robot, Digit, for use in our operations.",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "This record covers the hardware generation of Digit that actually shipped to named customers (Ford 2020, Amazon 2023, GXO 2023-2024; Agility also claims a Toyota Motor Manufacturing Canada deployment per its own account, not independently sourced here).",
+      "No independently sourced height/weight/payload/battery specs for this specific generation were located during this build, so specs is intentionally empty rather than reusing the newer Digit 5 numbers. See agility-digit for the current (Digit 5) generation's claimed specs, which is a different, not-yet-shipped hardware generation.",
+      "Digit is sold as Robots-as-a-Service, not a one-time purchase, so price_history is intentionally empty.",
+      "Shipped bar applied (2026-09-20): both GXO's own news page (gxo.com, real photo file Digit-image-min.jpg served from GXO's own domain) and Amazon's own newsroom (aboutamazon.com, two photos of the physical unit) name themselves as customers with images of the unit on their own channels, replacing the earlier Wikipedia-sourced GXO citation and adding Amazon as a second named, photographed 2023-2024 delivery of this same generation."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "agility-digit",
+    "name": "Digit 5",
+    "manufacturer": {
+      "name": "Agility Robotics",
+      "country": "US",
+      "url": "https://www.agilityrobotics.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2026-09-15",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+        "quote": "Agility announces next-generation Digit 5",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 181,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+          "quote": "stands 5' 11\" (1.81 m)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 129,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+          "quote": "weighs 284 lb. (129 kg)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 22.7,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+          "quote": "repeatedly lift up to 50 lb. (22.7 kg) loads",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 90,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+          "quote": "90-minute runtime battery system charges in just 9 minutes",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2026-09-15",
+          "event": "announced",
+          "detail": "Agility announces next-generation Digit 5 (1.81 m, 129 kg), citing more than $300 million in multi-year customer orders and early access targeted for H1 2027. No named-customer delivery of this generation has been reported yet.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+            "quote": "more than $300 million in multi-year customer orders for Digit 5",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "This record covers only the newly announced Digit 5 generation (Sept 2026). Its specs (height/weight/payload/battery) are manufacturer claims for early access targeted H1 2027; no shipped or demonstrated evidence exists yet for this generation.",
+      "The prior generation's named, operating deployments (Ford 2020, GXO 2023-2024) are a different hardware generation and are tracked separately as agility-digit-gen4, so shipped status is never implied for a generation that has not shipped.",
+      "Digit is sold as Robots-as-a-Service, not a one-time purchase, so price_history is intentionally empty — no credible per-unit or subscription price was located from a manufacturer source during this build."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "figure-03",
+    "name": "Figure 03",
+    "manufacturer": {
+      "name": "Figure AI",
+      "country": "US",
+      "url": "https://www.figure.ai"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2026-06-25",
+      "source": {
+        "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+        "quote": "Figure 03 is an upgraded humanoid robot from Figure AI, announced for Spartanburg on June 25, 2026",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {},
+    "price_history": [],
+    "delivery": {
+      "status": "shipped",
+      "timeline": [
+        {
+          "date": "2026-06-25",
+          "event": "announced",
+          "detail": "Figure 03 announced as successor to Figure 02, with soft safety components, wireless charging, tactile-sensor hands, and speech-to-speech communication.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+            "quote": "Figure 03 is an upgraded humanoid robot from Figure AI, announced for Spartanburg on June 25, 2026, with soft safety components, wireless charging, speech-to-speech communication, and improved tactile-sensor hands.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-06-30",
+          "event": "first-demo",
+          "detail": "Figure publishes its own account of Figure 03 arriving and working at BMW Group Plant Spartanburg, Hall 52, performing a parts-sequencing task under whole-body VLA control (Helix 02).",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.figure.ai/news/f-03-at-bmw",
+            "quote": "Figure 03's hands, arms, torso, and feet ... fluidly switches between precise picking and placement of thin-walled, individual parts and forceful manipulation requiring whole-body coordination.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-06-25",
+          "event": "first-customer-delivery",
+          "detail": "Delivered to BMW Group Plant Spartanburg (Hall 52), following on from Figure 02's 30,000-vehicle run at the same plant.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.press.bmwgroup.com/global/photo/compilation/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg",
+            "quote": "Humanoid robot Figure 03 at BMW Group Plant Spartanburg.",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "No manufacturer-published height/weight/DoF spec sheet for Figure 03 was located on figure.ai during this build (figure.ai/product returned HTTP 404); specs are left empty rather than filled from secondary blogs. Follow-up: check Figure's press kit or a dated product page once published.",
+      "Shipped bar applied (2026-09-20): BMW's own press portal (press.bmwgroup.com) published a 7-photo compilation on 2026-06-25 captioned \"Humanoid robot Figure 03 at BMW Group Plant Spartanburg\" -- a named customer (BMW Group Plant Spartanburg) with photographic evidence of the physical unit, published via the customer's own channel. Per this site's shipped rule, a named customer plus image via the customer's or an independent channel is sufficient; invoice/serial/unboxing/customs are alternatives, not an added requirement. Upgraded to shipped. (An earlier note in this file required invoice/serial/unboxing/customs in addition to the photo; that conjunctive reading was too strict and is removed.)"
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "kepler-k2",
+    "name": "Forerunner K2",
+    "manufacturer": {
+      "name": "Shanghai Kepler Robotics Co., Ltd.",
+      "country": "CN",
+      "url": "https://www.gotokepler.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-10-21",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+        "quote": "The Forerunner K2 represents the Gen 5.0 robot model, showcasing a seamless integration of the humanoid robot's cerebral, cerebellar, and high-load body functions.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 175,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "175 cm (5 ft 9 in)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 75,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "75 kg (165 lbs)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 52,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+          "quote": "52 total; hands feature up to 11 DOF per hand (active and passive)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 480,
+        "status": "demonstrated",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "1-hour charge, 8-hour operation",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 30,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "30 kg (66 lbs)",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2025-08-01",
+        "amount": 248000,
+        "currency": "CNY",
+        "variant": "Bumblebee base pre-sale configuration",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+          "quote": "Pre-sales launched with three configurations starting at ¥248,000",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2024-10-21",
+          "event": "announced",
+          "detail": "Forerunner K2 (Gen 5.0) debuted at Gitex Global 2024 in Dubai.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+            "quote": "The Forerunner K2 represents the Gen 5.0 robot model, showcasing a seamless integration of the humanoid robot's cerebral, cerebellar, and high-load body functions.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-07-27",
+          "event": "first-demo",
+          "detail": "K2 'Bumblebee' completed an 8-hour continuous livestream at WAIC 2025.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+            "quote": "1-hour charge, 8-hour operation",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-08-01",
+          "event": "preorders-open",
+          "detail": "Pre-sales opened for the K2 'Bumblebee', marketed as the world's first commercially available planetary-roller-screw-driven humanoid robot.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
+            "quote": "World's first commercially available planetary roller screw-driven humanoid robot",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Height/weight conflict: Kepler's own PR Newswire releases (Oct 2024 and Aug 2025) do not give a consistent single figure across all Kepler materials; several secondary aggregator sites (e.g. humanoid.guide-derived listings) report 178 cm / 85 kg instead of the 175 cm / 75 kg used here. The 175 cm / 75 kg figure is used because it traces to Kepler's own named press release with a direct quote; the 178 cm / 85 kg figure could not be traced to a specific dated primary source and is not used.",
+      "An earlier press round (April 2025, SAIC-GM Shanghai plant deployment) and independent coverage cited a $30,000 USD base price; this is not included as a price_history entry because it could not be traced to a specific dated Kepler statement during this build, and it conflicts with the ¥248,000 pre-sale price from the Aug 2025 Kepler release.",
+      "The 8-hour livestream is Kepler's own event, described in a Kepler press release rather than fully independent press coverage; it is recorded as 'demonstrated' rather than 'shipped' or bare 'claimed' because it is a real, timestamped, continuous public demonstration.",
+      "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status remains 'demonstrated', not 'shipped'.",
+      "Shipped-bar research (2026-09-20): Web search for delivery evidence returned only NASA's unrelated Kepler/K2 space telescope mission and generic spec-sheet pages; no named-customer delivery evidence for the Kepler Robotics K2 humanoid was found in this pass. Remains at prior status."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "galbot-g1",
+    "name": "G1",
+    "manufacturer": {
+      "name": "Galbot (Beijing Galbot AI / Galaxy General Robot)",
+      "country": "CN",
+      "url": "https://www.galbot.com"
+    },
+    "category": "industrial",
+    "announced": {
+      "date": "2025-03-01",
+      "source": {
+        "url": "https://chozan.co/galbot-g1/",
+        "quote": "first publicly demonstrated in March 2025",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 173,
+        "status": "claimed",
+        "source": {
+          "url": "http://www.galbot.com/g1/",
+          "quote": "1730 mm",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 92.5,
+        "status": "claimed",
+        "source": {
+          "url": "http://www.galbot.com/g1/",
+          "quote": "机身重量 92.5 kg",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 21,
+        "status": "claimed",
+        "source": {
+          "url": "http://www.galbot.com/g1/",
+          "quote": "合计 21",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 480,
+        "status": "claimed",
+        "source": {
+          "url": "http://www.galbot.com/g1/",
+          "quote": "工作时长 8 小时",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 5.4,
+        "status": "claimed",
+        "source": {
+          "url": "http://www.galbot.com/g1/",
+          "quote": "最大速度 1.5 m/s",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 10,
+        "status": "claimed",
+        "source": {
+          "url": "http://www.galbot.com/g1/",
+          "quote": "单臂 5 kg 合计 10 kg",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2025-03-01",
+          "event": "announced",
+          "detail": "First public demonstration of the wheeled mobile-manipulator platform.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://chozan.co/galbot-g1/",
+            "quote": "first publicly demonstrated in March 2025",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-12-23",
+          "event": "volume-estimate",
+          "detail": "The Robot Report reported Galbot deployed at named industrial and healthcare customers (CATL, Bosch, Toyota, Hyundai, Xuanwu Hospital) and running warehouse operations 'for over a year', alongside a new funding round; the article states the company 'claimed that it has secured orders for thousands of units' without independent per-unit delivery evidence (invoice, serial number, unboxing).",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/",
+            "quote": "Galbot's robots are also deployed in multiple warehouse locations, where they've demonstrated stable and continuous 24/7 operations for over a year.",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Spec conflict: Galbot's own current Chinese-language product page (galbot.com/g1/, accessed 2026-09-20) states 1730 mm / 92.5 kg / 21 DOF / 8 h runtime / 1.5 m/s max speed / 10 kg combined payload. Widely repeated English-language secondary aggregators (Humanoid.guide, RoboZaps, robotsasia.com, humanoid-robots.io) instead give 173 cm / 85 kg / 47 total DOF (incl. a 12-DOF hand) / 10-hour runtime / 95-97% grasp success rate, none of which trace to a manufacturer page found during this build. Both figures are recorded in this note; the specs above follow the manufacturer's own current page.",
+      "https://www.galbot.com/product (the English marketing page linked from search results) returned empty/no renderable content when fetched directly during this build; the specs above come from the manufacturer's Chinese product page (galbot.com/g1/) instead.",
+      "The Robot Report (2025-12-23) reports named customers (CATL, Bosch, Toyota, Hyundai, Xuanwu Hospital) and 'Galbot Store' retail deployments in '30+ cities', which is stronger than a bare claim, but the article does not itself supply photo/video evidence of a specific unit, an invoice, a serial number, or a customs record for any single named customer, so delivery.status is kept at 'claimed' rather than 'shipped' or 'demonstrated' per this schema's strict evidentiary bar. This should be revisited if a primary customer case study or unboxing surfaces.",
+      "No price was found on a primary manufacturer or press source during this build; price_history is left empty.",
+      "Shipped-bar research (2026-09-20): Galbot's own materials and The Robot Report describe G1 running autonomously in pharmacy retail settings (\"nearly 10 stores in Beijing\") and cite CATL and Bosch as investor/deployment partners, but per our own fetch of the Robot Report piece, no store or partner site is named specifically, and the CATL/Bosch language is about a joint venture and future collaboration, not a documented physical unit in either company's possession with photo plus invoice/serial/unboxing/customs. Not upgraded to shipped."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "unitree-g1",
+    "name": "G1",
+    "manufacturer": {
+      "name": "Unitree Robotics",
+      "country": "CN",
+      "url": "https://www.unitree.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-05-13",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+        "quote": "Unitree Robotics unveiled the G1 at ICRA 2024, pricing the humanoid at $16,000.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 132,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.unitree.com/g1/",
+          "quote": "1320x450x200mm",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 35,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.unitree.com/g1/",
+          "quote": "About 35kg",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 23,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.unitree.com/g1/",
+          "quote": "23 (standard); 23 - 43 (G1 EDU)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 120,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.unitree.com/g1/",
+          "quote": "About 2h",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 7.2,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+          "quote": "The robot also features a fast walking speed of 2,000 mm/s (4.5 MPH).",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 2,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.unitree.com/g1/",
+          "quote": "About 2Kg (standard); About 3Kg (EDU)",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2024-05-13",
+        "amount": 16000,
+        "currency": "USD",
+        "variant": "base",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+          "quote": "Price: $16,000 (base configuration)",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-09-20",
+        "amount": 13500,
+        "currency": "USD",
+        "variant": "base",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.unitree.com/g1/",
+          "quote": "US $13.5K",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "shipped",
+      "timeline": [
+        {
+          "date": "2024-05-13",
+          "event": "announced",
+          "detail": "Unveiled at ICRA 2024 in Yokohama, priced from $16,000.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+            "quote": "Unitree Robotics unveiled the G1 at ICRA 2024, pricing the humanoid at $16,000.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "event": "preorders-open",
+          "detail": "G1 remains listed for direct purchase on Unitree's own store, standard configuration $13,500.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.unitree.com/g1/",
+            "quote": "US $13.5K",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-04-01",
+          "event": "first-customer-delivery",
+          "detail": "Delivered to Durham University's Department of Computer Science, which named its G1 Edu unit 'Alan' and published its own photo of the robot for research use.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.durham.ac.uk/news-events/latest-news/2026/04/durhams-new-humanoid-robot-to-support-cutting-edge-research/",
+            "quote": "Our Department of Computer Science has welcomed an exciting new arrival: Alan, a humanoid robot that will support a wide range of future research. ... Alan is a Unitree G1 Edu robot",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
+      "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",
+      "Shipped bar applied (2026-09-20): Durham University's own website (durham.ac.uk, published 1 April 2026) names the Department of Computer Science as the owner of a Unitree G1 Edu robot it calls 'Alan', with a photo of the unit ('Alan-robot-WEB.png') hosted on Durham's own site. This is a named customer with photographic evidence published on the customer's own channel, which satisfies this site's shipped rule without needing an invoice, serial number, unboxing, or customs record as an additional requirement. Upgraded from demonstrated to shipped; the earlier note here (requiring a serial number/invoice/customs record on top of a named buyer with a photo) applied too strict a reading and is removed."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "fourier-gr-2",
+    "name": "GR-2",
+    "manufacturer": {
+      "name": "Fourier",
+      "country": "CN",
+      "url": "https://www.fftai.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-09-30",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+        "quote": "Standing at 175 cm and weighing 63 kg",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 175,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
+          "quote": "175 cm (68.9 in.)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 63,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
+          "quote": "63 kg (139 lb.)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 53,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+          "quote": "53 degrees of freedom",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 3,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
+          "quote": "single-arm load capacity of 3 kg (6.6 lb.)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "hands": {
+        "value": "12 DoF per hand, tactile sensors",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+          "quote": "12-DoF dexterous hands—double the dexterity of previous models",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2024-09-30",
+          "event": "announced",
+          "detail": "Fourier (rebranded from Fourier Intelligence earlier in 2024) launched GR-2 as the successor to GR-1, alongside a new software development platform.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262068.html",
+            "quote": "Standing at 175 cm and weighing 63 kg",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Payload capacity is single-arm load capacity (3 kg / 6.6 lb) as stated by the manufacturer's press release, not a whole-body payload figure.",
+      "No named-customer delivery or independent demonstration video was found during this research session, so delivery.status is 'claimed'; price figures circulating on aggregator sites (e.g. $150,000+, €110,803.55) could not be traced to a manufacturer or press source and were omitted rather than included unsourced.",
+      "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement): searched specifically for a named hospital, university, or lab publishing its own photo of a GR-1 unit (parallel to the Durham University / Unitree G1 case). None was found -- coverage of Fourier's healthcare/rehab use cases describes GR-1 as designed for hospital and care-home tasks and cites '2,000+ organizations and hospitals' served as a manufacturer-side aggregate claim, but no specific institution's own channel or independent report names itself as a GR-1 recipient with a photo of its unit. This is a genuine evidence gap, not an over-strict reading of the rule, so GR-1/GR-2 remains claimed, not shipped. No fourier-gr-1.json record exists in this dataset; if one is added later, this same gap applies to it."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "unitree-h2",
+    "name": "H2",
+    "manufacturer": {
+      "name": "Unitree Robotics",
+      "country": "CN",
+      "url": "https://www.unitree.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2025-10-20",
+      "source": {
+        "url": "https://www.humanoidsdaily.com/news/unitree-unveils-h2-humanoid-successor-to-h1",
+        "quote": "Unitree Unveils H2, a Full-Sized Humanoid Successor to the H1",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 180,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.humanoidsdaily.com/news/unitree-unveils-h2-humanoid-successor-to-h1",
+          "quote": "The H2 stands 180 cm tall and weighs 70 kg.",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 70,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.humanoidsdaily.com/news/unitree-unveils-h2-humanoid-successor-to-h1",
+          "quote": "The H2 stands 180 cm tall and weighs 70 kg.",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 31,
+        "status": "claimed",
+        "source": {
+          "url": "https://shop.unitree.com/products/unitree-h2",
+          "quote": "31 degrees of freedom",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 7.2,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.humanoidsdaily.com/news/unitree-unveils-h2-humanoid-successor-to-h1",
+          "quote": "the H1 was celebrated for its record-breaking speed of 3.3 m/s, the H2 is rated for under 2 m/s",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2026-09-20",
+        "amount": 29900,
+        "currency": "USD",
+        "variant": "standard",
+        "status": "claimed",
+        "source": {
+          "url": "https://shop.unitree.com/products/unitree-h2",
+          "quote": "$29,900.00 USD",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2025-10-20",
+          "event": "announced",
+          "detail": "Revealed in a 'H2 Destiny Awakening' launch video showcasing dance and kung-fu-style movements.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.humanoidsdaily.com/news/unitree-unveils-h2-humanoid-successor-to-h1",
+            "quote": "Unitree Unveils H2, a Full-Sized Humanoid Successor to the H1",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "event": "preorders-open",
+          "detail": "H2 is listed for direct purchase on Unitree's own store at $29,900; only the EDU version supports secondary development.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://shop.unitree.com/products/unitree-h2",
+            "quote": "Only the EDU version supports secondary development",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "The walking speed field notes the H2 is a deliberate step down from the H1's top speed in exchange for dexterity: 'the H1 was celebrated for its record-breaking speed of 3.3 m/s, the H2 is rated for under 2 m/s' (Humanoids Daily, 2025-10-20). We recorded the H1's superseded top speed as the H2 value here is only bounded ('under 2 m/s'); treat 7.2 km/h (2 m/s) as an upper bound, not a measured figure.",
+      "The task brief asked to pick H1 or H2 and name the other: H2 (announced 2025-10-20) is Unitree's direct successor to the H1 (announced 2019), replacing its 'R-A-F' hip layout with 'F-A-R' and adding a 3-DOF waist and up to three Jetson Orin NX modules. H1 itself remains for sale separately and is not covered by this file.",
+      "Unitree's own shop page does not state battery runtime or payload; both are omitted rather than sourced from secondary aggregators (RoboZaps, Humanoid.guide) that were not independently verified against a primary page during this build.",
+      "No named-customer delivery evidence was found; delivery.status stays 'claimed' (store listing only, no unboxing/serial/customs record located)."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "xpeng-iron",
+    "name": "Iron",
+    "manufacturer": {
+      "name": "XPeng",
+      "country": "CN",
+      "url": "https://www.xpeng.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-11-06",
+      "source": {
+        "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+        "quote": "Xpeng unveiled Iron, a humanoid robot that stands 178 cm tall and weighs 70 kg, close to a real person.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 178,
+        "status": "claimed",
+        "source": {
+          "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+          "quote": "stands 178 cm tall",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 70,
+        "status": "claimed",
+        "source": {
+          "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+          "quote": "weighs 70 kg",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 60,
+        "status": "claimed",
+        "source": {
+          "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+          "quote": "has over 60 joints",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2024-11-06",
+          "event": "announced",
+          "detail": "XPeng unveiled its first humanoid robot, Iron, at its 2024 AI Day, saying it would work its way into XPeng's own factories.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
+            "quote": "Xpeng unveiled Iron, a humanoid robot that stands 178 cm tall and weighs 70 kg, close to a real person.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-11-05",
+          "event": "first-demo",
+          "detail": "XPeng showed a next-generation Iron walking on stage at 2025 AI Day; the walk looked so human-like that online viewers accused the company of hiding a person inside, prompting CEO He Xiaopeng to cut open the robot's leg on stage to show the wiring.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://cnevpost.com/2025/11/06/xpengs-iron-humanoid-robot-looks-so-real/",
+            "quote": "Xpeng's Iron humanoid robot looks so real that some suspect it hides a human inside",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Specs recorded here (178 cm / 70 kg / 60+ joints) are for the original Iron unveiled November 2024. The next-generation Iron shown at 2025 AI Day (Nov 5, 2025) has different hand dexterity: CnEVPost's 2025 coverage states 'a hand with 22 degrees of freedom', while a separate report cited elsewhere put per-hand DOF at 21 and total body DOF at 76 for the 2025 version. Updated full-body height/weight for the 2025 generation were not confirmed by a primary or press source during this session, so the 2024 figures are kept as the current record and the hand-DOF conflict is flagged rather than resolved.",
+      "No shipped or independently verified customer deployment was found; XPeng has stated mass production is targeted for end of 2026 with deliveries/showroom deployment planned for 2027, which is a plan, not a shipped or demonstrated-in-production status."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "mentee-menteebot",
+    "name": "MenteeBot V3",
+    "manufacturer": {
+      "name": "Mentee Robotics",
+      "country": "IL",
+      "url": "https://www.menteebot.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2025-02-17",
+      "source": {
+        "url": "https://interestingengineering.com/innovation/israel-humanoid-robot-with-360-vision",
+        "quote": "Israel's Mentee Robotics has unveiled an updated version of its versatile Menteebot humanoid. MenteeBot V3.0 is a fully integrated humanoid robot with full-stack AI and proprietary hardware.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 175,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.menteebot.com/bot/",
+          "quote": "175cmHeight",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 70,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.menteebot.com/bot/",
+          "quote": "70kgWeight",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 40,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.menteebot.com/bot/",
+          "quote": "40",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 5.4,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.menteebot.com/bot/",
+          "quote": "1.5m/s",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 25,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.menteebot.com/bot/",
+          "quote": "Can carry up to 25kg",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2025-02-17",
+          "event": "announced",
+          "detail": "Mentee Robotics unveiled MenteeBot V3.0, a fully integrated humanoid with proprietary hardware and hot-swappable batteries for continuous operation.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://interestingengineering.com/innovation/israel-humanoid-robot-with-360-vision",
+            "quote": "Israel's Mentee Robotics has unveiled an updated version of its versatile Menteebot humanoid.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-11-24",
+          "event": "first-demo",
+          "detail": "Mentee published an 18-minute continuous (uncut) shot of two V3 MenteeBots working together in a warehouse, moving boxes between piles and flow racks without human intervention.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.humanoidsdaily.com/news/mentee-robotics-demonstrates-warehouse-autonomy-with-dual-robot-uncut-demo",
+            "quote": "In the 18-minute continuous shot, two V3 MenteeBots transfer a total of 32 boxes from eight different piles into four flow racks.",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Battery runtime is reported inconsistently across press coverage (Interesting Engineering: 'more than three hours'; other outlets: 'around 4 hours') and is not stated on Mentee's own /bot/ page, so battery_runtime_min is omitted rather than picking one figure.",
+      "No official price has been published by Mentee Robotics; a $35,000 figure circulates on aggregator/marketplace sites but was not traced back to a manufacturer statement, so price_history is left empty.",
+      "In 2026 press reported Mobileye (whose CEO Amnon Shashua also founded Mentee Robotics) in talks to acquire Mentee Robotics; this is a corporate/ownership development, not a delivery or spec fact, and was not verified further for this record."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "1x-neo",
+    "name": "Neo",
+    "manufacturer": {
+      "name": "1X Technologies",
+      "country": "NO",
+      "url": "https://www.1x.tech"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-08-01",
+      "source": {
+        "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+        "quote": "NEO's Original Strategy Reveal: August 2024 — when the company unveiled its strategy to develop NEO",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "weight_kg": {
+        "value": 30,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "quote": "At just 66 pounds (29.94 kg), NEO is capable of lifting over 150 pounds",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 68,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "quote": "capable of lifting over 150 pounds (68 kg) and carrying 55 pounds (24.95kg)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "hands": {
+        "value": "22 DoF",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "quote": "22 DoF Hands with Human Level Dexterity",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2025-10-30",
+        "amount": 20000,
+        "currency": "USD",
+        "variant": "Early Access (purchase, $200 deposit)",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "quote": "$20,000, which includes priority delivery in 2026",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2025-10-30",
+        "amount": 499,
+        "currency": "USD",
+        "variant": "monthly subscription",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "quote": "A subscription offering is also available for $499 per month",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2024-08-01",
+          "event": "announced",
+          "detail": "1X unveils its strategy to develop a consumer home robot, later named Neo.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+            "quote": "NEO's Original Strategy Reveal: August 2024 — when the company unveiled its strategy to develop NEO",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-10-30",
+          "event": "preorders-open",
+          "detail": "Preorders open with a $200 deposit; company states first units ship to US consumer homes in 2026, other markets from 2027.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.1x.tech/discover/neo-home-robot",
+            "quote": "first orders shipping to consumer homes in 2026",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "As of 2026-09-20, 1X has not published evidence of any consumer unit delivered — only preorder/deposit terms and a 2026 shipping promise. Per this dataset's rules, that keeps delivery.status at claimed, not shipped, regardless of marketing language like \"order today\".",
+      "Height was not found stated on 1X's own current page during this build; third-party coverage estimates \"5-foot-6\" but that is not a manufacturer source, so height_cm is omitted here rather than sourced to a secondary outlet."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "limx-dynamics-oli",
+    "name": "Oli",
+    "manufacturer": {
+      "name": "LimX Dynamics",
+      "country": "CN",
+      "url": "https://www.limxdynamics.com"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2025-07-30",
+      "source": {
+        "url": "https://www.limxdynamics.com/en/news/BK000043",
+        "quote": "31 active degrees of freedom",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 165,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.limxdynamics.com/en/products/oli",
+          "quote": "165cm height",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 31,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.limxdynamics.com/en/news/BK000043",
+          "quote": "31 active degrees of freedom",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 5,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/limx-dynamics-launches-limx-oli-full-size-humanoid-robot/",
+          "quote": "Maximum walking speed is 5 km/h.",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 3,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/limx-dynamics-launches-limx-oli-full-size-humanoid-robot/",
+          "quote": "Single-arm payload is 3 kg.",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2025-07-30",
+          "event": "announced",
+          "detail": "LimX Dynamics launched the LimX Oli full-size general-purpose humanoid robot.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.limxdynamics.com/en/news/BK000043",
+            "quote": "31 active degrees of freedom",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-08-08",
+          "event": "first-demo",
+          "detail": "Oli made its public debut at the World Robot Conference (WRC) in Beijing.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/limx-dynamics-launches-limx-oli-full-size-humanoid-robot/",
+            "quote": "will make its public debut this week at the World Robot Conference (WRC) in Beijing",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Weight, battery runtime and price were not stated on the manufacturer product page or in The Robot Report's launch article fetched during this build; a 9,500 mAh / 58.8V pack and ~2-hour runtime, and a ~55 kg weight for the Lite/EDU variants, are reported on third-party retailer/aggregator listings (e.g. RobotShop) but could not be traced to a dated manufacturer statement, so these fields are omitted rather than guessed.",
+      "Oli ships in Lite, EDU and Super editions with different specs and pricing; the values recorded here are the ones stated without a variant qualifier on the manufacturer's product/news pages.",
+      "Currently sold in Mainland China only per the manufacturer's news page, with a global version described as forthcoming."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "tesla-optimus",
+    "name": "Optimus",
+    "manufacturer": {
+      "name": "Tesla, Inc.",
+      "country": "US",
+      "url": "https://www.tesla.com/AI"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2021-08-19",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "quote": "August 19, 2021, at Tesla's AI Day event",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 173,
+        "status": "claimed",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "quote": "Height: 5 ft 8 in (173 cm)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 57,
+        "status": "claimed",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "quote": "Weight: 125 lb (57 kg)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 20,
+        "status": "claimed",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "quote": "Carrying capacity: 45 lb (20 kg)",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2026-04-22",
+        "amount": 30000,
+        "currency": "USD",
+        "variant": "estimate, not yet for sale",
+        "status": "claimed",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "quote": "April 22, 2026 (Q1 Earnings Call): Musk estimated the robot would be \"available for purchase at around US$30,000.\"",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2021-08-19",
+          "event": "announced",
+          "detail": "Tesla reveals plans for a humanoid robot (initially \"Tesla Bot\") at AI Day; presented by a person in a costume, not a functioning unit.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+            "quote": "August 19, 2021, at Tesla's AI Day event",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-04-22",
+          "event": "volume-estimate",
+          "detail": "No customer deliveries confirmed; Tesla states production lines are being installed at Fremont with full-scale manufacturing targeted for 2027.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+            "quote": "April 2026: Production lines being installed in Fremont; full-scale manufacturing targeted for 2027",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "No unit has been sold or delivered to an external customer as of 2026-09-20; Tesla's own working demos (walking, sorting, dancing) qualify as demonstrated, not shipped.",
+      "Primary sourcing gap: tesla.com/AI returned HTTP 403 and Tesla's investor-relations PDFs were not reachable directly during this build; the figures above are Tesla's own stated numbers as compiled by Wikipedia with named dates and events (AI Day 2021, Q1 2026 earnings call), not independent journalism repeating a rumor. This should be replaced with a direct tesla.com or ir.tesla.com citation in a follow-up."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "persona-ai-gen1",
+    "name": "Persona Gen 1",
+    "manufacturer": {
+      "name": "Persona AI, Inc.",
+      "country": "US",
+      "url": "https://persona.ai"
+    },
+    "category": "industrial",
+    "announced": {
+      "date": "2025-05-17",
+      "source": {
+        "url": "https://www.therobotreport.com/persona-ai-raises-27m-develops-purpose-built-humanoid-robots-shipyards/",
+        "quote": "Persona AI Inc., a humanoid robot and embodied artificial intelligence developer, this week said it has closed an oversubscribed pre-seed funding round, raising $27 million.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {},
+    "price_history": [],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2025-05-17",
+          "event": "announced",
+          "detail": "Persona AI (Houston) announced a $27M oversubscribed pre-seed round and said it had already signed an agreement with HD Hyundai to deploy humanoids into shipyards, with initial delivery expected within 18 months.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/persona-ai-raises-27m-develops-purpose-built-humanoid-robots-shipyards/",
+            "quote": "Persona AI said it has already signed an agreement with HD Hyundai, a global leader in shipbuilding, to deploy humanoids into shipyards, with initial delivery expected within 18 months.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-07-13",
+          "event": "first-demo",
+          "detail": "Persona AI deployed a humanoid welding robot at its own Houston facility, sized to fit human welders' physical envelope in confined shipyard spaces; described as prototype/pre-commercial, with commercial testing targeted for 2027.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.robotaigeek.com/news/persona-ai-deploys-humanoid-welding-robot-in-houston-shipyards",
+            "quote": "The 175cm, 85kg robot is designed to fit the same physical envelope as human welders in confined shipyard spaces.",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Persona AI's own site (persona.ai) does not publish numeric specs (height/weight/DOF/speed/payload) for Gen 1; specs is left empty rather than sourced to press coverage. Press figures conflict: RobotAIGeek (Jul 2026, on-site Houston deployment) reports '175cm, 85kg', while other secondary aggregators (not traced to a manufacturer statement) report 175 cm / 70 kg and ~32 DOF. Neither height/weight pairing could be confirmed against a Persona AI-published spec sheet during this build.",
+      "A later RoboHorizon report (2025-12-31) describes a $42M pre-seed round for Persona AI's humanoid welding bot, which appears inconsistent with (or a follow-on close to) the $27M pre-seed reported in May 2025 by The Robot Report; both figures are recorded here as a discrepancy rather than resolved. See https://robohorizon.com/en-us/news/2025/12/persona-ai-unveils-humanoid-bot-with-42m-to-weld-in-shipyards/ (accessed 2026-09-20).",
+      "No named-customer unit with an invoice, serial number, or independent unboxing was found; the HD Hyundai relationship is a signed deployment agreement/MOU with initial delivery 'expected' within 18 months of May 2025, not a completed shipment. delivery.status is set to 'demonstrated' on the strength of the on-site Houston welding-robot deployment (RobotAIGeek, Jul 2026), not 'shipped'.",
+      "No public price has been found for Gen 1; Persona AI operates a robotics-as-a-service model without published unit pricing, so price_history is left empty."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "sanctuary-ai-phoenix",
+    "name": "Phoenix",
+    "manufacturer": {
+      "name": "Sanctuary AI",
+      "country": "CA",
+      "url": "https://sanctuary.ai"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2023-05-16",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+        "quote": "5'7″ (1.7 m)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 170,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+          "quote": "5'7″ (1.7 m)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 57.9,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+          "quote": "155 lbs (57.9 kg)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 20,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+          "quote": "20 degrees of freedom",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 4.8,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+          "quote": "3 mph (1,300 mm/sec)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 20.5,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+          "quote": "55 lbs (20.5 kg)",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2023-05-16",
+          "event": "announced",
+          "detail": "Sanctuary AI unveiled Phoenix, its sixth-generation general-purpose humanoid robot and first bipedal model.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+            "quote": "5'7″ (1.7 m)",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Sanctuary AI has run pilot programs with automotive supplier Magna International, but no source with a named customer plus invoice/serial-number/unboxing evidence was found during this build, so delivery.status is recorded as 'demonstrated', not 'shipped'.",
+      "No battery runtime figure was found in the announcement source; the field is omitted rather than guessed.",
+      "Phoenix is not sold as a commercial product with public pricing (deployed via partnerships), so price_history is empty rather than populated with a guess."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "engineai-pm01",
+    "name": "PM01",
+    "manufacturer": {
+      "name": "EngineAI Robotics",
+      "country": "CN",
+      "url": "https://en.engineai.com.cn"
+    },
+    "category": "full-size",
+    "announced": {
+      "date": "2024-12-27",
+      "source": {
+        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+        "quote": "EngineAI releases PM01 humanoid robot for commercial, educational use",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 138,
+        "status": "claimed",
+        "source": {
+          "url": "https://en.engineai.com.cn/",
+          "quote": "138CM",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 40,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+          "quote": "weighs about 40 kg (88 lb.)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 24,
+        "status": "claimed",
+        "source": {
+          "url": "https://en.engineai.com.cn/",
+          "quote": "24-DOF",
+          "accessed": "2026-09-20"
+        }
+      },
+      "walking_speed_kmh": {
+        "value": 7.2,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+          "quote": "2 m/sec. (4.4 mph)",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 120,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+          "quote": "can operate for two hours on a single charge",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2024-12-27",
+        "amount": 12000,
+        "currency": "USD",
+        "variant": "unified (business & education)",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+          "quote": "unified price of 88,000 yuan ($12,000 U.S.) until March 31, 2025",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2024-12-27",
+          "event": "announced",
+          "detail": "Launched as an open-source, general-purpose humanoid at 88,000 yuan ($12,000), positioned $3,000 below Unitree's G1.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+            "quote": "This positions the PM01 $3,000 below Unitree's G1 humanoid.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-02-23",
+          "event": "first-demo",
+          "detail": "EngineAI released video of a PM01 performing what it called the world's first humanoid front flip.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.foxnews.com/tech/chinese-humanoid-robot-lands-worlds-first-front-flip",
+            "quote": "A Chinese humanoid robot lands the world's first front flip",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "The front-flip video (2025-02-23) is manufacturer-produced marketing footage; it is recorded here under 'demonstrated' because the maneuver is a specific, visibly performed physical feat rather than a spec claim, but no independent (non-EngineAI) uncut footage was located during this build to confirm it as an unedited take.",
+      "EngineAI's own site (en.engineai.com.cn) only lists height, DOF and peak torque density; weight, battery runtime, walking speed and price were sourced from The Robot Report's 2024-12-27 launch coverage instead.",
+      "No named-customer shipment evidence (invoice, serial number, unboxing, customs record) was found during this build; delivery.status therefore stays 'demonstrated' rather than 'shipped'.",
+      "Shipped-bar research (2026-09-20): EngineAI's own claim is ~100 units delivered in five months including \"Shenzhen police patrol support\", which would be a strong named-customer claim if independently verified -- but this pass found no independent photo/video of a PM01 physically in Shenzhen police possession, nor any consumer unboxing video with a named buyer. Not upgraded to shipped."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "unitree-r1",
+    "name": "R1",
+    "manufacturer": {
+      "name": "Unitree Robotics",
+      "country": "CN",
+      "url": "https://www.unitree.com"
+    },
+    "category": "compact",
+    "announced": {
+      "date": "2025-07-29",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+        "quote": "Unitree designs R1 humanoid robot to be agile and affordable",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 123,
+        "status": "claimed",
+        "source": {
+          "url": "https://shop.unitree.com/products/unitree-r1",
+          "quote": "standing 123 cm tall",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 25,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+          "quote": "The 25-kilogram robot combines dynamic movement capabilities with a built-in Large Multimodal AI Model",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 26,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+          "quote": "features 26 degrees of freedom across its legs, waist, arms, and head",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2025-07-29",
+        "amount": 5900,
+        "currency": "USD",
+        "variant": "standard",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+          "quote": "The standard model was priced at $5,900",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-09-20",
+        "amount": 4900,
+        "currency": "USD",
+        "variant": "base",
+        "status": "claimed",
+        "source": {
+          "url": "https://shop.unitree.com/products/unitree-r1",
+          "quote": "$4,900.00 USD",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2025-07-29",
+          "event": "announced",
+          "detail": "Unveiled with a $5,900 starting price, undercutting Unitree's own G1 ($16k) and H1 ($90k).",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+            "quote": "The low price targets universities, hobbyists and early consumer adopters who were priced out of Unitree's $16 k G1 and $90 k H1",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "event": "preorders-open",
+          "detail": "R1 is listed for direct purchase on Unitree's own store at $4,900, with buyers directed to contact Unitree for further product information.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://shop.unitree.com/products/unitree-r1",
+            "quote": "If you want to know more product information, please contact us directly",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "Height/price conflict: The Robot Report's July 2025 launch coverage gives 1.2 m (3.9 ft) and a $5,900 standard price, while Unitree's own current store page (accessed 2026-09-20) states '123 cm' and lists the base unit at $4,900. Both are recorded here; the discrepancy is not resolved.",
+      "The Robot Report notes the R1 'is remote-controlled rather than autonomous. Autonomy is achievable but requires secondary development' — relevant context for any 'demonstrated' autonomy claims made elsewhere about this robot.",
+      "Battery runtime, walking speed and payload were not found on a primary source during this build and are omitted rather than guessed; secondary aggregators (RoboZaps, Humanoid.guide) cite ~1 hour runtime but this was not independently confirmed against a manufacturer or press primary source.",
+      "No named-customer delivery evidence was found; delivery.status stays 'claimed'."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "booster-t1",
+    "name": "T1",
+    "manufacturer": {
+      "name": "Booster Robotics",
+      "country": "CN",
+      "url": "https://www.booster.tech"
+    },
+    "category": "research",
+    "announced": {
+      "date": "2024-12-18",
+      "source": {
+        "url": "https://www.booster.tech/news/",
+        "quote": "Booster Robotics Becomes RoboCup's Official Partner! Booster T1 shows excellent performance in the football-playing scenario. It is durable and supports secondary development.",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 118,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.booster.tech/booster-t1/",
+          "quote": "Dimensions: 118×47×23 cm",
+          "accessed": "2026-09-20"
+        }
+      },
+      "weight_kg": {
+        "value": 30,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.booster.tech/booster-t1/",
+          "quote": "Weight: ~30kg",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 23,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.booster.tech/booster-t1/",
+          "quote": "Total DoFs: 23",
+          "accessed": "2026-09-20"
+        }
+      },
+      "battery_runtime_min": {
+        "value": 120,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.booster.tech/booster-t1/",
+          "quote": "Battery Life: 2h (walking), 4h (standing)",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [
+      {
+        "date": "2026-09-20",
+        "amount": 26000,
+        "currency": "EUR",
+        "variant": "Standard, VAT excl., promotional price via authorized EU distributor",
+        "status": "claimed",
+        "source": {
+          "url": "https://www.generationrobots.com/en/404278-booster-t1-humanoid-robot.html",
+          "quote": "€31,200.00 VAT incl. €26,000.00 VAT excl.",
+          "accessed": "2026-09-20"
+        }
+      }
+    ],
+    "delivery": {
+      "status": "demonstrated",
+      "timeline": [
+        {
+          "date": "2024-12-18",
+          "event": "announced",
+          "detail": "Earliest pinned press date on Booster's own news page, tied to Booster becoming RoboCup's official partner platform. Multiple secondary sources place an earlier debut at the World Robot Conference in Beijing (Aug 2024) and a competition win at IEEE-RAS Humanoids 2024 (Nov 2024), but no primary Booster source with a specific date for either was found.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.booster.tech/news/",
+            "quote": "Booster Robotics Becomes RoboCup's Official Partner! Booster T1 shows excellent performance in the football-playing scenario.",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-01-23",
+          "event": "preorders-open",
+          "detail": "Booster's own news page claims T1 is shipping worldwide following a showing at NVIDIA's event with Jensen Huang, and it is listed for direct purchase by EU/US resellers. No named-customer unboxing or serial-number evidence was found, so this is treated as a claimed-level availability signal rather than shipped.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.booster.tech/news/",
+            "quote": "Booster T1, featured at NVIDIA's Spring Party and signed by Jensen Huang, is now shipping worldwide",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "walking_speed_kmh and payload_kg are widely reported by aggregator sites (e.g. 18 km/h, 3 kg) but no literal quote from Booster's own site or a primary press source could be pinned during this build, so both fields are omitted rather than guessed.",
+      "Price is sourced from a French authorized distributor (Generation Robots) rather than Booster's own storefront, since Booster's own site directs buyers to contact sales without listing a public price.",
+      "Booster.tech's own product page (booster-t1) does not state degrees-of-freedom variants with grippers/dexterous hands the way older aggregator pages do (23/31/41); only the base 23 DoF figure is confirmed on the current official page.",
+      "Shipped-bar research (2026-09-20): Bipedal GmbH (Cologne, Germany) is Booster Robotics' EU distributor and has both a promotional blog post (\"Der neue BoosterT1 ist endlich da\", 2025-02-09, using manufacturer product photos, not delivery photos) and its own YouTube tutorial series (\"Booster Robotic T1 How to start\") showing a physical unit. A distributor's own stock unit is not a first customer delivery in the RoboCup-team sense the task asked about, and no RoboCup team's own channel showing a specific received T1 with invoice/serial/customs was found in this pass. Independent buyer unboxings exist on YouTube (e.g. \"Unboxing & Getting Started with Booster T1\" by Generation Robots, a French robotics reseller) but again show a reseller's demo unit, not a clearly named end-customer delivery. Not upgraded to shipped."
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "slug": "ubtech-walker-s2",
+    "name": "Walker S2",
+    "manufacturer": {
+      "name": "UBTech Robotics",
+      "country": "CN",
+      "url": "https://www.ubtrobot.com"
+    },
+    "category": "industrial",
+    "announced": {
+      "date": "2025-07-23",
+      "source": {
+        "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
+        "quote": "On July 23rd, UBTECH Robotics announced the launch of its latest innovation, the Walker S2",
+        "accessed": "2026-09-20"
+      }
+    },
+    "specs": {
+      "height_cm": {
+        "value": 176,
+        "status": "claimed",
+        "source": {
+          "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
+          "quote": "stands at an impressive height of 1.76 meters",
+          "accessed": "2026-09-20"
+        }
+      },
+      "dof": {
+        "value": 52,
+        "status": "claimed",
+        "source": {
+          "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
+          "quote": "52 degrees of freedom in its bionic body",
+          "accessed": "2026-09-20"
+        }
+      },
+      "payload_kg": {
+        "value": 15,
+        "status": "claimed",
+        "source": {
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+          "quote": "pitch 125° angle and handle 15kg payload within 0-1.8 meters workspace",
+          "accessed": "2026-09-20"
+        }
+      }
+    },
+    "price_history": [],
+    "delivery": {
+      "status": "claimed",
+      "timeline": [
+        {
+          "date": "2025-07-23",
+          "event": "announced",
+          "detail": "UBTech launched Walker S2, a full-size industrial humanoid with an autonomous hot-swappable battery system.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+            "quote": "The world's first autonomous hot-swappable battery swap system for humanoid robots",
+            "accessed": "2026-09-20"
+          }
+        },
+        {
+          "date": "2025-11-17",
+          "event": "volume-estimate",
+          "detail": "UBTech's own press release states mass production and delivery of the first batch began, naming automotive and logistics deployment partners (BYD, Dongfeng Liuzhou Motor, Geely Auto, FAW-Volkswagen Qingdao, Audi FAW, BAIC New Energy, Foxconn, SF Express) and orders exceeding 800 million yuan. No independent photo/serial/unboxing evidence of a specific named-customer unit was found, so this is recorded as claimed, not shipped.",
+          "quantity_min": null,
+          "quantity_max": null,
+          "source": {
+            "url": "https://www.prnewswire.com/news-releases/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan-302616924.html",
+            "quote": "begun mass production and delivery of the first batch of several hundred full-size industrial humanoid robots",
+            "accessed": "2026-09-20"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "UBTech's own product page (ubtrobot.com/en/humanoid/products/walker-s2) is reachable and confirms payload and battery-swap claims directly, but does not state height or weight. Height (1.76 m) and DOF (52) here are sourced from a secondary aggregator (heyupnow.com) that republishes UBTech's launch claims without linking an original press release; no PR Newswire/Business Wire/IEEE Spectrum/Robot Report coverage with those exact figures was found during this session. Treat height/DOF as needing a stronger source in a follow-up.",
+      "Weight could not be confirmed from any source checked; third-party aggregators disagree (43-77 kg depending on battery configuration), so it is omitted rather than guessed.",
+      "The November 2025 mass-production/delivery announcement is UBTech's own press release (claimed-level evidence per schema); it names deployment partners but the fetched text contains no photo, serial number, or independent verification of a specific customer's unit, so delivery.status stays 'claimed' rather than 'shipped'.",
+      "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement, so the earlier note requiring both was too strict and is superseded by this one): UBTech's own PR Newswire release (Nov 2025) names BYD, Foxconn, Geely, Zeekr, Audi-FAW etc. only as order sources/collaborators, with no photo tied to a specific customer's unit. The one strong independent-channel match found -- SCMP's photographed, on-the-record coverage of a Zeekr Ningbo deployment (published 2025-03-03, https://www.scmp.com/tech/tech-trends/article/3300872/) -- explicitly names the model as 'Walker S1', not Walker S2 (Walker S2 was announced later, 2025-07-23), so it is evidence for a different generation and does not carry this record to shipped. No named customer with photographic evidence of a specific Walker S2 unit (as opposed to S1/S Lite) was found via customer or independent channels. Remains claimed, not shipped."
+    ],
+    "updated": "2026-09-20"
+  }
+]

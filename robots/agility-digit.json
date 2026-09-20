@@ -1,0 +1,80 @@
+{
+  "slug": "agility-digit",
+  "name": "Digit 5",
+  "manufacturer": {
+    "name": "Agility Robotics",
+    "country": "US",
+    "url": "https://www.agilityrobotics.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2026-09-15",
+    "source": {
+      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+      "quote": "Agility announces next-generation Digit 5",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 181,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+        "quote": "stands 5' 11\" (1.81 m)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 129,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+        "quote": "weighs 284 lb. (129 kg)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 22.7,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+        "quote": "repeatedly lift up to 50 lb. (22.7 kg) loads",
+        "accessed": "2026-09-20"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 90,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+        "quote": "90-minute runtime battery system charges in just 9 minutes",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2026-09-15",
+        "event": "announced",
+        "detail": "Agility announces next-generation Digit 5 (1.81 m, 129 kg), citing more than $300 million in multi-year customer orders and early access targeted for H1 2027. No named-customer delivery of this generation has been reported yet.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+          "quote": "more than $300 million in multi-year customer orders for Digit 5",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "This record covers only the newly announced Digit 5 generation (Sept 2026). Its specs (height/weight/payload/battery) are manufacturer claims for early access targeted H1 2027; no shipped or demonstrated evidence exists yet for this generation.",
+    "The prior generation's named, operating deployments (Ford 2020, GXO 2023-2024) are a different hardware generation and are tracked separately as agility-digit-gen4, so shipped status is never implied for a generation that has not shipped.",
+    "Digit is sold as Robots-as-a-Service, not a one-time purchase, so price_history is intentionally empty — no credible per-unit or subscription price was located from a manufacturer source during this build."
+  ],
+  "updated": "2026-09-20"
+}

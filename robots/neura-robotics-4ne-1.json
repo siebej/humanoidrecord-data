@@ -1,0 +1,105 @@
+{
+  "slug": "neura-robotics-4ne-1",
+  "name": "4NE-1",
+  "manufacturer": {
+    "name": "NEURA Robotics",
+    "country": "DE",
+    "url": "https://neura-robotics.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2026-01-06",
+    "source": {
+      "url": "https://neura-robotics.com/neura-robotics-at-ces-2026/",
+      "quote": "NEURA Robotics at CES 2026",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 180,
+      "status": "claimed",
+      "source": {
+        "url": "https://neura-robotics.com/products/4ne1/",
+        "quote": "180",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 80,
+      "status": "claimed",
+      "source": {
+        "url": "https://neura-robotics.com/products/4ne1/",
+        "quote": "80",
+        "accessed": "2026-09-20"
+      }
+    },
+    "walking_speed_kmh": {
+      "value": 5,
+      "status": "claimed",
+      "source": {
+        "url": "https://neura-robotics.com/products/4ne1/",
+        "quote": "5",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 100,
+      "status": "claimed",
+      "source": {
+        "url": "https://neura-robotics.com/products/4ne1/",
+        "quote": "10-100",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2026-09-20",
+      "amount": 98000,
+      "currency": "EUR",
+      "variant": "Gen 3.5, single unit (1-19)",
+      "status": "claimed",
+      "source": {
+        "url": "https://neura-robotics.com/product/4ne1-reservation/",
+        "quote": "98,000 € (excluding taxes and shipping)",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2026-01-06",
+        "event": "announced",
+        "detail": "4NE-1 Gen 3.5 and 4NE-1 Mini unveiled at CES 2026, designed with Studio F.A. Porsche.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://neura-robotics.com/neura-robotics-at-ces-2026/",
+          "quote": "NEURA Robotics at CES 2026",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-09-20",
+        "event": "preorders-open",
+        "detail": "Reservation open for €100 (refundable) to secure a place in the delivery queue; Gen 3.5 expected end of 2026.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://neura-robotics.com/product/4ne1-reservation/",
+          "quote": "secures your place in the delivery queue",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Degrees of freedom is reported inconsistently across secondary sources (35, 42+, 55 DoF) and could not be traced to one dated primary-source figure during this build, so the dof spec field is omitted rather than guessed.",
+    "Battery runtime is widely reported as 6-8 hours across secondary/aggregator sites, but the primary product page and reservation page fetched during this build did not state a runtime figure, so battery_runtime_min is omitted.",
+    "The manufacturer's official datasheet PDF (linked from the CES 2026 page) was not accessible as text during this build and should be added as a follow-up source for dof/battery."
+  ],
+  "updated": "2026-09-20"
+}

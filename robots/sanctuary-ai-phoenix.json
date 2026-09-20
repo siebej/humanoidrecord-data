@@ -1,0 +1,89 @@
+{
+  "slug": "sanctuary-ai-phoenix",
+  "name": "Phoenix",
+  "manufacturer": {
+    "name": "Sanctuary AI",
+    "country": "CA",
+    "url": "https://sanctuary.ai"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2023-05-16",
+    "source": {
+      "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+      "quote": "5'7″ (1.7 m)",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 170,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+        "quote": "5'7″ (1.7 m)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 57.9,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+        "quote": "155 lbs (57.9 kg)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 20,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+        "quote": "20 degrees of freedom",
+        "accessed": "2026-09-20"
+      }
+    },
+    "walking_speed_kmh": {
+      "value": 4.8,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+        "quote": "3 mph (1,300 mm/sec)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 20.5,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+        "quote": "55 lbs (20.5 kg)",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [],
+  "delivery": {
+    "status": "demonstrated",
+    "timeline": [
+      {
+        "date": "2023-05-16",
+        "event": "announced",
+        "detail": "Sanctuary AI unveiled Phoenix, its sixth-generation general-purpose humanoid robot and first bipedal model.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/sanctuary-ai-unveils-general-purpose-humanoid-robot/",
+          "quote": "5'7″ (1.7 m)",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Sanctuary AI has run pilot programs with automotive supplier Magna International, but no source with a named customer plus invoice/serial-number/unboxing evidence was found during this build, so delivery.status is recorded as 'demonstrated', not 'shipped'.",
+    "No battery runtime figure was found in the announcement source; the field is omitted rather than guessed.",
+    "Phoenix is not sold as a commercial product with public pricing (deployed via partnerships), so price_history is empty rather than populated with a guess."
+  ],
+  "updated": "2026-09-20"
+}

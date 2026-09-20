@@ -1,0 +1,44 @@
+{
+  "slug": "clone-alpha",
+  "name": "Alpha",
+  "manufacturer": {
+    "name": "Clone Robotics",
+    "country": "US",
+    "url": "https://clonerobotics.com"
+  },
+  "category": "research",
+  "announced": {
+    "date": "2024-12-06",
+    "source": {
+      "url": "https://humanoidroboticstechnology.com/industry-news/clone-robotics-unveils-its-clone-alpha-humanoid/",
+      "quote": "Clone Robotics proudly announces that its cutting-edge humanoid android, the Clone Alpha, is now available for pre-order.",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {},
+  "price_history": [],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2024-12-06",
+        "event": "announced",
+        "detail": "Clone Robotics announced the Clone Alpha as a limited edition of 279 home android units and opened a pre-order waitlist, with pre-orders stated to become available in 2025.",
+        "quantity_min": 279,
+        "quantity_max": 279,
+        "source": {
+          "url": "https://clonerobotics.com/pre-order/",
+          "quote": "Clone is manufacturing only 279 units of the limited edition Clone Alpha.",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "No manufacturer source states Alpha's height, weight, or degrees-of-freedom with a checkable literal quote. Clone's own /research/ specs page currently reads 'We are currently researching, page will be available soon' (accessed 2026-09-20). Aggregator sites (Humanoid Index, Humanoid.guide, etc.) widely repeat figures of ~170 cm / ~60 kg / 164 DOF, but per the evidence rules these do not qualify as a claimed-status source because they do not cite a traceable manufacturer statement for those exact numbers. Specs are left empty rather than sourced to an aggregator.",
+    "No checkout price has ever been published by Clone Robotics; the pre-order page collects a waitlist signup without a stated amount, so price_history is empty rather than guessed. Clone's 2023 pitch mentioned an aspirational ~$20,000 target price, and the founder repeated a similar figure in a March 2026 interview, but neither is an orderable price.",
+    "No independent or uncut demonstration video of Alpha walking or performing tasks live could be confirmed during this build; walking is reported by trade press as a 2027 target, and the 2025 preorder window is reported to have passed without shipments. Delivery status is therefore recorded as 'claimed' (announced + preorder claim), not 'demonstrated' or 'shipped'.",
+    "Clone Robotics' operational presence is reported in Wrocław, Poland (R&D/manufacturing) while corporate/investor materials list a US entity; manufacturer.country is set to US pending a single authoritative filing, and this should be revisited if a primary source pins one jurisdiction."
+  ],
+  "updated": "2026-09-20"
+}

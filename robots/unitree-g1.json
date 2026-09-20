@@ -1,0 +1,147 @@
+{
+  "slug": "unitree-g1",
+  "name": "G1",
+  "manufacturer": {
+    "name": "Unitree Robotics",
+    "country": "CN",
+    "url": "https://www.unitree.com"
+  },
+  "category": "full-size",
+  "announced": {
+    "date": "2024-05-13",
+    "source": {
+      "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+      "quote": "Unitree Robotics unveiled the G1 at ICRA 2024, pricing the humanoid at $16,000.",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 132,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "1320x450x200mm",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 35,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "About 35kg",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 23,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "23 (standard); 23 - 43 (G1 EDU)",
+        "accessed": "2026-09-20"
+      }
+    },
+    "battery_runtime_min": {
+      "value": 120,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "About 2h",
+        "accessed": "2026-09-20"
+      }
+    },
+    "walking_speed_kmh": {
+      "value": 7.2,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+        "quote": "The robot also features a fast walking speed of 2,000 mm/s (4.5 MPH).",
+        "accessed": "2026-09-20"
+      }
+    },
+    "payload_kg": {
+      "value": 2,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "About 2Kg (standard); About 3Kg (EDU)",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2024-05-13",
+      "amount": 16000,
+      "currency": "USD",
+      "variant": "base",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+        "quote": "Price: $16,000 (base configuration)",
+        "accessed": "2026-09-20"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "amount": 13500,
+      "currency": "USD",
+      "variant": "base",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.unitree.com/g1/",
+        "quote": "US $13.5K",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "shipped",
+    "timeline": [
+      {
+        "date": "2024-05-13",
+        "event": "announced",
+        "detail": "Unveiled at ICRA 2024 in Yokohama, priced from $16,000.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+          "quote": "Unitree Robotics unveiled the G1 at ICRA 2024, pricing the humanoid at $16,000.",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-09-20",
+        "event": "preorders-open",
+        "detail": "G1 remains listed for direct purchase on Unitree's own store, standard configuration $13,500.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.unitree.com/g1/",
+          "quote": "US $13.5K",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-04-01",
+        "event": "first-customer-delivery",
+        "detail": "Delivered to Durham University's Department of Computer Science, which named its G1 Edu unit 'Alan' and published its own photo of the robot for research use.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.durham.ac.uk/news-events/latest-news/2026/04/durhams-new-humanoid-robot-to-support-cutting-edge-research/",
+          "quote": "Our Department of Computer Science has welcomed an exciting new arrival: Alan, a humanoid robot that will support a wide range of future research. ... Alan is a Unitree G1 Edu robot",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
+    "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",
+    "Shipped bar applied (2026-09-20): Durham University's own website (durham.ac.uk, published 1 April 2026) names the Department of Computer Science as the owner of a Unitree G1 Edu robot it calls 'Alan', with a photo of the unit ('Alan-robot-WEB.png') hosted on Durham's own site. This is a named customer with photographic evidence published on the customer's own channel, which satisfies this site's shipped rule without needing an invoice, serial number, unboxing, or customs record as an additional requirement. Upgraded from demonstrated to shipped; the earlier note here (requiring a serial number/invoice/customs record on top of a named buyer with a photo) applied too strict a reading and is removed."
+  ],
+  "updated": "2026-09-20"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "unitree-r1",
+  "name": "R1",
+  "manufacturer": {
+    "name": "Unitree Robotics",
+    "country": "CN",
+    "url": "https://www.unitree.com"
+  },
+  "category": "compact",
+  "announced": {
+    "date": "2025-07-29",
+    "source": {
+      "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+      "quote": "Unitree designs R1 humanoid robot to be agile and affordable",
+      "accessed": "2026-09-20"
+    }
+  },
+  "specs": {
+    "height_cm": {
+      "value": 123,
+      "status": "claimed",
+      "source": {
+        "url": "https://shop.unitree.com/products/unitree-r1",
+        "quote": "standing 123 cm tall",
+        "accessed": "2026-09-20"
+      }
+    },
+    "weight_kg": {
+      "value": 25,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+        "quote": "The 25-kilogram robot combines dynamic movement capabilities with a built-in Large Multimodal AI Model",
+        "accessed": "2026-09-20"
+      }
+    },
+    "dof": {
+      "value": 26,
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+        "quote": "features 26 degrees of freedom across its legs, waist, arms, and head",
+        "accessed": "2026-09-20"
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2025-07-29",
+      "amount": 5900,
+      "currency": "USD",
+      "variant": "standard",
+      "status": "claimed",
+      "source": {
+        "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+        "quote": "The standard model was priced at $5,900",
+        "accessed": "2026-09-20"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "amount": 4900,
+      "currency": "USD",
+      "variant": "base",
+      "status": "claimed",
+      "source": {
+        "url": "https://shop.unitree.com/products/unitree-r1",
+        "quote": "$4,900.00 USD",
+        "accessed": "2026-09-20"
+      }
+    }
+  ],
+  "delivery": {
+    "status": "claimed",
+    "timeline": [
+      {
+        "date": "2025-07-29",
+        "event": "announced",
+        "detail": "Unveiled with a $5,900 starting price, undercutting Unitree's own G1 ($16k) and H1 ($90k).",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://www.therobotreport.com/unitree-designs-r1-humanoid-robot-to-be-agile-and-affordable/",
+          "quote": "The low price targets universities, hobbyists and early consumer adopters who were priced out of Unitree's $16 k G1 and $90 k H1",
+          "accessed": "2026-09-20"
+        }
+      },
+      {
+        "date": "2026-09-20",
+        "event": "preorders-open",
+        "detail": "R1 is listed for direct purchase on Unitree's own store at $4,900, with buyers directed to contact Unitree for further product information.",
+        "quantity_min": null,
+        "quantity_max": null,
+        "source": {
+          "url": "https://shop.unitree.com/products/unitree-r1",
+          "quote": "If you want to know more product information, please contact us directly",
+          "accessed": "2026-09-20"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Height/price conflict: The Robot Report's July 2025 launch coverage gives 1.2 m (3.9 ft) and a $5,900 standard price, while Unitree's own current store page (accessed 2026-09-20) states '123 cm' and lists the base unit at $4,900. Both are recorded here; the discrepancy is not resolved.",
+    "The Robot Report notes the R1 'is remote-controlled rather than autonomous. Autonomy is achievable but requires secondary development' — relevant context for any 'demonstrated' autonomy claims made elsewhere about this robot.",
+    "Battery runtime, walking speed and payload were not found on a primary source during this build and are omitted rather than guessed; secondary aggregators (RoboZaps, Humanoid.guide) cite ~1 hour runtime but this was not independently confirmed against a manufacturer or press primary source.",
+    "No named-customer delivery evidence was found; delivery.status stays 'claimed'."
+  ],
+  "updated": "2026-09-20"
+}
