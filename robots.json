@@ -1031,6 +1031,24 @@
         "note": "GXO's Flowery Branch facility, named customer, 100,000+ totes moved by late 2025. Agility's own page describes the task and separately states the underlying pipeline 'blends traditional control methods, teleoperated demonstrations, policy training, and refinement' -- it does not explicitly say current day-to-day operation runs with no human in the loop, so autonomy is recorded as unknown rather than autonomous, per this dataset's strict rule."
       }
     ],
+    "media": [
+      {
+        "type": "patent",
+        "file": "media/agility-digit-gen4/usd888120-fig3.png",
+        "caption": "Figure 3 (front view) from Agility Robotics' design patent for this Digit generation, filed 2019-10-15.",
+        "source": {
+          "url": "https://patents.google.com/patent/USD888120S1/en",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "USPTO design patent",
+          "terms_url": "https://patents.google.com/patent/USD888120S1/en",
+          "note": "Public record; design patent drawing, not a copyrighted photograph. Priority date 2019-01-22, filing date 2019-10-15, matching this generation's announcement date."
+        },
+        "patent_number": "USD888,120 S",
+        "credit": "USPTO / Agility Robotics, Inc."
+      }
+    ],
     "notes": [
       "This record covers the hardware generation of Digit that actually shipped to named customers (Ford 2020, Amazon 2023, GXO 2023-2024; Agility also claims a Toyota Motor Manufacturing Canada deployment per its own account, not independently sourced here).",
       "No independently sourced height/weight/payload/battery specs for this specific generation were located during this build, so specs is intentionally empty rather than reusing the newer Digit 5 numbers. See agility-digit for the current (Digit 5) generation's claimed specs, which is a different, not-yet-shipped hardware generation.",
@@ -1132,6 +1150,24 @@
         }
       ]
     },
+    "media": [
+      {
+        "type": "patent",
+        "file": "media/agility-digit/usd888120-fig1.png",
+        "caption": "Figure 1 from Agility Robotics' design patent for its bipedal robot.",
+        "source": {
+          "url": "https://patents.google.com/patent/USD888120S1/en",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "USPTO design patent",
+          "terms_url": "https://patents.google.com/patent/USD888120S1/en",
+          "note": "Public record; design patent drawing, not a copyrighted photograph."
+        },
+        "patent_number": "USD888,120 S",
+        "credit": "USPTO / Agility Robotics, Inc."
+      }
+    ],
     "notes": [
       "This record covers only the newly announced Digit 5 generation (Sept 2026). Its specs (height/weight/payload/battery) are manufacturer claims for early access targeted H1 2027; no shipped or demonstrated evidence exists yet for this generation.",
       "The prior generation's named, operating deployments (Ford 2020, GXO 2023-2024) are a different hardware generation and are tracked separately as agility-digit-gen4, so shipped status is never implied for a generation that has not shipped.",
@@ -1958,6 +1994,23 @@
         "accessed": "2026-09-21"
       }
     },
+    "media": [
+      {
+        "type": "photo",
+        "file": "media/unitree-g1/unitree-g1-uav-expo.jpg",
+        "caption": "Unitree G1 humanoid robot photographed at UAV Expo 2024.",
+        "source": {
+          "url": "https://commons.wikimedia.org/wiki/File:Unitree_G1.jpg",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "other",
+          "terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "CC0 (public domain dedication) by photographer Sayanesy, uploaded 2024-11-18, via Wikimedia Commons; not one of the fixed manufacturer/patent license names, recorded as \"other\" with the CC0 deed linked."
+        },
+        "credit": "Photo: Sayanesy, CC0"
+      }
+    ],
     "notes": [
       "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
       "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",
@@ -3219,6 +3272,39 @@
           "accessed": "2026-09-20"
         },
         "note": "Optimus units poured drinks and interacted with guests at the We, Robot event; Lux Capital cofounder Josh Wolfe's remark confirms remote control was used for at least some units, but Tesla has not disclosed which specific actions were teleoperated vs. scripted/autonomous, so this pick-and-place-style interaction is recorded as unknown rather than autonomous or teleoperated by default."
+      }
+    ],
+    "media": [
+      {
+        "type": "photo",
+        "file": "media/tesla-optimus/optimus-exhibition.jpg",
+        "caption": "Optimus robot on display at a public exhibition.",
+        "source": {
+          "url": "https://commons.wikimedia.org/wiki/File:Optimus_Tesla.jpg",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "other",
+          "terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "CC0 (public domain dedication) by photographer Benjamin Ceci, 2023-09-06, via Wikimedia Commons; not one of the fixed manufacturer/patent license names, recorded as \"other\" with the CC0 deed linked."
+        },
+        "credit": "Photo: Benjamin Ceci, CC0"
+      },
+      {
+        "type": "patent",
+        "file": "media/tesla-optimus/optimus-hand-patent-wo2024073138.png",
+        "caption": "Front view of Tesla's underactuated cable-driven robot hand, FIG. 2 from WO 2024/073138 A1.",
+        "source": {
+          "url": "https://patents.google.com/patent/WO2024073138A1/en",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "other",
+          "terms_url": "https://patents.google.com/patent/WO2024073138A1/en",
+          "note": "Public patent record (WIPO/PCT publication, Tesla, Inc. applicant); patent drawings are not copyrighted the way a product photo is. Sheet 2/23 (FIG. 2, front view of robot hand) rotated upright from the official PDF."
+        },
+        "patent_number": "WO2024073138A1",
+        "credit": "Tesla, Inc. (patent drawing)"
       }
     ],
     "notes": [

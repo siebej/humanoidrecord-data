@@ -1,7 +1,11 @@
 {
   "slug": "tesla-optimus",
   "name": "Optimus",
-  "manufacturer": { "name": "Tesla, Inc.", "country": "US", "url": "https://www.tesla.com/AI" },
+  "manufacturer": {
+    "name": "Tesla, Inc.",
+    "country": "US",
+    "url": "https://www.tesla.com/AI"
+  },
   "category": "full-size",
   "announced": {
     "date": "2021-08-19",
@@ -129,10 +133,43 @@
       "autonomy": "unknown",
       "source": {
         "url": "https://fortune.com/2024/10/13/elon-musk-tesla-optimus-robot-tele-operated-robotaxi",
-        "quote": "Totally worthy to celebrate low latency remote control, but totally dishonest to demo these as autonomous robots—call it the parlor trick it is.",
+        "quote": "Totally worthy to celebrate low latency remote control, but totally dishonest to demo these as autonomous robots\u2014call it the parlor trick it is.",
         "accessed": "2026-09-20"
       },
       "note": "Optimus units poured drinks and interacted with guests at the We, Robot event; Lux Capital cofounder Josh Wolfe's remark confirms remote control was used for at least some units, but Tesla has not disclosed which specific actions were teleoperated vs. scripted/autonomous, so this pick-and-place-style interaction is recorded as unknown rather than autonomous or teleoperated by default."
+    }
+  ],
+  "media": [
+    {
+      "type": "photo",
+      "file": "media/tesla-optimus/optimus-exhibition.jpg",
+      "caption": "Optimus robot on display at a public exhibition.",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Optimus_Tesla.jpg",
+        "accessed": "2026-09-21"
+      },
+      "license": {
+        "name": "other",
+        "terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "note": "CC0 (public domain dedication) by photographer Benjamin Ceci, 2023-09-06, via Wikimedia Commons; not one of the fixed manufacturer/patent license names, recorded as \"other\" with the CC0 deed linked."
+      },
+      "credit": "Photo: Benjamin Ceci, CC0"
+    },
+    {
+      "type": "patent",
+      "file": "media/tesla-optimus/optimus-hand-patent-wo2024073138.png",
+      "caption": "Front view of Tesla's underactuated cable-driven robot hand, FIG. 2 from WO 2024/073138 A1.",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2024073138A1/en",
+        "accessed": "2026-09-21"
+      },
+      "license": {
+        "name": "other",
+        "terms_url": "https://patents.google.com/patent/WO2024073138A1/en",
+        "note": "Public patent record (WIPO/PCT publication, Tesla, Inc. applicant); patent drawings are not copyrighted the way a product photo is. Sheet 2/23 (FIG. 2, front view of robot hand) rotated upright from the official PDF."
+      },
+      "patent_number": "WO2024073138A1",
+      "credit": "Tesla, Inc. (patent drawing)"
     }
   ],
   "notes": [

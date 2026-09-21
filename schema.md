@@ -111,6 +111,53 @@ party observed it directly. A manufacturer highlight reel that shows a
 capability without saying who or what controlled it must be recorded as
 `unknown`, not `autonomous` — silence is not a claim.
 
+## Media
+
+`media` is an optional array, at most 3 entries per robot:
+
+```json
+{
+  "type": "photo|drawing|patent",
+  "file": "media/<slug>/<bestand>.jpg|png|svg",
+  "caption": "...",
+  "source": { "url": "...", "accessed": "2026-09-21" },
+  "license": {
+    "name": "manufacturer press kit|USPTO design patent|EUIPO RCD|WIPO|CC BY 4.0|other",
+    "terms_url": "...",
+    "note": "..."
+  },
+  "patent_number": "USD1000000S",
+  "credit": "© Manufacturer"
+}
+```
+
+**Licensed imagery is never evidence.** The robot page shows this section as
+"Imagery" — patent drawings, press-kit photos, or Creative Commons photos —
+each labelled with its type (patent drawing / press photo / CC photo) before
+the credit. A photo or patent drawing shows what a robot looks like; it does
+not demonstrate a spec, a capability, or a delivery. Nothing in `media` may
+be cited as the `source` for a `claimed`, `demonstrated`, or `shipped` value
+elsewhere in the record — those still need their own sourced quote.
+
+**No hotlinking.** The file must be downloaded and committed under
+`data/media/<slug>/`; `media[].file` never points at an external URL.
+`media[].source.url` records where it was obtained, for attribution and
+verification, not for serving the image.
+
+**Only with an explicit license or a public patent.** Do not add an image
+"because it's on the manufacturer's website" — a press kit expressly
+offered for editorial/press use, a public patent drawing (design patents
+are a public record; the drawing itself is not copyrighted the way a photo
+is), or an explicitly CC-licensed image. When in doubt, leave it out.
+
+`type` is one of `photo | drawing | patent`. `file` must be a path under
+`data/media/` that exists on disk. `license.name` and `source` are always
+required. `patent_number` is required when `type` is `patent` and should
+be the number as printed on the patent (e.g. a USPTO design patent
+`USD1,000,000 S`). `credit` is optional free text for a byline. Images are
+resized at build time to a max width of 800px before being copied into
+`dist/media/`.
+
 ## Source object
 
 Every value — spec, price, or timeline event — carries a `source`:
