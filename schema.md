@@ -127,9 +127,15 @@ capability without saying who or what controlled it must be recorded as
     "note": "..."
   },
   "patent_number": "USD1000000S",
-  "credit": "© Manufacturer"
+  "credit": "© Manufacturer",
+  "depicts_current": false
 }
 ```
+
+`depicts_current` is optional and defaults to `true`. Set to `false` when the
+image shows an earlier generation or a different variant than this record;
+such media is kept for attribution and history but never used as the
+record's product image or thumbnail.
 
 **Licensed imagery is never evidence.** The robot page shows this section as
 "Imagery" — patent drawings, press-kit photos, or Creative Commons photos —
