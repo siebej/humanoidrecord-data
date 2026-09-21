@@ -70,16 +70,6 @@
         "quote": "Slide-Out Battery Module",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "claimed",
-      "source": {
-        "url": "https://www.limxdynamics.com/en/products/oli",
-        "quote": "165cm height",
-        "accessed": "2026-09-21"
-      },
-      "note": "Oli is a two-legged walking humanoid, per the same product page as the height spec and the spec sheet's own description of humanoid walking."
     }
   },
   "price_history": [],
@@ -139,7 +129,8 @@
   "notes": [
     "Weight, battery runtime and price were not stated on the manufacturer product page or in The Robot Report's launch article fetched during this build; a 9,500 mAh / 58.8V pack and ~2-hour runtime, and a ~55 kg weight for the Lite/EDU variants, are reported on third-party retailer/aggregator listings (e.g. RobotShop) but could not be traced to a dated manufacturer statement, so these fields are omitted rather than guessed.",
     "Oli ships in Lite, EDU and Super editions with different specs and pricing; the values recorded here are the ones stated without a variant qualifier on the manufacturer's product/news pages.",
-    "Currently sold in Mainland China only per the manufacturer's news page, with a global version described as forthcoming."
+    "Currently sold in Mainland China only per the manufacturer's news page, with a global version described as forthcoming.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Oli -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21",
   "warranty": [

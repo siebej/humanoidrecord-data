@@ -33,16 +33,6 @@
         "quote": "weighing around 52–55 kg",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "claimed",
-      "source": {
-        "url": "https://humanoid.press/database/database-tiangong-ultra/",
-        "quote": "Standing approximately 1.80 m tall",
-        "accessed": "2026-09-21"
-      },
-      "note": "Tiangong Ultra is a two-legged running/walking humanoid, cited against the same source as the height spec, consistent with its demonstrated running results."
     }
   },
   "price_history": [],
@@ -97,7 +87,8 @@
     "No pre-2025 announcement/reveal event was found for this robot independent of its April 2025 half-marathon result; 'announced' date is therefore its first public competitive appearance, not a separate unveiling.",
     "Manufacturer is a national-municipal research center (established Nov 2023, Beijing Economic-Technological Development Area), not a conventional product company; 'manufacturer.url' points at its own institutional page rather than a commercial product page.",
     "A separate interestingengineering.com piece on the 2025 games states Tiangong was the only entrant that ran 'entirely on its own, without remote control', but does not tie that statement to the specific 100m result quoted above, so this build keeps results.autonomy as 'unknown' rather than upgrading it to 'autonomous' without a source that names the discipline directly. Revisit if a source ties that claim to the 100m final specifically.",
-    "A faster 2026 result (100 m in 8.64s at the 2nd World Humanoid Robot Games, August 2026) is documented in press coverage but is out of scope for this build's requested event set and is not recorded here."
+    "A faster 2026 result (100 m in 8.64s at the 2nd World Humanoid Robot Games, August 2026) is documented in press coverage but is out of scope for this build's requested event set and is not recorded here.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Tiangong Ultra -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21"
 }

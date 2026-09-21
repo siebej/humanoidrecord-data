@@ -91,7 +91,7 @@
     },
     "locomotion": {
       "value": "wheeled",
-      "status": "shipped",
+      "status": "claimed",
       "source": {
         "url": "http://www.galbot.com/g1/",
         "quote": "底盘形式 4 轮全向移动底盘",

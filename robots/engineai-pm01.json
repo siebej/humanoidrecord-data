@@ -91,13 +91,12 @@
     },
     "locomotion": {
       "value": "bipedal",
-      "status": "demonstrated",
+      "status": "claimed",
       "source": {
-        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
-        "quote": "2 m/sec. (4.4 mph)",
+        "url": "https://en.engineai.com.cn/product-pm01.html",
+        "quote": "Walking with a Human-like Gait",
         "accessed": "2026-09-21"
-      },
-      "note": "Two-legged walking humanoid; confirmed by the front-flip video coverage (2025-02-23) and manufacturer's own leg-DOF spec (Leg DOF 6 per side)."
+      }
     }
   },
   "price_history": [

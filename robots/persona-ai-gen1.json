@@ -15,18 +15,7 @@
       "accessed": "2026-09-20"
     }
   },
-  "specs": {
-    "locomotion": {
-      "value": "bipedal",
-      "status": "demonstrated",
-      "source": {
-        "url": "https://www.robotaigeek.com/news/persona-ai-deploys-humanoid-welding-robot-in-houston-shipyards",
-        "quote": "The 175cm, 85kg robot is designed to fit the same physical envelope as human welders in confined shipyard spaces.",
-        "accessed": "2026-09-21"
-      },
-      "note": "Same source already used for the first-demo timeline event; the on-site Houston welding demo shows the robot standing, squatting and standing back up on two legs, sized to a human welder's envelope."
-    }
-  },
+  "specs": {},
   "order_type": {
     "value": "quote",
     "status": "claimed",
@@ -97,7 +86,8 @@
     "Persona AI's own site (persona.ai) does not publish numeric specs (height/weight/DOF/speed/payload) for Gen 1; specs is left empty rather than sourced to press coverage. Press figures conflict: RobotAIGeek (Jul 2026, on-site Houston deployment) reports '175cm, 85kg', while other secondary aggregators (not traced to a manufacturer statement) report 175 cm / 70 kg and ~32 DOF. Neither height/weight pairing could be confirmed against a Persona AI-published spec sheet during this build.",
     "A later RoboHorizon report (2025-12-31) describes a $42M pre-seed round for Persona AI's humanoid welding bot, which appears inconsistent with (or a follow-on close to) the $27M pre-seed reported in May 2025 by The Robot Report; both figures are recorded here as a discrepancy rather than resolved. See https://robohorizon.com/en-us/news/2025/12/persona-ai-unveils-humanoid-bot-with-42m-to-weld-in-shipyards/ (accessed 2026-09-20).",
     "No named-customer unit with an invoice, serial number, or independent unboxing was found; the HD Hyundai relationship is a signed deployment agreement/MOU with initial delivery 'expected' within 18 months of May 2025, not a completed shipment. delivery.status is set to 'demonstrated' on the strength of the on-site Houston welding-robot deployment (RobotAIGeek, Jul 2026), not 'shipped'.",
-    "No public price has been found for Gen 1; Persona AI operates a robotics-as-a-service model without published unit pricing, so price_history is left empty."
+    "No public price has been found for Gen 1; Persona AI operates a robotics-as-a-service model without published unit pricing, so price_history is left empty.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Gen 1 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21"
 }

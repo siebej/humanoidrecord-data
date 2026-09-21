@@ -11,7 +11,7 @@
     "date": "2024-04-17",
     "source": {
       "url": "https://bostondynamics.com/news/introducing-electric-atlas/",
-      "quote": "This week we announced the retirement of our hydraulic Atlas and unveiled what comes next\u2014a fully electric Atlas robot designed for real-world applications.",
+      "quote": "This week we announced the retirement of our hydraulic Atlas and unveiled what comes next—a fully electric Atlas robot designed for real-world applications.",
       "accessed": "2026-09-20"
     }
   },
@@ -69,16 +69,6 @@
         "quote": "Atlas autonomously navigates to a charging station and swaps out its own battery",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "shipped",
-      "source": {
-        "url": "https://bostondynamics.com/atlas/",
-        "quote": "1.9 m (6.2 ft)",
-        "accessed": "2026-09-21"
-      },
-      "note": "Same product-page source as height; Atlas is a two-legged walking humanoid, demonstrated and shipped (see delivery timeline, Hyundai Metaplant), Boston Dynamics does not publish a single sentence stating 'bipedal'."
     }
   },
   "price_history": [],
@@ -93,7 +83,7 @@
         "quantity_max": null,
         "source": {
           "url": "https://bostondynamics.com/news/introducing-electric-atlas/",
-          "quote": "This week we announced the retirement of our hydraulic Atlas and unveiled what comes next\u2014a fully electric Atlas robot designed for real-world applications.",
+          "quote": "This week we announced the retirement of our hydraulic Atlas and unveiled what comes next—a fully electric Atlas robot designed for real-world applications.",
           "accessed": "2026-09-20"
         }
       },
@@ -141,7 +131,8 @@
     "Payload: the official page lists 50 kg instant / 30 kg sustained lift capacity; only the instant figure is recorded in the single-value `payload_kg` field per schema.",
     "Full-scale Hyundai production deployment is still ramping (Boston Dynamics/Hyundai have said full introduction to production is targeted for 2028).",
     "Shipped bar applied (2026-09-20): the January 2026 CBS 60 Minutes visit is an independent-party (CBS, not Boston Dynamics or Hyundai) on-site observation of a named customer (Hyundai Motor Group Metaplant America, Ellabell, GA) with video/photo evidence of the physical unit performing real work. Per this site's shipped rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped, with 'pilot' noted since 2028 is cited as the target for full production deployment. Upgraded from demonstrated to shipped; an earlier note here required invoice/serial evidence in addition to the observation, which was too strict, and is removed.",
-    "battery_wh, charge_time_min, actuator_torque_nm, sdk, and warranty were left out (2026-09-21): bostondynamics.com/atlas/ discloses only overall 4-hour battery life and does not state Wh capacity, charge time, joint torque in Nm, or any Atlas-specific SDK/API (the only SDK Boston Dynamics publishes is for Spot); delivery.timeline[].sector set to automotive on the Hyundai Metaplant event."
+    "battery_wh, charge_time_min, actuator_torque_nm, sdk, and warranty were left out (2026-09-21): bostondynamics.com/atlas/ discloses only overall 4-hour battery life and does not state Wh capacity, charge time, joint torque in Nm, or any Atlas-specific SDK/API (the only SDK Boston Dynamics publishes is for Spot); delivery.timeline[].sector set to automotive on the Hyundai Metaplant event.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for electric Atlas -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21",
   "order_type": {
@@ -153,5 +144,23 @@
       "accessed": "2026-09-21"
     },
     "note": "Atlas is offered through a qualified-prospect contact form, not a public cart/waitlist/preorder flow."
-  }
+  },
+  "media": [
+    {
+      "type": "patent",
+      "file": "media/boston-dynamics-atlas-electric/usd1103236-fig1.png",
+      "caption": "Figure 1 from Boston Dynamics' design patent for a robotic device.",
+      "source": {
+        "url": "https://ppubs.uspto.gov/pubwebapp/",
+        "accessed": "2026-09-21"
+      },
+      "license": {
+        "name": "USPTO design patent",
+        "terms_url": "https://www.uspto.gov/patents/basics/types-patent-applications/design-patent-application",
+        "note": "Public record; design patent drawing, not a copyrighted photograph."
+      },
+      "patent_number": "USD1,103,236 S",
+      "credit": "USPTO / Boston Dynamics, Inc."
+    }
+  ]
 }

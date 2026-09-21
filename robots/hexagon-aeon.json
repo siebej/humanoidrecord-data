@@ -81,13 +81,13 @@
     },
     "locomotion": {
       "value": "hybrid",
-      "status": "claimed",
+      "status": "demonstrated",
       "source": {
-        "url": "https://robotics.hexagon.com/hexagon-robotics-and-schaeffler-deploy-a-fleet-of-aeon-humanoids/",
-        "quote": "AEON used its unique sensor suite and wheel-based locomotion to demonstrate high-precision manipulation capabilities",
+        "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+        "quote": "While AEON does feature two legs, each leg has a wheel instead of a foot.",
         "accessed": "2026-09-21"
       },
-      "note": "Hexagon's own coverage confirms 'wheel-based locomotion'; independent trade coverage (Association for Advancing Automation, headlined 'This humanoid robot has wheels for feet') describes the underlying design as two articulated legs each ending in a wheel rather than a foot -- automate.org itself returned HTTP 403 to a direct fetch during this build, so only the headline (not a body-text quote) is treated as verified from that outlet. Recorded as 'hybrid' (legs + wheeled feet) rather than 'wheeled' (no legs) or 'bipedal' (feet, no wheels)."
+      "note": "The Robot Report describes AEON's hybrid design directly: bipedal legs with a wheel in place of each foot, distinct from a fully wheeled base."
     }
   },
   "order_type": {

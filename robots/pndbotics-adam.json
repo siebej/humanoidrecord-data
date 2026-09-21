@@ -60,16 +60,6 @@
         "quote": "340 Nm (250 lb.ft) of joint torque",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "claimed",
-      "source": {
-        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
-        "quote": "1.67-m (5.5-ft)",
-        "accessed": "2026-09-21"
-      },
-      "note": "Adam SP is a two-legged walking humanoid; PNDbotics also sells an 'Adam-U' wheeled-base upper-body variant, not covered by this record."
     }
   },
   "price_history": [
@@ -109,7 +99,8 @@
     "DOF figures conflict across sources: this file uses 41 (Adam SP, from the actuator-count description in the New Atlas article); other secondary listings cite 'up to 44 degrees of full-body freedom' for the wider Adam platform and 25 actuators for the separate Adam Lite variant. Not resolved; flagged here rather than picking silently.",
     "The $100,000 figure is described as an online prototype listing, not a stable product price; the separate wheeled 'Adam U' variant is reported at $45,000 launching around September 2025 at WAIC, but that is a different SKU and not included in this file's price_history.",
     "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status is 'demonstrated' (public festival debut shown), not 'shipped'.",
-    "Battery runtime and walking speed were not found in the sources checked during this build and are omitted rather than guessed."
+    "Battery runtime and walking speed were not found in the sources checked during this build and are omitted rather than guessed.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Adam -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21"
 }

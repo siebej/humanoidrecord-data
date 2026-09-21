@@ -52,16 +52,6 @@
           "quote": "10-100",
           "accessed": "2026-09-20"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "demonstrated",
-        "source": {
-          "url": "https://newatlas.com/robotics/neura-4ne1-humanoid-robot/",
-          "quote": "performing a raft of mediocre or tiresome domestic chores – from doing the ironing to food prep",
-          "accessed": "2026-09-21"
-        },
-        "note": "4NE-1 is shown standing and walking on two legs in NEURA's own demo reel and product photography (same page cited for height/weight/walking speed); no manufacturer sentence states 'bipedal' verbatim, but every demonstrated use shows two-legged locomotion, consistent with the walking_speed_kmh spec above."
       }
     },
     "order_type": {
@@ -133,7 +123,8 @@
     "notes": [
       "Degrees of freedom is reported inconsistently across secondary sources (35, 42+, 55 DoF) and could not be traced to one dated primary-source figure during this build, so the dof spec field is omitted rather than guessed.",
       "Battery runtime is widely reported as 6-8 hours across secondary/aggregator sites, but the primary product page and reservation page fetched during this build did not state a runtime figure, so battery_runtime_min is omitted.",
-      "The manufacturer's official datasheet PDF (linked from the CES 2026 page) was not accessible as text during this build and should be added as a follow-up source for dof/battery."
+      "The manufacturer's official datasheet PDF (linked from the CES 2026 page) was not accessible as text during this build and should be added as a follow-up source for dof/battery.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for 4NE-1 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -223,10 +214,9 @@
         "status": "claimed",
         "source": {
           "url": "https://www.agibot.com/products/A2",
-          "quote": "Turning Radius 60 cm",
+          "quote": "Autonomous Mobility and Reliable Walking",
           "accessed": "2026-09-21"
-        },
-        "note": "Full-size two-legged humanoid per the product page's own 'Humanoid Configuration and Ergonomic Design' framing and leg/turning-radius spec; AgiBot separately sells a wheeled 'A2-W' variant, distinct from this bipedal A2."
+        }
       }
     },
     "price_history": [],
@@ -352,16 +342,6 @@
           "quote": "340 Nm (250 lb.ft) of joint torque",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
-          "quote": "1.67-m (5.5-ft)",
-          "accessed": "2026-09-21"
-        },
-        "note": "Adam SP is a two-legged walking humanoid; PNDbotics also sells an 'Adam-U' wheeled-base upper-body variant, not covered by this record."
       }
     },
     "price_history": [
@@ -401,7 +381,8 @@
       "DOF figures conflict across sources: this file uses 41 (Adam SP, from the actuator-count description in the New Atlas article); other secondary listings cite 'up to 44 degrees of full-body freedom' for the wider Adam platform and 25 actuators for the separate Adam Lite variant. Not resolved; flagged here rather than picking silently.",
       "The $100,000 figure is described as an online prototype listing, not a stable product price; the separate wheeled 'Adam U' variant is reported at $45,000 launching around September 2025 at WAIC, but that is a different SKU and not included in this file's price_history.",
       "No named customer with invoice/serial-number/unboxing evidence was found, so delivery.status is 'demonstrated' (public festival debut shown), not 'shipped'.",
-      "Battery runtime and walking speed were not found in the sources checked during this build and are omitted rather than guessed."
+      "Battery runtime and walking speed were not found in the sources checked during this build and are omitted rather than guessed.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Adam -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -488,13 +469,13 @@
       },
       "locomotion": {
         "value": "hybrid",
-        "status": "claimed",
+        "status": "demonstrated",
         "source": {
-          "url": "https://robotics.hexagon.com/hexagon-robotics-and-schaeffler-deploy-a-fleet-of-aeon-humanoids/",
-          "quote": "AEON used its unique sensor suite and wheel-based locomotion to demonstrate high-precision manipulation capabilities",
+          "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+          "quote": "While AEON does feature two legs, each leg has a wheel instead of a foot.",
           "accessed": "2026-09-21"
         },
-        "note": "Hexagon's own coverage confirms 'wheel-based locomotion'; independent trade coverage (Association for Advancing Automation, headlined 'This humanoid robot has wheels for feet') describes the underlying design as two articulated legs each ending in a wheel rather than a foot -- automate.org itself returned HTTP 403 to a direct fetch during this build, so only the headline (not a body-text quote) is treated as verified from that outlet. Recorded as 'hybrid' (legs + wheeled feet) rather than 'wheeled' (no legs) or 'bipedal' (feet, no wheels)."
+        "note": "The Robot Report describes AEON's hybrid design directly: bipedal legs with a wheel in place of each foot, distinct from a fully wheeled base."
       }
     },
     "order_type": {
@@ -710,16 +691,6 @@
           "quote": "the swappable battery to power the robot for 4 hours",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
-          "quote": "5 feet 8 inches (172 cm) tall",
-          "accessed": "2026-09-21"
-        },
-        "note": "Apollo's torso is modular and Apptronik itself offers it stationary, on a wheeled platform, or 'fully mobile with legs' (per Apptronik's own launch materials); which configuration is running at the Mercedes-Benz pilot is not stated in the sources found, so status is kept at claimed (base bipedal design) rather than shipped, and the wheeled/stationary options are not separately recorded here as this dataset tracks one locomotion value per robot record."
       }
     },
     "price_history": [],
@@ -783,9 +754,28 @@
       "Apptronik's own site (apptronik.com/apollo) returned no fetchable content during this research session; all specs here are sourced from The Robot Report's launch and Mercedes-Benz pilot coverage instead.",
       "Shipped bar applied (2026-09-20): Mercedes-Benz's own press release (media.mbusa.com, 2025-03-18) names Mercedes-Benz Digital Factory Campus Berlin-Marienfelde as the site, confirms Apollo units are physically present and collecting production data, and is published with a photo gallery on Mercedes-Benz's own media channel. Per this site's shipped rule (named customer + image via customer's or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped with 'pilot' noted in the detail, since Mercedes-Benz itself frames it as testing. Upgraded from demonstrated to shipped; an earlier note here required an invoice/serial/unboxing/customs record in addition to the photo, which was too strict, and is removed.",
       "The separate GXO/Apptronik relationship (gxo.com, Aug 2024) does not clear the same bar: GXO's own news page (https://gxo.com/news_article/shaping-supply-chains-with-humanoid-technology/) lists Apollo alongside Digit and 'Reflex' but describes GXO as still evaluating Apollo in a lab setting before any live-facility deployment, unlike Digit which GXO describes as already live -- so Apollo-at-GXO is not treated as a second shipped delivery here; the Mercedes-Benz pilot is what carries this record to shipped.",
-      "actuator_torque_nm, battery_wh, charge_time_min, sdk, warranty, and order_type were left out (2026-09-21): apptronik.com/apollo returned HTTP 404 during this pass, and no other manufacturer page with a literal, directly quotable figure for these fields was located; Apollo is sold via direct enterprise pilots (Mercedes-Benz, GXO), not a public storefront. delivery.timeline[].sector set to automotive on the Mercedes-Benz events."
+      "actuator_torque_nm, battery_wh, charge_time_min, sdk, warranty, and order_type were left out (2026-09-21): apptronik.com/apollo returned HTTP 404 during this pass, and no other manufacturer page with a literal, directly quotable figure for these fields was located; Apollo is sold via direct enterprise pilots (Mercedes-Benz, GXO), not a public storefront. delivery.timeline[].sector set to automotive on the Mercedes-Benz events.",
+      "locomotion left out (2026-09-21): this record covers the original 2023 Apollo generation, not the later modular Apollo 2 (which apptronik.com/apollo/apollo-2 explicitly offers as \"a bipedal configuration\" or \"a wheeled base\"). The Robot Report's 2023 unveil article and the Mercedes-Benz Digital Factory Campus Berlin-Marienfelde press release/MANUS glove coverage used for this record's shipped status do not state which mobility base was used on site. No literal quote pins the original Apollo or its Mercedes deployment to legs vs. wheels, so the field stays empty per the task's Apollo special case (use what the source says about the Mercedes deployment, else omit)."
     ],
-    "updated": "2026-09-21"
+    "updated": "2026-09-21",
+    "media": [
+      {
+        "type": "patent",
+        "file": "media/apptronik-apollo/usd993296-fig1.png",
+        "caption": "Figure 1 from Apptronik's design patent for a robotic upper body.",
+        "source": {
+          "url": "https://ppubs.uspto.gov/pubwebapp/",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "USPTO design patent",
+          "terms_url": "https://www.uspto.gov/patents/basics/types-patent-applications/design-patent-application",
+          "note": "Public record; design patent drawing, not a copyrighted photograph."
+        },
+        "patent_number": "USD993,296 S",
+        "credit": "USPTO / Apptronik, Inc."
+      }
+    ]
   },
   {
     "slug": "boston-dynamics-atlas-electric",
@@ -858,16 +848,6 @@
           "quote": "Atlas autonomously navigates to a charging station and swaps out its own battery",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "shipped",
-        "source": {
-          "url": "https://bostondynamics.com/atlas/",
-          "quote": "1.9 m (6.2 ft)",
-          "accessed": "2026-09-21"
-        },
-        "note": "Same product-page source as height; Atlas is a two-legged walking humanoid, demonstrated and shipped (see delivery timeline, Hyundai Metaplant), Boston Dynamics does not publish a single sentence stating 'bipedal'."
       }
     },
     "price_history": [],
@@ -930,7 +910,8 @@
       "Payload: the official page lists 50 kg instant / 30 kg sustained lift capacity; only the instant figure is recorded in the single-value `payload_kg` field per schema.",
       "Full-scale Hyundai production deployment is still ramping (Boston Dynamics/Hyundai have said full introduction to production is targeted for 2028).",
       "Shipped bar applied (2026-09-20): the January 2026 CBS 60 Minutes visit is an independent-party (CBS, not Boston Dynamics or Hyundai) on-site observation of a named customer (Hyundai Motor Group Metaplant America, Ellabell, GA) with video/photo evidence of the physical unit performing real work. Per this site's shipped rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement), this qualifies as shipped, with 'pilot' noted since 2028 is cited as the target for full production deployment. Upgraded from demonstrated to shipped; an earlier note here required invoice/serial evidence in addition to the observation, which was too strict, and is removed.",
-      "battery_wh, charge_time_min, actuator_torque_nm, sdk, and warranty were left out (2026-09-21): bostondynamics.com/atlas/ discloses only overall 4-hour battery life and does not state Wh capacity, charge time, joint torque in Nm, or any Atlas-specific SDK/API (the only SDK Boston Dynamics publishes is for Spot); delivery.timeline[].sector set to automotive on the Hyundai Metaplant event."
+      "battery_wh, charge_time_min, actuator_torque_nm, sdk, and warranty were left out (2026-09-21): bostondynamics.com/atlas/ discloses only overall 4-hour battery life and does not state Wh capacity, charge time, joint torque in Nm, or any Atlas-specific SDK/API (the only SDK Boston Dynamics publishes is for Spot); delivery.timeline[].sector set to automotive on the Hyundai Metaplant event.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for electric Atlas -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21",
     "order_type": {
@@ -942,7 +923,25 @@
         "accessed": "2026-09-21"
       },
       "note": "Atlas is offered through a qualified-prospect contact form, not a public cart/waitlist/preorder flow."
-    }
+    },
+    "media": [
+      {
+        "type": "patent",
+        "file": "media/boston-dynamics-atlas-electric/usd1103236-fig1.png",
+        "caption": "Figure 1 from Boston Dynamics' design patent for a robotic device.",
+        "source": {
+          "url": "https://ppubs.uspto.gov/pubwebapp/",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "USPTO design patent",
+          "terms_url": "https://www.uspto.gov/patents/basics/types-patent-applications/design-patent-application",
+          "note": "Public record; design patent drawing, not a copyrighted photograph."
+        },
+        "patent_number": "USD1,103,236 S",
+        "credit": "USPTO / Boston Dynamics, Inc."
+      }
+    ]
   },
   {
     "slug": "agility-digit-gen4",
@@ -1120,16 +1119,6 @@
           "quote": "90-minute runtime battery system charges in just 9 minutes",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
-          "quote": "stands 5' 11\" (1.81 m)",
-          "accessed": "2026-09-21"
-        },
-        "note": "Same announcement source as height; Digit is Agility's long-running bipedal (two-legged, backward-bending knee) humanoid platform, unchanged in leg architecture across generations."
       }
     },
     "price_history": [],
@@ -1172,7 +1161,8 @@
       "This record covers only the newly announced Digit 5 generation (Sept 2026). Its specs (height/weight/payload/battery) are manufacturer claims for early access targeted H1 2027; no shipped or demonstrated evidence exists yet for this generation.",
       "The prior generation's named, operating deployments (Ford 2020, GXO 2023-2024) are a different hardware generation and are tracked separately as agility-digit-gen4, so shipped status is never implied for a generation that has not shipped.",
       "Digit is sold as Robots-as-a-Service, not a one-time purchase, so price_history is intentionally empty — no credible per-unit or subscription price was located from a manufacturer source during this build.",
-      "actuator_torque_nm, battery_wh, battery_swappable, sdk, warranty, and order_type were left out (2026-09-21): the Digit 5 announcement discloses only the 90-min/9-min runtime-and-charge figures and 'proprietary cycloidal actuator technology' without an Nm value, and directs buyers to a sales/quote page ('Deploy Digit') without a literal, quotable ordering-model or warranty statement."
+      "actuator_torque_nm, battery_wh, battery_swappable, sdk, warranty, and order_type were left out (2026-09-21): the Digit 5 announcement discloses only the 90-min/9-min runtime-and-charge figures and 'proprietary cycloidal actuator technology' without an Nm value, and directs buyers to a sales/quote page ('Deploy Digit') without a literal, quotable ordering-model or warranty statement.",
+      "locomotion left out (2026-09-21): agilityrobotics.com/solutions/digit-5, the Sept 2026 Digit 5 press release, IEEE Spectrum's coverage, and Agility's general Digit page were all checked; each describes leg joints, reach, or general humanoid-robot history in a bipedal category, but none gave a literal sentence stating Digit 5 itself is bipedal/two-legged. Left out rather than reused from the gen4 record's Amazon-newsroom quote, which covers a different hardware generation."
     ],
     "updated": "2026-09-21"
   },
@@ -1220,16 +1210,6 @@
           "quote": "FPC electronic skin responds to pressure and location; full-body touch detection (face, arms, fingers, torso, neck, legs)",
           "accessed": "2026-09-20"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://r.jina.ai/https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app/faqs",
-          "quote": "Eva.i V1.0 does not have the walking function. Full autonomous standing is under development; the 1.0 version can only stand leaning against a wall, primarily designed for sitting and lying positions.",
-          "accessed": "2026-09-21"
-        },
-        "note": "Recorded as 'bipedal' by body form (two movable legs with knee/ankle joints, per the same FAQ: 'head, arms, waist and legs are all flexible and movable'), not by demonstrated walking -- Robonova's own FAQ states V1.0 cannot walk and can only stand leaning against a wall, with autonomous walking planned for a future V2. This is the weakest-evidence locomotion entry in this batch: a bipedal-shaped robot without a working bipedal gait yet."
       }
     },
     "order_type": {
@@ -1340,16 +1320,6 @@
           "quote": "2.3 kWh enables 5 hours of run time at peak performance",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "demonstrated",
-        "source": {
-          "url": "https://www.figure.ai/news/f-03-at-bmw",
-          "quote": "Figure 03's hands, arms, torso, and feet ... fluidly switches between precise picking and placement of thin-walled, individual parts and forceful manipulation requiring whole-body coordination.",
-          "accessed": "2026-09-21"
-        },
-        "note": "Same source as the BMW box-handling capability; Figure 03 is shown walking on two legs on the Spartanburg line, and Figure has never shown a wheeled variant."
       }
     },
     "price_history": [],
@@ -1413,9 +1383,28 @@
     "notes": [
       "No manufacturer-published height/weight/DoF spec sheet for Figure 03 was located on figure.ai during this build (figure.ai/product returned HTTP 404); specs are left empty rather than filled from secondary blogs. Follow-up: check Figure's press kit or a dated product page once published.",
       "Shipped bar applied (2026-09-20): BMW's own press portal (press.bmwgroup.com) published a 7-photo compilation on 2026-06-25 captioned \"Humanoid robot Figure 03 at BMW Group Plant Spartanburg\" -- a named customer (BMW Group Plant Spartanburg) with photographic evidence of the physical unit, published via the customer's own channel. Per this site's shipped rule, a named customer plus image via the customer's or an independent channel is sufficient; invoice/serial/unboxing/customs are alternatives, not an added requirement. Upgraded to shipped. (An earlier note in this file required invoice/serial/unboxing/customs in addition to the photo; that conjunctive reading was too strict and is removed.)",
-      "delivery.timeline[].sector set to automotive on all three events (2026-09-21): all are tied to the BMW Group Plant Spartanburg deployment."
+      "delivery.timeline[].sector set to automotive on all three events (2026-09-21): all are tied to the BMW Group Plant Spartanburg deployment.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Figure 03 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
-    "updated": "2026-09-21"
+    "updated": "2026-09-21",
+    "media": [
+      {
+        "type": "patent",
+        "file": "media/figure-03/usd1118726-fig1.png",
+        "caption": "Figure 1 from Figure AI's design patent for a humanoid robot.",
+        "source": {
+          "url": "https://ppubs.uspto.gov/pubwebapp/",
+          "accessed": "2026-09-21"
+        },
+        "license": {
+          "name": "USPTO design patent",
+          "terms_url": "https://www.uspto.gov/patents/basics/types-patent-applications/design-patent-application",
+          "note": "Public record; design patent drawing, not a copyrighted photograph."
+        },
+        "patent_number": "USD1,118,726 S",
+        "credit": "USPTO / Figure AI Inc."
+      }
+    ]
   },
   {
     "slug": "kepler-k2",
@@ -1511,11 +1500,10 @@
         "value": "bipedal",
         "status": "claimed",
         "source": {
-          "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
-          "quote": "175 cm (5 ft 9 in)",
+          "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+          "quote": "improved gait planning and control algorithms have enhanced K2's stability against external disturbances and its walking speed",
           "accessed": "2026-09-21"
-        },
-        "note": "The tracked K2 'Bumblebee' configuration is bipedal; Kepler also lists a separate 'Wheeled Developer' configuration of the same platform, not covered by this record."
+        }
       }
     },
     "price_history": [
@@ -1697,7 +1685,7 @@
       },
       "locomotion": {
         "value": "wheeled",
-        "status": "shipped",
+        "status": "claimed",
         "source": {
           "url": "http://www.galbot.com/g1/",
           "quote": "底盘形式 4 轮全向移动底盘",
@@ -1859,16 +1847,6 @@
           "quote": "Smart Battery (Quick Release) 9000mAh",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "shipped",
-        "source": {
-          "url": "https://www.unitree.com/g1/",
-          "quote": "1320x450x200mm",
-          "accessed": "2026-09-21"
-        },
-        "note": "G1 is a two-legged walking humanoid; cited against the same product page as the height/weight specs since Unitree does not publish a single sentence stating 'bipedal', but every demonstrated and shipped use (see capabilities, results, delivery timeline) shows two-legged locomotion."
       }
     },
     "price_history": [
@@ -2015,7 +1993,8 @@
       "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
       "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",
       "Shipped bar applied (2026-09-20): Durham University's own website (durham.ac.uk, published 1 April 2026) names the Department of Computer Science as the owner of a Unitree G1 Edu robot it calls 'Alan', with a photo of the unit ('Alan-robot-WEB.png') hosted on Durham's own site. This is a named customer with photographic evidence published on the customer's own channel, which satisfies this site's shipped rule without needing an invoice, serial number, unboxing, or customs record as an additional requirement. Upgraded from demonstrated to shipped; the earlier note here (requiring a serial number/invoice/customs record on top of a named buyer with a photo) applied too strict a reading and is removed.",
-      "The 100m obstacle race result is attributed to G1 per Unitree's own social post naming the G1 for this event; the Shanghai Gaoyi Technology government press release (source above) confirms the time and team but does not itself name the robot model, since it covers both the G1 obstacle result and the H1 400m result from the same subsidiary team in one paragraph."
+      "The 100m obstacle race result is attributed to G1 per Unitree's own social post naming the G1 for this event; the Shanghai Gaoyi Technology government press release (source above) confirms the time and team but does not itself name the robot model, since it covers both the G1 obstacle result and the H1 400m result from the same subsidiary team in one paragraph.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for G1 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21",
     "results": [
@@ -2133,16 +2112,6 @@
           "quote": "Since the battery is now swappable, users will be able to swap batteries quickly and return GR-2 to work.",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
-          "quote": "175 cm (68.9 in.)",
-          "accessed": "2026-09-21"
-        },
-        "note": "GR-2 is a two-legged walking humanoid; Fourier does not publish a single sentence stating 'bipedal', so this is cited against the same article as the height/weight specs, consistent with every demonstrated use of the robot showing two-legged locomotion."
       }
     },
     "price_history": [],
@@ -2166,7 +2135,8 @@
     "notes": [
       "Payload capacity is single-arm load capacity (3 kg / 6.6 lb) as stated by the manufacturer's press release, not a whole-body payload figure.",
       "No named-customer delivery or independent demonstration video was found during this research session, so delivery.status is 'claimed'; price figures circulating on aggregator sites (e.g. $150,000+, €110,803.55) could not be traced to a manufacturer or press source and were omitted rather than included unsourced.",
-      "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement): searched specifically for a named hospital, university, or lab publishing its own photo of a GR-1 unit (parallel to the Durham University / Unitree G1 case). None was found -- coverage of Fourier's healthcare/rehab use cases describes GR-1 as designed for hospital and care-home tasks and cites '2,000+ organizations and hospitals' served as a manufacturer-side aggregate claim, but no specific institution's own channel or independent report names itself as a GR-1 recipient with a photo of its unit. This is a genuine evidence gap, not an over-strict reading of the rule, so GR-1/GR-2 remains claimed, not shipped. No fourier-gr-1.json record exists in this dataset; if one is added later, this same gap applies to it."
+      "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement): searched specifically for a named hospital, university, or lab publishing its own photo of a GR-1 unit (parallel to the Durham University / Unitree G1 case). None was found -- coverage of Fourier's healthcare/rehab use cases describes GR-1 as designed for hospital and care-home tasks and cites '2,000+ organizations and hospitals' served as a manufacturer-side aggregate claim, but no specific institution's own channel or independent report names itself as a GR-1 recipient with a photo of its unit. This is a genuine evidence gap, not an over-strict reading of the rule, so GR-1/GR-2 remains claimed, not shipped. No fourier-gr-1.json record exists in this dataset; if one is added later, this same gap applies to it.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for GR-2 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -2263,13 +2233,12 @@
       },
       "locomotion": {
         "value": "bipedal",
-        "status": "shipped",
+        "status": "claimed",
         "source": {
           "url": "https://www.unitree.com/h1/",
-          "quote": "The first full-size general-purpose humanoid robot that can run in China",
+          "quote": "Possessing a stable gait and highly flexible movement capabilities, it is able to walk and run autonomously in complex terrains and environments.",
           "accessed": "2026-09-21"
-        },
-        "note": "Two-legged walking/running humanoid; confirmed further by the World Humanoid Robot Games 2025 track results (400m, 1500m, hurdles, relay) run on two legs."
+        }
       }
     },
     "price_history": [
@@ -2464,16 +2433,6 @@
           "quote": "31 degrees of freedom, 360N.m joint torque, and precise dynamic movement replication.",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://shop.unitree.com/products/unitree-h2",
-          "quote": "The 180 cm humanoid design redefines industrial aesthetics with its streamlined elegance.",
-          "accessed": "2026-09-21"
-        },
-        "note": "H2 is Unitree's two-legged successor to H1; product page and launch coverage (dance/kung-fu demo video) show two-legged walking, not wheels."
       }
     },
     "price_history": [
@@ -2546,7 +2505,8 @@
       "The task brief asked to pick H1 or H2 and name the other: H2 (announced 2025-10-20) is Unitree's direct successor to the H1 (announced 2019), replacing its 'R-A-F' hip layout with 'F-A-R' and adding a 3-DOF waist and up to three Jetson Orin NX modules. H1 itself remains for sale separately and is not covered by this file.",
       "Unitree's own shop page does not state battery runtime or payload; both are omitted rather than sourced from secondary aggregators (RoboZaps, Humanoid.guide) that were not independently verified against a primary page during this build.",
       "No named-customer delivery evidence was found; delivery.status stays 'claimed' (store listing only, no unboxing/serial/customs record located).",
-      "Capabilities research (2026-09-20): Unitree's own 'daily training video' releases show the H2 doing flying kicks, backflips, sandbag strikes and a boxing spar with a G1 (Interesting Engineering, 2025-12/2026-01 coverage), but none of these map cleanly onto this dataset's fixed capability ids (no 'acrobatics'/'combat' id exists, and a single flip or kick is not the sustained aerial-phase gait the 'run' id requires). None of the coverage states who or what controlled the robot during these clips -- Interesting Engineering instead describes teleoperation as a general 'transitional technology' for Unitree's humanoids without confirming it for this footage -- so per the schema's silence rule any such entry would have to be 'unknown' autonomy anyway. No hand DOF, tactile-skin, depth-camera or onboard-compute figure could be traced to a primary Unitree page (shop.unitree.com/products/unitree-h2 does not list them; unitree.com/h2 404s); secondary aggregator figures (e.g. Sharpa Wave 22-DOF hands cited by RoboZaps/Humanoid.guide) were not added for the same reason battery/payload were omitted above. capabilities left empty for this build."
+      "Capabilities research (2026-09-20): Unitree's own 'daily training video' releases show the H2 doing flying kicks, backflips, sandbag strikes and a boxing spar with a G1 (Interesting Engineering, 2025-12/2026-01 coverage), but none of these map cleanly onto this dataset's fixed capability ids (no 'acrobatics'/'combat' id exists, and a single flip or kick is not the sustained aerial-phase gait the 'run' id requires). None of the coverage states who or what controlled the robot during these clips -- Interesting Engineering instead describes teleoperation as a general 'transitional technology' for Unitree's humanoids without confirming it for this footage -- so per the schema's silence rule any such entry would have to be 'unknown' autonomy anyway. No hand DOF, tactile-skin, depth-camera or onboard-compute figure could be traced to a primary Unitree page (shop.unitree.com/products/unitree-h2 does not list them; unitree.com/h2 404s); secondary aggregator figures (e.g. Sharpa Wave 22-DOF hands cited by RoboZaps/Humanoid.guide) were not added for the same reason battery/payload were omitted above. capabilities left empty for this build.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for H2 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -2612,16 +2572,6 @@
           "quote": "three in-house developed Turing AI chips delivering 2,250 TOPS of computing power",
           "accessed": "2026-09-20"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://cnevpost.com/2024/11/06/xpeng-2024-ai-day/",
-          "quote": "stands 178 cm tall",
-          "accessed": "2026-09-21"
-        },
-        "note": "Iron is a two-legged walking humanoid; cited against the same launch article as the height/weight specs, consistent with every demonstrated use shown."
       }
     },
     "price_history": [],
@@ -2658,7 +2608,8 @@
     "notes": [
       "Specs recorded here (178 cm / 70 kg / 60+ joints) are for the original Iron unveiled November 2024. The next-generation Iron shown at 2025 AI Day (Nov 5, 2025) has different hand dexterity: CnEVPost's 2025 coverage states 'a hand with 22 degrees of freedom', while a separate report cited elsewhere put per-hand DOF at 21 and total body DOF at 76 for the 2025 version. Updated full-body height/weight for the 2025 generation were not confirmed by a primary or press source during this session, so the 2024 figures are kept as the current record and the hand-DOF conflict is flagged rather than resolved.",
       "No shipped or independently verified customer deployment was found; XPeng has stated mass production is targeted for end of 2026 with deliveries/showroom deployment planned for 2027, which is a plan, not a shipped or demonstrated-in-production status.",
-      "hand_dof (22) and compute (3x Turing chips, 2,250 TOPS) added 2026-09-20 from CnEVPost's 2025-11-05 coverage of the next-generation Iron shown at 2025 AI Day, i.e. a newer generation than the 2024 height/weight/dof figures kept above; per the discrepancy note already on file, a separate report elsewhere put per-hand DOF at 21 (vs. CnEVPost's 22) and total body DOF at 76 for this same 2025 generation -- that conflict is unresolved and CnEVPost's figure is used as the traceable press source. No fixed capability id in data/capabilities.json cleanly matches the 2025 catwalk/runway demonstration (no 'run' aerial-phase gait shown, no dexterous-hand task performed on stage), so no capabilities entry was added for this build."
+      "hand_dof (22) and compute (3x Turing chips, 2,250 TOPS) added 2026-09-20 from CnEVPost's 2025-11-05 coverage of the next-generation Iron shown at 2025 AI Day, i.e. a newer generation than the 2024 height/weight/dof figures kept above; per the discrepancy note already on file, a separate report elsewhere put per-hand DOF at 21 (vs. CnEVPost's 22) and total body DOF at 76 for this same 2025 generation -- that conflict is unresolved and CnEVPost's figure is used as the traceable press source. No fixed capability id in data/capabilities.json cleanly matches the 2025 catwalk/runway demonstration (no 'run' aerial-phase gait shown, no dexterous-hand task performed on stage), so no capabilities entry was added for this build.",
+      "locomotion left out (2026-09-21): cnevpost's launch coverage and Humanoids Daily's Shenzhen catwalk-debut article were checked; Humanoids Daily uses \"bipedal robots\" only in a general aside about fascia-layer damping, not as a direct statement about Iron itself, and no other fetched source gave a literal sentence naming Iron's own locomotion. Left out rather than inferred from the catwalk demo footage or the humanoid category."
     ],
     "updated": "2026-09-21"
   },
@@ -2733,16 +2684,6 @@
           "quote": "With its hot-swappable battery system, the robot can operate continuously for more than three hours without any disruptions.",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "demonstrated",
-        "source": {
-          "url": "https://www.humanoidsdaily.com/news/mentee-robotics-demonstrates-warehouse-autonomy-with-dual-robot-uncut-demo",
-          "quote": "In the 18-minute continuous shot, two V3 MenteeBots transfer a total of 32 boxes from eight different piles into four flow racks.",
-          "accessed": "2026-09-21"
-        },
-        "note": "Mentee's own /bot/ page (used for height/weight/speed) does not state 'bipedal' verbatim, but the uncut 18-minute warehouse demo (same source already used for the box-handling capability and first-demo timeline event) shows both V3 units walking on two legs while carrying and placing boxes."
       }
     },
     "order_type": {
@@ -2789,7 +2730,7 @@
       {
         "id": "box-handling",
         "status": "demonstrated",
-        "autonomy": "autonomous",
+        "autonomy": "unknown",
         "source": {
           "url": "https://www.humanoidsdaily.com/news/mentee-robotics-demonstrates-warehouse-autonomy-with-dual-robot-uncut-demo",
           "quote": "In the 18-minute continuous shot, two V3 MenteeBots transfer a total of 32 boxes from eight different piles into four flow racks.",
@@ -2801,7 +2742,8 @@
     "notes": [
       "Battery runtime is reported inconsistently across press coverage (Interesting Engineering: 'more than three hours'; other outlets: 'around 4 hours') and is not stated on Mentee's own /bot/ page, so battery_runtime_min is omitted rather than picking one figure.",
       "No official price has been published by Mentee Robotics; a $35,000 figure circulates on aggregator/marketplace sites but was not traced back to a manufacturer statement, so price_history is left empty.",
-      "In 2026 press reported Mobileye (whose CEO Amnon Shashua also founded Mentee Robotics) in talks to acquire Mentee Robotics; this is a corporate/ownership development, not a delivery or spec fact, and was not verified further for this record."
+      "In 2026 press reported Mobileye (whose CEO Amnon Shashua also founded Mentee Robotics) in talks to acquire Mentee Robotics; this is a corporate/ownership development, not a delivery or spec fact, and was not verified further for this record.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for MenteeBot -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -2870,13 +2812,12 @@
       },
       "locomotion": {
         "value": "bipedal",
-        "status": "demonstrated",
+        "status": "claimed",
         "source": {
-          "url": "https://www.1x.tech/discover/neo-home-robot",
-          "quote": "At just 66 pounds (29.94 kg), NEO is capable of lifting over 150 pounds",
+          "url": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+          "quote": "a bipedal humanoid designed for home use",
           "accessed": "2026-09-21"
-        },
-        "note": "Same source as weight/payload; 1X's own demo videos and product shots consistently show Neo as a two-legged walking humanoid, not wheeled."
+        }
       }
     },
     "price_history": [
@@ -3048,16 +2989,6 @@
           "quote": "Slide-Out Battery Module",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://www.limxdynamics.com/en/products/oli",
-          "quote": "165cm height",
-          "accessed": "2026-09-21"
-        },
-        "note": "Oli is a two-legged walking humanoid, per the same product page as the height spec and the spec sheet's own description of humanoid walking."
       }
     },
     "price_history": [],
@@ -3117,7 +3048,8 @@
     "notes": [
       "Weight, battery runtime and price were not stated on the manufacturer product page or in The Robot Report's launch article fetched during this build; a 9,500 mAh / 58.8V pack and ~2-hour runtime, and a ~55 kg weight for the Lite/EDU variants, are reported on third-party retailer/aggregator listings (e.g. RobotShop) but could not be traced to a dated manufacturer statement, so these fields are omitted rather than guessed.",
       "Oli ships in Lite, EDU and Super editions with different specs and pricing; the values recorded here are the ones stated without a variant qualifier on the manufacturer's product/news pages.",
-      "Currently sold in Mainland China only per the manufacturer's news page, with a global version described as forthcoming."
+      "Currently sold in Mainland China only per the manufacturer's news page, with a global version described as forthcoming.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Oli -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21",
     "warranty": [
@@ -3186,16 +3118,6 @@
           "quote": "The new Optimus hand later this year will have 22 DoF",
           "accessed": "2026-09-20"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "demonstrated",
-        "source": {
-          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
-          "quote": "Height: 5 ft 8 in (173 cm)",
-          "accessed": "2026-09-21"
-        },
-        "note": "Same source used for height/weight; Tesla does not publish a single 'bipedal' sentence, but every demonstrated Optimus clip (walking, We Robot event) shows two-legged locomotion, and no wheeled/hybrid variant has ever been shown."
       }
     },
     "price_history": [
@@ -3313,7 +3235,8 @@
       "hand_dof (22 DoF) is Elon Musk's own statement (May 2024, as reported by Teslarati) about an upcoming hand upgrade, recorded as claimed; by 2026 multiple outlets describe this as the current Gen 3/V3 hand shipping in low volume, but no direct tesla.com spec page confirming the current production hand DOF was reachable during this build.",
       "The teleoperation-shown capability documents the well-publicized fact that at least some We, Robot (Oct 2024) Optimus units were human-operated; this does not establish the current DOF or autonomy of any other demonstrated Optimus capability, which remain separately unsourced for autonomy.",
       "order_type is recorded as 'none' as of 2026-09-21: Musk's $30,000 figure (Q1 2026 earnings call) is a future price estimate, not a current cart/waitlist/preorder offer, and no tesla.com storefront or order page for Optimus was located.",
-      "actuator_torque_nm, battery_wh, battery_swappable, charge_time_min, sdk, and warranty were left out of this update (2026-09-21): tesla.com/AI and Tesla's investor pages remained unreachable (HTTP 403), and secondary blogs repeating 2022 AI Day actuator numbers (20/110/180 Nm rotary reducers) could not be traced to a literal, directly quotable Tesla or Wikipedia passage during this pass."
+      "actuator_torque_nm, battery_wh, battery_swappable, charge_time_min, sdk, and warranty were left out of this update (2026-09-21): tesla.com/AI and Tesla's investor pages remained unreachable (HTTP 403), and secondary blogs repeating 2022 AI Day actuator numbers (20/110/180 Nm rotary reducers) could not be traced to a literal, directly quotable Tesla or Wikipedia passage during this pass.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Optimus -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -3334,18 +3257,7 @@
         "accessed": "2026-09-20"
       }
     },
-    "specs": {
-      "locomotion": {
-        "value": "bipedal",
-        "status": "demonstrated",
-        "source": {
-          "url": "https://www.robotaigeek.com/news/persona-ai-deploys-humanoid-welding-robot-in-houston-shipyards",
-          "quote": "The 175cm, 85kg robot is designed to fit the same physical envelope as human welders in confined shipyard spaces.",
-          "accessed": "2026-09-21"
-        },
-        "note": "Same source already used for the first-demo timeline event; the on-site Houston welding demo shows the robot standing, squatting and standing back up on two legs, sized to a human welder's envelope."
-      }
-    },
+    "specs": {},
     "order_type": {
       "value": "quote",
       "status": "claimed",
@@ -3416,7 +3328,8 @@
       "Persona AI's own site (persona.ai) does not publish numeric specs (height/weight/DOF/speed/payload) for Gen 1; specs is left empty rather than sourced to press coverage. Press figures conflict: RobotAIGeek (Jul 2026, on-site Houston deployment) reports '175cm, 85kg', while other secondary aggregators (not traced to a manufacturer statement) report 175 cm / 70 kg and ~32 DOF. Neither height/weight pairing could be confirmed against a Persona AI-published spec sheet during this build.",
       "A later RoboHorizon report (2025-12-31) describes a $42M pre-seed round for Persona AI's humanoid welding bot, which appears inconsistent with (or a follow-on close to) the $27M pre-seed reported in May 2025 by The Robot Report; both figures are recorded here as a discrepancy rather than resolved. See https://robohorizon.com/en-us/news/2025/12/persona-ai-unveils-humanoid-bot-with-42m-to-weld-in-shipyards/ (accessed 2026-09-20).",
       "No named-customer unit with an invoice, serial number, or independent unboxing was found; the HD Hyundai relationship is a signed deployment agreement/MOU with initial delivery 'expected' within 18 months of May 2025, not a completed shipment. delivery.status is set to 'demonstrated' on the strength of the on-site Houston welding-robot deployment (RobotAIGeek, Jul 2026), not 'shipped'.",
-      "No public price has been found for Gen 1; Persona AI operates a robotics-as-a-service model without published unit pricing, so price_history is left empty."
+      "No public price has been found for Gen 1; Persona AI operates a robotics-as-a-service model without published unit pricing, so price_history is left empty.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Gen 1 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -3652,13 +3565,12 @@
       },
       "locomotion": {
         "value": "bipedal",
-        "status": "demonstrated",
+        "status": "claimed",
         "source": {
-          "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
-          "quote": "2 m/sec. (4.4 mph)",
+          "url": "https://en.engineai.com.cn/product-pm01.html",
+          "quote": "Walking with a Human-like Gait",
           "accessed": "2026-09-21"
-        },
-        "note": "Two-legged walking humanoid; confirmed by the front-flip video coverage (2025-02-23) and manufacturer's own leg-DOF spec (Leg DOF 6 per side)."
+        }
       }
     },
     "price_history": [
@@ -3790,7 +3702,7 @@
       },
       "locomotion": {
         "value": "bipedal",
-        "status": "shipped",
+        "status": "demonstrated",
         "source": {
           "url": "https://www.yankodesign.com/2025/07/28/unitrees-5900-r1-humanoid-robot-can-run-do-cartwheels-and-perform-handstands/",
           "quote": "Unitree R1 humanoid robot is capable of walking, running, cartwheeling, doing kung-fu, falling on its own will, and getting up like nothing ever happened.",
@@ -3969,16 +3881,6 @@
           "quote": "Max Peak Torque: 130N·m",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "shipped",
-        "source": {
-          "url": "https://humanoid.robocup.org/wp-content/uploads/RC-HL-2025-Rules.pdf",
-          "quote": "Robots participating in the Humanoid League competitions must act autonomously while a competition is running.",
-          "accessed": "2026-09-20"
-        },
-        "note": "Two-legged humanoid; confirmed by the AdultSize soccer match play (running, kicking) recorded under results/capabilities above, which requires bipedal locomotion under RoboCup Humanoid League rules."
       }
     },
     "price_history": [
@@ -4077,7 +3979,8 @@
       "Booster.tech's own product page (booster-t1) does not state degrees-of-freedom variants with grippers/dexterous hands the way older aggregator pages do (23/31/41); only the base 23 DoF figure is confirmed on the current official page.",
       "Shipped-bar research (2026-09-20): Bipedal GmbH (Cologne, Germany) is Booster Robotics' EU distributor and has both a promotional blog post (\"Der neue BoosterT1 ist endlich da\", 2025-02-09, using manufacturer product photos, not delivery photos) and its own YouTube tutorial series (\"Booster Robotic T1 How to start\") showing a physical unit. A distributor's own stock unit is not a first customer delivery in the RoboCup-team sense the task asked about, and no RoboCup team's own channel showing a specific received T1 with invoice/serial/customs was found in this pass. Independent buyer unboxings exist on YouTube (e.g. \"Unboxing & Getting Started with Booster T1\" by Generation Robots, a French robotics reseller) but again show a reseller's demo unit, not a clearly named end-customer delivery. Not upgraded to shipped.",
       "T1 usage for the RoboCup 2025 AdultSize win is separately confirmed by chinadaily.com.cn (\"Tsinghua dominated the competition using Chinese-developed Booster T1 robots\", accessed 2026-09-21); the 5-3 scoreline itself is the CGTN photo caption cited in the result source above.",
-      "battery_wh, battery_swappable and charge_time_min omitted (2026-09-21): booster.tech/booster-t1/ states only 'Battery: 10.5Ah' with no voltage figure, so Wh cannot be derived, and neither swappability nor charge time is stated on the primary page."
+      "battery_wh, battery_swappable and charge_time_min omitted (2026-09-21): booster.tech/booster-t1/ states only 'Battery: 10.5Ah' with no voltage figure, so Wh cannot be derived, and neither swappability nor charge time is stated on the primary page.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for T1 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21",
     "results": [
@@ -4132,16 +4035,6 @@
           "quote": "weighing around 52–55 kg",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://humanoid.press/database/database-tiangong-ultra/",
-          "quote": "Standing approximately 1.80 m tall",
-          "accessed": "2026-09-21"
-        },
-        "note": "Tiangong Ultra is a two-legged running/walking humanoid, cited against the same source as the height spec, consistent with its demonstrated running results."
       }
     },
     "price_history": [],
@@ -4196,7 +4089,8 @@
       "No pre-2025 announcement/reveal event was found for this robot independent of its April 2025 half-marathon result; 'announced' date is therefore its first public competitive appearance, not a separate unveiling.",
       "Manufacturer is a national-municipal research center (established Nov 2023, Beijing Economic-Technological Development Area), not a conventional product company; 'manufacturer.url' points at its own institutional page rather than a commercial product page.",
       "A separate interestingengineering.com piece on the 2025 games states Tiangong was the only entrant that ran 'entirely on its own, without remote control', but does not tie that statement to the specific 100m result quoted above, so this build keeps results.autonomy as 'unknown' rather than upgrading it to 'autonomous' without a source that names the discipline directly. Revisit if a source ties that claim to the 100m final specifically.",
-      "A faster 2026 result (100 m in 8.64s at the 2nd World Humanoid Robot Games, August 2026) is documented in press coverage but is out of scope for this build's requested event set and is not recorded here."
+      "A faster 2026 result (100 m in 8.64s at the 2nd World Humanoid Robot Games, August 2026) is documented in press coverage but is out of scope for this build's requested event set and is not recorded here.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Tiangong Ultra -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21"
   },
@@ -4253,16 +4147,6 @@
           "quote": "swap battery autonomously within 3 minutes",
           "accessed": "2026-09-21"
         }
-      },
-      "locomotion": {
-        "value": "bipedal",
-        "status": "claimed",
-        "source": {
-          "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
-          "quote": "stands at an impressive height of 1.76 meters",
-          "accessed": "2026-09-21"
-        },
-        "note": "Walker S2 is a two-legged walking humanoid; cited against the same launch article as the height spec, consistent with every demonstrated and shipped use shown."
       }
     },
     "price_history": [],
@@ -4301,7 +4185,8 @@
       "UBTech's own product page (ubtrobot.com/en/humanoid/products/walker-s2) is reachable and confirms payload and battery-swap claims directly, but does not state height or weight. Height (1.76 m) and DOF (52) here are sourced from a secondary aggregator (heyupnow.com) that republishes UBTech's launch claims without linking an original press release; no PR Newswire/Business Wire/IEEE Spectrum/Robot Report coverage with those exact figures was found during this session. Treat height/DOF as needing a stronger source in a follow-up.",
       "Weight could not be confirmed from any source checked; third-party aggregators disagree (43-77 kg depending on battery configuration), so it is omitted rather than guessed.",
       "The November 2025 mass-production/delivery announcement is UBTech's own press release (claimed-level evidence per schema); it names deployment partners but the fetched text contains no photo, serial number, or independent verification of a specific customer's unit, so delivery.status stays 'claimed' rather than 'shipped'.",
-      "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement, so the earlier note requiring both was too strict and is superseded by this one): UBTech's own PR Newswire release (Nov 2025) names BYD, Foxconn, Geely, Zeekr, Audi-FAW etc. only as order sources/collaborators, with no photo tied to a specific customer's unit. The one strong independent-channel match found -- SCMP's photographed, on-the-record coverage of a Zeekr Ningbo deployment (published 2025-03-03, https://www.scmp.com/tech/tech-trends/article/3300872/) -- explicitly names the model as 'Walker S1', not Walker S2 (Walker S2 was announced later, 2025-07-23), so it is evidence for a different generation and does not carry this record to shipped. No named customer with photographic evidence of a specific Walker S2 unit (as opposed to S1/S Lite) was found via customer or independent channels. Remains claimed, not shipped."
+      "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement, so the earlier note requiring both was too strict and is superseded by this one): UBTech's own PR Newswire release (Nov 2025) names BYD, Foxconn, Geely, Zeekr, Audi-FAW etc. only as order sources/collaborators, with no photo tied to a specific customer's unit. The one strong independent-channel match found -- SCMP's photographed, on-the-record coverage of a Zeekr Ningbo deployment (published 2025-03-03, https://www.scmp.com/tech/tech-trends/article/3300872/) -- explicitly names the model as 'Walker S1', not Walker S2 (Walker S2 was announced later, 2025-07-23), so it is evidence for a different generation and does not carry this record to shipped. No named customer with photographic evidence of a specific Walker S2 unit (as opposed to S1/S Lite) was found via customer or independent channels. Remains claimed, not shipped.",
+      "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Walker S2 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
     ],
     "updated": "2026-09-21",
     "order_type": {

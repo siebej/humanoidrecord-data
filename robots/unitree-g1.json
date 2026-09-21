@@ -88,16 +88,6 @@
         "quote": "Smart Battery (Quick Release) 9000mAh",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "shipped",
-      "source": {
-        "url": "https://www.unitree.com/g1/",
-        "quote": "1320x450x200mm",
-        "accessed": "2026-09-21"
-      },
-      "note": "G1 is a two-legged walking humanoid; cited against the same product page as the height/weight specs since Unitree does not publish a single sentence stating 'bipedal', but every demonstrated and shipped use (see capabilities, results, delivery timeline) shows two-legged locomotion."
     }
   },
   "price_history": [
@@ -244,7 +234,8 @@
     "Height/weight conflict: Unitree's current product page (accessed 2026-09-20) states \"1320x450x200mm\" and \"About 35kg\", while The Robot Report's May 2024 launch coverage stated 127 cm and 47 kg for the same base G1. Both are shown here as the current manufacturer figure; the discrepancy is not resolved.",
     "G1 is listed for direct purchase on Unitree's own storefront (checkout, no waitlist), which is strong claimed-level evidence of availability.",
     "Shipped bar applied (2026-09-20): Durham University's own website (durham.ac.uk, published 1 April 2026) names the Department of Computer Science as the owner of a Unitree G1 Edu robot it calls 'Alan', with a photo of the unit ('Alan-robot-WEB.png') hosted on Durham's own site. This is a named customer with photographic evidence published on the customer's own channel, which satisfies this site's shipped rule without needing an invoice, serial number, unboxing, or customs record as an additional requirement. Upgraded from demonstrated to shipped; the earlier note here (requiring a serial number/invoice/customs record on top of a named buyer with a photo) applied too strict a reading and is removed.",
-    "The 100m obstacle race result is attributed to G1 per Unitree's own social post naming the G1 for this event; the Shanghai Gaoyi Technology government press release (source above) confirms the time and team but does not itself name the robot model, since it covers both the G1 obstacle result and the H1 400m result from the same subsidiary team in one paragraph."
+    "The 100m obstacle race result is attributed to G1 per Unitree's own social post naming the G1 for this event; the Shanghai Gaoyi Technology government press release (source above) confirms the time and team but does not itself name the robot model, since it covers both the G1 obstacle result and the H1 400m result from the same subsidiary team in one paragraph.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for G1 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21",
   "results": [

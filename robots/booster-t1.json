@@ -60,16 +60,6 @@
         "quote": "Max Peak Torque: 130N·m",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "shipped",
-      "source": {
-        "url": "https://humanoid.robocup.org/wp-content/uploads/RC-HL-2025-Rules.pdf",
-        "quote": "Robots participating in the Humanoid League competitions must act autonomously while a competition is running.",
-        "accessed": "2026-09-20"
-      },
-      "note": "Two-legged humanoid; confirmed by the AdultSize soccer match play (running, kicking) recorded under results/capabilities above, which requires bipedal locomotion under RoboCup Humanoid League rules."
     }
   },
   "price_history": [
@@ -168,7 +158,8 @@
     "Booster.tech's own product page (booster-t1) does not state degrees-of-freedom variants with grippers/dexterous hands the way older aggregator pages do (23/31/41); only the base 23 DoF figure is confirmed on the current official page.",
     "Shipped-bar research (2026-09-20): Bipedal GmbH (Cologne, Germany) is Booster Robotics' EU distributor and has both a promotional blog post (\"Der neue BoosterT1 ist endlich da\", 2025-02-09, using manufacturer product photos, not delivery photos) and its own YouTube tutorial series (\"Booster Robotic T1 How to start\") showing a physical unit. A distributor's own stock unit is not a first customer delivery in the RoboCup-team sense the task asked about, and no RoboCup team's own channel showing a specific received T1 with invoice/serial/customs was found in this pass. Independent buyer unboxings exist on YouTube (e.g. \"Unboxing & Getting Started with Booster T1\" by Generation Robots, a French robotics reseller) but again show a reseller's demo unit, not a clearly named end-customer delivery. Not upgraded to shipped.",
     "T1 usage for the RoboCup 2025 AdultSize win is separately confirmed by chinadaily.com.cn (\"Tsinghua dominated the competition using Chinese-developed Booster T1 robots\", accessed 2026-09-21); the 5-3 scoreline itself is the CGTN photo caption cited in the result source above.",
-    "battery_wh, battery_swappable and charge_time_min omitted (2026-09-21): booster.tech/booster-t1/ states only 'Battery: 10.5Ah' with no voltage figure, so Wh cannot be derived, and neither swappability nor charge time is stated on the primary page."
+    "battery_wh, battery_swappable and charge_time_min omitted (2026-09-21): booster.tech/booster-t1/ states only 'Battery: 10.5Ah' with no voltage figure, so Wh cannot be derived, and neither swappability nor charge time is stated on the primary page.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for T1 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21",
   "results": [

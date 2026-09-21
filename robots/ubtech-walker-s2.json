@@ -51,16 +51,6 @@
         "quote": "swap battery autonomously within 3 minutes",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "claimed",
-      "source": {
-        "url": "https://heyupnow.com/blogs/news/ubtech-unveils-the-full-size-industrial-humanoid-robot-walker-s2-standing-1-76-meters-tall-and-capable-of-24-7-operation",
-        "quote": "stands at an impressive height of 1.76 meters",
-        "accessed": "2026-09-21"
-      },
-      "note": "Walker S2 is a two-legged walking humanoid; cited against the same launch article as the height spec, consistent with every demonstrated and shipped use shown."
     }
   },
   "price_history": [],
@@ -99,7 +89,8 @@
     "UBTech's own product page (ubtrobot.com/en/humanoid/products/walker-s2) is reachable and confirms payload and battery-swap claims directly, but does not state height or weight. Height (1.76 m) and DOF (52) here are sourced from a secondary aggregator (heyupnow.com) that republishes UBTech's launch claims without linking an original press release; no PR Newswire/Business Wire/IEEE Spectrum/Robot Report coverage with those exact figures was found during this session. Treat height/DOF as needing a stronger source in a follow-up.",
     "Weight could not be confirmed from any source checked; third-party aggregators disagree (43-77 kg depending on battery configuration), so it is omitted rather than guessed.",
     "The November 2025 mass-production/delivery announcement is UBTech's own press release (claimed-level evidence per schema); it names deployment partners but the fetched text contains no photo, serial number, or independent verification of a specific customer's unit, so delivery.status stays 'claimed' rather than 'shipped'.",
-    "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement, so the earlier note requiring both was too strict and is superseded by this one): UBTech's own PR Newswire release (Nov 2025) names BYD, Foxconn, Geely, Zeekr, Audi-FAW etc. only as order sources/collaborators, with no photo tied to a specific customer's unit. The one strong independent-channel match found -- SCMP's photographed, on-the-record coverage of a Zeekr Ningbo deployment (published 2025-03-03, https://www.scmp.com/tech/tech-trends/article/3300872/) -- explicitly names the model as 'Walker S1', not Walker S2 (Walker S2 was announced later, 2025-07-23), so it is evidence for a different generation and does not carry this record to shipped. No named customer with photographic evidence of a specific Walker S2 unit (as opposed to S1/S Lite) was found via customer or independent channels. Remains claimed, not shipped."
+    "Shipped-bar re-check (2026-09-20), applying this site's actual rule (named customer + image via the customer's own or an independent channel; invoice/serial/unboxing/customs are alternatives, not an added requirement, so the earlier note requiring both was too strict and is superseded by this one): UBTech's own PR Newswire release (Nov 2025) names BYD, Foxconn, Geely, Zeekr, Audi-FAW etc. only as order sources/collaborators, with no photo tied to a specific customer's unit. The one strong independent-channel match found -- SCMP's photographed, on-the-record coverage of a Zeekr Ningbo deployment (published 2025-03-03, https://www.scmp.com/tech/tech-trends/article/3300872/) -- explicitly names the model as 'Walker S1', not Walker S2 (Walker S2 was announced later, 2025-07-23), so it is evidence for a different generation and does not carry this record to shipped. No named customer with photographic evidence of a specific Walker S2 unit (as opposed to S1/S Lite) was found via customer or independent channels. Remains claimed, not shipped.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for Walker S2 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21",
   "order_type": {

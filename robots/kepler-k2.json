@@ -92,11 +92,10 @@
       "value": "bipedal",
       "status": "claimed",
       "source": {
-        "url": "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html",
-        "quote": "175 cm (5 ft 9 in)",
+        "url": "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+        "quote": "improved gait planning and control algorithms have enhanced K2's stability against external disturbances and its walking speed",
         "accessed": "2026-09-21"
-      },
-      "note": "The tracked K2 'Bumblebee' configuration is bipedal; Kepler also lists a separate 'Wheeled Developer' configuration of the same platform, not covered by this record."
+      }
     }
   },
   "price_history": [

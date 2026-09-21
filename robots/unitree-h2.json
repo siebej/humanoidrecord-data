@@ -60,16 +60,6 @@
         "quote": "31 degrees of freedom, 360N.m joint torque, and precise dynamic movement replication.",
         "accessed": "2026-09-21"
       }
-    },
-    "locomotion": {
-      "value": "bipedal",
-      "status": "claimed",
-      "source": {
-        "url": "https://shop.unitree.com/products/unitree-h2",
-        "quote": "The 180 cm humanoid design redefines industrial aesthetics with its streamlined elegance.",
-        "accessed": "2026-09-21"
-      },
-      "note": "H2 is Unitree's two-legged successor to H1; product page and launch coverage (dance/kung-fu demo video) show two-legged walking, not wheels."
     }
   },
   "price_history": [
@@ -142,7 +132,8 @@
     "The task brief asked to pick H1 or H2 and name the other: H2 (announced 2025-10-20) is Unitree's direct successor to the H1 (announced 2019), replacing its 'R-A-F' hip layout with 'F-A-R' and adding a 3-DOF waist and up to three Jetson Orin NX modules. H1 itself remains for sale separately and is not covered by this file.",
     "Unitree's own shop page does not state battery runtime or payload; both are omitted rather than sourced from secondary aggregators (RoboZaps, Humanoid.guide) that were not independently verified against a primary page during this build.",
     "No named-customer delivery evidence was found; delivery.status stays 'claimed' (store listing only, no unboxing/serial/customs record located).",
-    "Capabilities research (2026-09-20): Unitree's own 'daily training video' releases show the H2 doing flying kicks, backflips, sandbag strikes and a boxing spar with a G1 (Interesting Engineering, 2025-12/2026-01 coverage), but none of these map cleanly onto this dataset's fixed capability ids (no 'acrobatics'/'combat' id exists, and a single flip or kick is not the sustained aerial-phase gait the 'run' id requires). None of the coverage states who or what controlled the robot during these clips -- Interesting Engineering instead describes teleoperation as a general 'transitional technology' for Unitree's humanoids without confirming it for this footage -- so per the schema's silence rule any such entry would have to be 'unknown' autonomy anyway. No hand DOF, tactile-skin, depth-camera or onboard-compute figure could be traced to a primary Unitree page (shop.unitree.com/products/unitree-h2 does not list them; unitree.com/h2 404s); secondary aggregator figures (e.g. Sharpa Wave 22-DOF hands cited by RoboZaps/Humanoid.guide) were not added for the same reason battery/payload were omitted above. capabilities left empty for this build."
+    "Capabilities research (2026-09-20): Unitree's own 'daily training video' releases show the H2 doing flying kicks, backflips, sandbag strikes and a boxing spar with a G1 (Interesting Engineering, 2025-12/2026-01 coverage), but none of these map cleanly onto this dataset's fixed capability ids (no 'acrobatics'/'combat' id exists, and a single flip or kick is not the sustained aerial-phase gait the 'run' id requires). None of the coverage states who or what controlled the robot during these clips -- Interesting Engineering instead describes teleoperation as a general 'transitional technology' for Unitree's humanoids without confirming it for this footage -- so per the schema's silence rule any such entry would have to be 'unknown' autonomy anyway. No hand DOF, tactile-skin, depth-camera or onboard-compute figure could be traced to a primary Unitree page (shop.unitree.com/products/unitree-h2 does not list them; unitree.com/h2 404s); secondary aggregator figures (e.g. Sharpa Wave 22-DOF hands cited by RoboZaps/Humanoid.guide) were not added for the same reason battery/payload were omitted above. capabilities left empty for this build.",
+    "locomotion left out (2026-09-21): searched the manufacturer's own product/press page and its main launch coverage (The Robot Report / IEEE Spectrum / named outlet where applicable) for a literal quote naming the propulsion (\"bipedal\", \"legs\", \"walks\", \"wheeled base\", etc.); none of the pages fetched in this pass contained a checkable sentence naming it specifically for H2 -- most pages describe height/DOF/speed without ever stating the locomotion type in words. Left out rather than inferred from photos or category. Revisit with a source that states it directly."
   ],
   "updated": "2026-09-21"
 }

@@ -84,10 +84,9 @@
       "status": "claimed",
       "source": {
         "url": "https://www.agibot.com/products/A2",
-        "quote": "Turning Radius 60 cm",
+        "quote": "Autonomous Mobility and Reliable Walking",
         "accessed": "2026-09-21"
-      },
-      "note": "Full-size two-legged humanoid per the product page's own 'Humanoid Configuration and Ergonomic Design' framing and leg/turning-radius spec; AgiBot separately sells a wheeled 'A2-W' variant, distinct from this bipedal A2."
+      }
     }
   },
   "price_history": [],

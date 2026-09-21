@@ -1,7 +1,11 @@
 {
   "slug": "1x-neo",
   "name": "Neo",
-  "manufacturer": { "name": "1X Technologies", "country": "NO", "url": "https://www.1x.tech" },
+  "manufacturer": {
+    "name": "1X Technologies",
+    "country": "NO",
+    "url": "https://www.1x.tech"
+  },
   "category": "full-size",
   "announced": {
     "date": "2024-08-01",
@@ -59,13 +63,12 @@
     },
     "locomotion": {
       "value": "bipedal",
-      "status": "demonstrated",
+      "status": "claimed",
       "source": {
-        "url": "https://www.1x.tech/discover/neo-home-robot",
-        "quote": "At just 66 pounds (29.94 kg), NEO is capable of lifting over 150 pounds",
+        "url": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+        "quote": "a bipedal humanoid designed for home use",
         "accessed": "2026-09-21"
-      },
-      "note": "Same source as weight/payload; 1X's own demo videos and product shots consistently show Neo as a two-legged walking humanoid, not wheeled."
+      }
     }
   },
   "price_history": [

@@ -91,13 +91,12 @@
     },
     "locomotion": {
       "value": "bipedal",
-      "status": "shipped",
+      "status": "claimed",
       "source": {
         "url": "https://www.unitree.com/h1/",
-        "quote": "The first full-size general-purpose humanoid robot that can run in China",
+        "quote": "Possessing a stable gait and highly flexible movement capabilities, it is able to walk and run autonomously in complex terrains and environments.",
         "accessed": "2026-09-21"
-      },
-      "note": "Two-legged walking/running humanoid; confirmed further by the World Humanoid Robot Games 2025 track results (400m, 1500m, hurdles, relay) run on two legs."
+      }
     }
   },
   "price_history": [
