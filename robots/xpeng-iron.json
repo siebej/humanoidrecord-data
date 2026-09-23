@@ -93,11 +93,28 @@
       }
     ]
   },
+  "media": [
+    {
+      "type": "photo",
+      "file": "media/xpeng-iron/xpeng-iron-auto-guangzhou-2025.jpg",
+      "caption": "XPeng Iron on display at Auto Guangzhou 2025.",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:XPeng_Iron_at_Auto_Guangzhou_2025_20251123.jpg",
+        "accessed": "2026-09-22"
+      },
+      "license": {
+        "name": "other",
+        "terms_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "note": "CC BY-SA 4.0 by photographer Tim Wu (TimWu007), via Wikimedia Commons; not one of the fixed manufacturer/patent license names, recorded as \"other\" with the CC BY-SA deed linked. Unlike the CC0 photos elsewhere in this dataset, CC BY-SA requires attribution, carried in `credit` below."
+      },
+      "credit": "Photo: Tim Wu (TimWu007), CC BY-SA 4.0"
+    }
+  ],
   "notes": [
     "Specs recorded here (178 cm / 70 kg / 60+ joints) are for the original Iron unveiled November 2024. The next-generation Iron shown at 2025 AI Day (Nov 5, 2025) has different hand dexterity: CnEVPost's 2025 coverage states 'a hand with 22 degrees of freedom', while a separate report cited elsewhere put per-hand DOF at 21 and total body DOF at 76 for the 2025 version. Updated full-body height/weight for the 2025 generation were not confirmed by a primary or press source during this session, so the 2024 figures are kept as the current record and the hand-DOF conflict is flagged rather than resolved.",
     "No shipped or independently verified customer deployment was found; XPeng has stated mass production is targeted for end of 2026 with deliveries/showroom deployment planned for 2027, which is a plan, not a shipped or demonstrated-in-production status.",
     "hand_dof (22) and compute (3x Turing chips, 2,250 TOPS) added 2026-09-20 from CnEVPost's 2025-11-05 coverage of the next-generation Iron shown at 2025 AI Day, i.e. a newer generation than the 2024 height/weight/dof figures kept above; per the discrepancy note already on file, a separate report elsewhere put per-hand DOF at 21 (vs. CnEVPost's 22) and total body DOF at 76 for this same 2025 generation -- that conflict is unresolved and CnEVPost's figure is used as the traceable press source. No fixed capability id in data/capabilities.json cleanly matches the 2025 catwalk/runway demonstration (no 'run' aerial-phase gait shown, no dexterous-hand task performed on stage), so no capabilities entry was added for this build.",
     "locomotion left out (2026-09-21): cnevpost's launch coverage and Humanoids Daily's Shenzhen catwalk-debut article were checked; Humanoids Daily uses \"bipedal robots\" only in a general aside about fascia-layer damping, not as a direct statement about Iron itself, and no other fetched source gave a literal sentence naming Iron's own locomotion. Left out rather than inferred from the catwalk demo footage or the humanoid category."
   ],
-  "updated": "2026-09-21"
+  "updated": "2026-09-22"
 }
